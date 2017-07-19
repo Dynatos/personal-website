@@ -17,7 +17,7 @@ body {
     background-image: url(./images/bgcolor.png);
 }
 
-.user-choice-parent, .final-stats {
+.user-choice-parent, .final-stats, body {
     background: #d4c191;
 }
 
@@ -247,4 +247,23 @@ body {
     height: 28px;
     position: relative;
     top: 2px;
+}
+
+.visible-todo {
+  min-width: 240px;
+  max-width: 640px;
+  min-height: 60px;
+  margin: auto;
+  border: solid 1px;
+  color: white;
+}
+
+.todo-ul-hide-bullet {
+  list-style-type: none;
+}
+
+.todo-text {
+  margin: auto;
+  padding: 18px;
+  font-size: 24px;
 }

@@ -1,25 +1,25 @@
-import React from 'react'
-import { connect } from 'react-redux'
-import { addTodo } from '../actions'
+import React from 'react';
+import { connect } from 'react-redux';
+import { addTodo } from '../actions';
 
 let AddTodo = ({ dispatch }) => {
-  let input
+  let input;
 
   return (
     <div>
       <form className="add-todo"
         onSubmit={e => {
-          e.preventDefault()
+          e.preventDefault();
           if (!input.value.trim()) {
-            return
+            return;
           }
-          dispatch(addTodo(input.value))
-          input.value = ''
+          dispatch(addTodo(input.value));
+          input.value = '';
         }}
       >
         <input
           ref={node => {
-            input = node
+            input = node;
           }}
         />
         <button className="submit-button" type="submit">
@@ -27,8 +27,8 @@ let AddTodo = ({ dispatch }) => {
         </button>
       </form>
     </div>
-  )
-}
-AddTodo = connect()(AddTodo)
+  );
+};
+AddTodo = connect()(AddTodo);
 
-export default AddTodo
+export default AddTodo;

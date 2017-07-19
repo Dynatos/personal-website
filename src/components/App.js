@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link, IndexLink } from 'react-router';
+// import { Link, IndexLink } from 'react-router';
 import '../styles/homepage.css';
 
 // This is a class-based component because the current
