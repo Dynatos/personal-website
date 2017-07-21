@@ -1,9 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router';
+import NavBar from './NavBar/NavBar';
 
 const HomePage = () => {
   return (
     <div>
+      <NavBar />
       <h1>Jason's basic homepage</h1>
       <h2>Available projects</h2>
       <div>

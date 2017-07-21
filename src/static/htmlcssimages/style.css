@@ -267,3 +267,15 @@ body {
   padding: 18px;
   font-size: 24px;
 }
+
+.navbar-parent {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar-element {
+  min-width: 15%;
+  height: 100%;
+  background-color: grey;
+}
