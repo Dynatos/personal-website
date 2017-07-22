@@ -6,8 +6,6 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    font-family: "RuneScape UF", sans-serif;
-    border-color: #afa282!important;
 }
 
 body {
@@ -17,6 +15,10 @@ body {
     background-image: url(./images/bgcolor.png);
 }
 
+.user-choice-parent, .final-stats, .equipment--big-box, .nav-element--runescape {
+  font-family: "RuneScape UF", sans-serif;
+}
+
 .user-choice-parent, .final-stats, body {
     background: #d4c191;
 }
@@ -24,7 +26,7 @@ body {
 .user-choice-parent, .final-stats {
     width: 320px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid #afa282;
     margin: auto 30px 30px;
     float: left;
 }
@@ -32,7 +34,7 @@ body {
 .user-choice-div-child, .final-stats-div-child {
     width: 290px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid #afa282;
     margin: 15px auto;
     background: #d4c191;
 }
@@ -68,7 +70,7 @@ body {
 .user-choice-stat {
     width: 16px;
     height: 16px;
-    border: 1px solid black;
+    border: 1px solid #afa282;
     margin: 8px auto 0;
     display: flex;
     flex-wrap: wrap;
@@ -99,7 +101,7 @@ body {
     padding: 2px;
     font-size: 16px;
     background: #dbcba3;
-    border: 1px solid black;
+    border: 1px solid #afa282;
 }
 
 .equipment--big-box, .equipment--slot-boxes, .equipment--slot-names, .equipment--item-names--1-through-3, .equipment--item-names--4, .equipment--image-containers-1-through-3, .equipment--image-containers--4, .equipment--slot-text, .equip-icon, .equipment--image {
@@ -109,7 +111,7 @@ body {
 .equipment--big-box {
     width: 700px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid #afa282;
     margin-left: 30px;
     float: right;
     color: darkorange;
@@ -118,7 +120,7 @@ body {
 .equipment--slot-boxes {
     width: 650px;
     height: 80px;
-    border: 1px solid black;
+    border: 1px solid #afa282;
     margin: 10px auto;
     display: flex;
     flex-wrap: wrap;
@@ -127,7 +129,7 @@ body {
 .equipment--slot-names {
     width: 90px;
     height: 100%;
-    border-right: 1px solid black;
+    border-right: 1px solid #afa282;
     margin: auto 0;
     padding: auto;
     display: table;
@@ -140,7 +142,7 @@ body {
 .equipment--item-names--1-through-3 {
     width: 140px;
     height: 20px;
-    border-right: 1px solid black;
+    border-right: 1px solid #afa282;
     font-size: 16px;
 }
 
@@ -152,12 +154,12 @@ body {
 
 .equipment--image-containers-1-through-3, .equipment--image-containers--4 {
     height: 60px;
-    border-top: 1px solid black;
+    border-top: 1px solid #afa282;
 }
 
 .equipment--image-containers-1-through-3 {
     width: 140px;
-    border-right: 1px solid black;
+    border-right: 1px solid #afa282;
     position: relative;
 }
 
@@ -276,6 +278,9 @@ body {
 
 .navbar-element {
   min-width: 15%;
+  max-width: 25%;
   height: 100%;
   background-color: grey;
+  border: 1px solid black;
+  margin: 2px;
 }

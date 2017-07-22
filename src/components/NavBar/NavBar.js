@@ -7,7 +7,6 @@ class NavBar extends Component {
 
     return (
       <div className="navbar-parent">
-        I am nav
         <NavBarElement/>
       </div>
     );

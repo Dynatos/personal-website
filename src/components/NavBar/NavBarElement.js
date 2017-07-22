@@ -14,7 +14,7 @@ class NavBarElement extends Component {
     let currentNavDataToMap = navBarData[navElement];
 
     return (
-      <div className="navbar-element">
+      <div className={"navbar-element nav-element--" + currentNavDataToMap.linkTo}>
         <Link to={currentNavDataToMap.linkTo} key={currentNavDataToMap.linkTo}>
           {currentNavDataToMap.description}
         </Link>
