@@ -14,6 +14,7 @@ import DesiredStats from './DesiredStats';
 import EquipmentDetails from './EquipmentDetails';
 import FinalStats from './FinalStats';
 require('../../static/htmlcssimages/style.css');
+import NavBar from '../NavBar/NavBar';
 import getDesiredStatsFromState from '../../../scripts/sorterWithLessSpaghetti';
 /*import '../../static/htmlcssimages/kCode';
 import '../../../src/static/htmlcssimages/sound/rstheme.mp3';
@@ -65,11 +66,14 @@ class RunescapeStatTool extends Component {
 //this is the highest parent div of the whole app. This is where we call all the main components and take in/pass down
 //our state, props, and where we handle taking in the handleClick call
     return (
-      <div className="highest-parent">
-        <DesiredStats handleClick={(statName) => this.handleToggleClick(statName)}
-                      checkedAllStatStates={this.state}/>
-        <EquipmentDetails sortedItems={sortedItems} filteredItemsByEquipSlot={sliceTopItems(4)}/>
-        <FinalStats checkedAllStatStates={this.state} topItemsForSlots={sliceTopItems(1)}/>
+      <div>
+        <NavBar />
+        <div className="highest-parent">
+          <DesiredStats handleClick={(statName) => this.handleToggleClick(statName)}
+                        checkedAllStatStates={this.state} />
+          <EquipmentDetails sortedItems={sortedItems} filteredItemsByEquipSlot={sliceTopItems(4)} />
+          <FinalStats checkedAllStatStates={this.state} topItemsForSlots={sliceTopItems(1)} />
+        </div>
       </div>
     );
   }

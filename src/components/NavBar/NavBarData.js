@@ -1,6 +1,11 @@
-export const navElements = ["runescape", "todo", "nullTest"];
+export const navElements = ["homepage", "runescape", "todo", "nullTest"];
 
 const navBarData = {
+
+  homepage: {
+    linkTo: "/",
+    description: "Homepage"
+  },
 
   runescape: {
     linkTo: "runescape",
