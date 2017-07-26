@@ -5,7 +5,7 @@ import navBarData, {navElements} from './NavBarData';
 // NavBarElement is the component that will map all our nav data to Link elements
 class NavBarElement extends Component {
 
-  homepageActivator(link) {
+  homepageLinkClassNameAssigner(link) {
   if (link !== "/") {
     return link;
   }
@@ -21,8 +21,9 @@ class NavBarElement extends Component {
     let currentNavDataToMap = navBarData[navElement];
 
     return (
-      <div className={"navbar-element nav-element--" + this.homepageActivator(currentNavDataToMap.linkTo)} key={currentNavDataToMap.linkTo}>
-        <Link to={currentNavDataToMap.linkTo}>
+      <div className={"navbar-element nav-element--" + this.homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)}
+           key={currentNavDataToMap.linkTo} href={currentNavDataToMap.linkTo}>
+        <Link to={currentNavDataToMap.linkTo} className={"navbar-element--link"}>
           {currentNavDataToMap.description}
         </Link>
       </div>

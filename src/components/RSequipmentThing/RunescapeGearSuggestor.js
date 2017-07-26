@@ -71,8 +71,9 @@ class RunescapeStatTool extends Component {
         <div className="highest-parent">
           <DesiredStats handleClick={(statName) => this.handleToggleClick(statName)}
                         checkedAllStatStates={this.state} />
-          <EquipmentDetails sortedItems={sortedItems} filteredItemsByEquipSlot={sliceTopItems(4)} />
+          <div className="filler-runescape" />
           <FinalStats checkedAllStatStates={this.state} topItemsForSlots={sliceTopItems(1)} />
+          <EquipmentDetails sortedItems={sortedItems} filteredItemsByEquipSlot={sliceTopItems(4)} />
         </div>
       </div>
     );
