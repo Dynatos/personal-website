@@ -21,12 +21,13 @@ class NavBarElement extends Component {
     let currentNavDataToMap = navBarData[navElement];
 
     return (
-      <div className={"navbar-element nav-element--" + this.homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)}
-           key={currentNavDataToMap.linkTo} href={currentNavDataToMap.linkTo}>
-        <Link to={currentNavDataToMap.linkTo} className={"navbar-element--link"}>
+
+        <Link  to={currentNavDataToMap.linkTo}  className={"navbar-element navbar-element--link nav-element--" +
+        this.homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)}>
+          <div key={currentNavDataToMap.linkTo}>
           {currentNavDataToMap.description}
+          </div>
         </Link>
-      </div>
     );
   }
 

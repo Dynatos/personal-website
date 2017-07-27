@@ -2,34 +2,69 @@
 @media only screen and (max-width: 320px) {
   .highest-parent {
     width: 320px;
-    max-height: 1000px;
     margin: 10px auto;
   }
+
+  .equipment--big-box {
+    margin: 30px auto;
+    padding: 0 0 20px 0;
+  }
+
+  .final-stats {
+    margin: 15px auto
+  }
+
+  .user-choice-parent {
+    margin: 15px auto
+  }
+
+  .user-and-final-parent {
+    width: auto;
+    margin: 15px auto;
+  }
 }
+
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
   .highest-parent {
     width: 320px;
-    max-height: 1000px;
     margin: 10px auto;
   }
+
+  .equipment--big-box {
+    margin: 30px auto;
+    padding: 0 0 20px 0;
+  }
+
+  .final-stats {
+    margin: 15px auto
+  }
+
+  .user-choice-parent {
+    margin: 15px auto
+  }
+
+  .user-and-final-parent {
+    width: auto;
+    margin: 15px auto;
+  }
 }
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
   .highest-parent {
     width: 480px;
-    max-height: 1000px;
     margin: 10px auto;
   }
 }
+
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .highest-parent {
     width: auto;
-    max-height: 1000px;
     margin: 10px auto;
   }
 
@@ -40,67 +75,53 @@
     top: 400px;
   }
 
-  .final-stats {
-    float: right;
-  }
-
-  .user-choice-parent {
-    float: left;
+  .user-and-final-parent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
-.filler-runescape {
-  max-width: 100px;
-  height: 343px;
-  margin: 0 auto;
-}
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .highest-parent {
     width: 992px;
-    max-height: 1000px;
     margin: 10px auto;
   }
-   .equipment--big-box {
-     margin-left: 30px;
-     padding: 0 0 20px 0;
-     float: right;
-   }
-
-   .final-stats {
-     float: left;
-   }
-  .user-choice-parent {
-    float: left;
-  }
 }
+
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .highest-parent {
+    height: auto;
     width: 1200px;
-    max-height: 1000px;
     margin: 10px auto;
   }
 
-  .equipment--big-box {
-    float: right;
+  .user-and-final-parent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
+
 @font-face {
-    font-family: RuneScape UF;
-    src: url(./font/runescape_uf.otf);
+  font-family: RuneScape UF;
+  src: url(./font/runescape_uf.otf);
 }
 
 * {
-    box-sizing: border-box;
-    text-align: center;
+  box-sizing: border-box;
+  text-align: center;
+  user-select: none;
 }
 
 html {
-  overflow: hidden;
+  overflow: scroll;
+  overflow-x: hidden;
   height: 100%;
 }
 
@@ -108,6 +129,11 @@ body {
   height: 100%;
   margin: 30px auto;
   overflow: auto
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
 }
 
 #app {
@@ -400,9 +426,4 @@ body {
 
 .visible-todo {
   list-style-type: none;
-}
-
-.portfolio-image--me {
-  width: 1140;
-  height: 350;
 }
