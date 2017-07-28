@@ -1,16 +1,32 @@
 import React, {Component} from 'react';
 import EquipmentItems from "./EquipmentItems";
 
+// this function returns an array from 0 to whatever value is given as the argument.
+function equipmentItemBoxNumberArrayMaker(value) {
+  let numberOfEquipmentBoxesToMap = [];
+  for (let i = 0; i < value; i++) {
+    numberOfEquipmentBoxesToMap[i] =  i;
+  }
+  console.log("number of equipment boxes to render: " + numberOfEquipmentBoxesToMap);
+  return numberOfEquipmentBoxesToMap;
+}
+
+let equipmentItemsMapArray = equipmentItemBoxNumberArrayMaker(4);
+
+
 
 class EquipmentSlotBox extends Component {
 
-  render() {
+  equipmentItemsMapCallback(currentValue) {
 
+  return <EquipmentItems topItems={this.props.topItemsForSlot[currentValue]} uniqueClassNumber={currentValue} key={currentValue}/>;
+}
+
+  render() {
 
 // this sets the values of the variables slotTitle and topItemsForSlot to be equal to this.props.slotTitle and
 // this.props.topItemsForSlot
-    let {slotTitle, topItemsForSlot} = this.props;
-
+    let {slotTitle} = this.props;
 
 // here we return an Equipment Deatils box that contains data only related to it's slotTitle ("head", "cape", etc)
 // the first set of divs contain the image and set the css on the parents. The EquipmentItems calls give us our
@@ -23,10 +39,7 @@ class EquipmentSlotBox extends Component {
               <img src={require('../../static/htmlcssimages/images/icons/equipscreen/' + slotTitle + '.png')} />
             </div>
           </div>
-          <EquipmentItems topItems={topItemsForSlot[0]}/>
-          <EquipmentItems topItems={topItemsForSlot[1]}/>
-          <EquipmentItems topItems={topItemsForSlot[2]}/>
-          <EquipmentItems finalColumn="true" topItems={topItemsForSlot[3]}/>
+          {equipmentItemsMapArray.map((e) => this.equipmentItemsMapCallback(e), this)}
         </div>
     );
   }

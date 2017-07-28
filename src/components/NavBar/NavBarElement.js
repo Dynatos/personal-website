@@ -23,7 +23,7 @@ class NavBarElement extends Component {
     return (
 
         <Link  to={currentNavDataToMap.linkTo}  className={"navbar-element navbar-element--link nav-element--" +
-        this.homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)}>
+        this.homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)} key={navElement}>
           <div key={currentNavDataToMap.linkTo}>
           {currentNavDataToMap.description}
           </div>

@@ -14,24 +14,19 @@ class EquipmentItems extends Component {
     function setImagePath() {
       if (topItems) {
         if (topItems.tradeable) {
-          return "http://services.runescape.com/m=itemdb_oldschool/a=1/1497272505614_obj_big.gif?id=" + topItems.id;
+          return "http://services.runescape.com/m=itemdb_oldschool/a=1/1501149801561_obj_sprite.gif?id=" + topItems.id;
         }
         return require('../../static/itemspritesbyid/' + topItems.id + '.png');
       }
       return require('../../static/htmlcssimages/images/icons/blankitemfinal.png');
     }
 
-// this is here to set the css on the items in Equipment Details, the fourth item has a different css class.
-    let mainClassName = this.props.finalColumn ? "equipment--item-names--4" : "equipment--item-names--1-through-3";
-    let secondaryClassName = this.props.finalColumn ? "equipment--image-containers--4" : "equipment--image-containers-1-through-3";
-
-
 // our return statement gives back one image and the name of the item associated with that image based on the topItems
 // prop that it was handed in the component where it was called. Also sets the css classes based on the finalColumn prop
     return (
-      <div className={mainClassName}>
+      <div className={"equipment--item-names equipment--item" + this.props.uniqueClassNumber}>
         {topItems && topItems.name || <br />}
-        <div className={secondaryClassName}>
+        <div className="equipment--image-containers">
           <img src={setImagePath()} className="equipment--image" />
         </div>
       </div>
