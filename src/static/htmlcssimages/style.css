@@ -1,5 +1,9 @@
 /* Below 320px */
 @media only screen and (max-width: 320px) {
+  .equipment--big-box {
+    max-width: 233px;
+  }
+
   .highest-parent {
     width: 320px;
     margin: 10px auto;
@@ -21,12 +25,20 @@
   .user-and-final-parent {
     width: auto;
     margin: 15px auto;
+  }
+
+  .equipment--item1, .equipment--item2, .equipment--item3 {
+    display: none!important;
   }
 }
 
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
+  .equipment--big-box {
+    max-width: 233px;
+  }
+
   .highest-parent {
     width: 320px;
     margin: 10px auto;
@@ -49,20 +61,39 @@
     width: auto;
     margin: 15px auto;
   }
+  .equipment--item1, .equipment--item2, .equipment--item3 {
+    display: none!important;
+  }
 }
 
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
+  .equipment--big-box {
+    max-width: 373px;
+  }
+
   .highest-parent {
     width: 480px;
     margin: 10px auto;
+  }
+
+  .equipment--item2, .equipment--item3 {
+    display: none!important;
+  }
+
+  .equipment--item1 {
+    display: table-cell!important;
   }
 }
 
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
+  .equipment--big-box {
+    max-width: 700px;
+  }
+
   .highest-parent {
     width: auto;
     margin: 10px auto;
@@ -79,6 +110,10 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .equipment--item2, .equipment--item3 {
+    display: table-cell!important;
   }
 }
 
@@ -233,7 +268,6 @@ body {
 
 .equipment--big-box {
   width: auto;
-  max-width: 700px;
   height: auto;
   border: 1px solid #afa282;
   color: darkorange;
