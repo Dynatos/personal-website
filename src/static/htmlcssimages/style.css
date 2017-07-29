@@ -467,3 +467,16 @@ body {
 .visible-todo {
   list-style-type: none;
 }
+
+.todo-delete {
+  width: 27px;
+  height: 27px;
+  display: block;
+  margin: auto;
+  background-color: white;
+  border: 1px solid black;
+  float: right;
+  color: black;
+  font-size: 17px;
+  user-select: none;
+}
