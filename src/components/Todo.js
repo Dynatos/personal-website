@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Todo = ({ onClick, completed, text }) => (
-  <li
+  <div
     className="visible-todo"
     onClick={onClick}
     style={{
@@ -13,7 +13,7 @@ const Todo = ({ onClick, completed, text }) => (
     <div className="todo-text">
       {text}
     </div>
-  </li>
+  </div>
 );
 
 Todo.propTypes = {
