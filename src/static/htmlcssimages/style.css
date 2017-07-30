@@ -444,7 +444,7 @@ body {
 .nav-element-holder {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -479,4 +479,15 @@ body {
   color: black;
   font-size: 17px;
   user-select: none;
+}
+
+.resume-picture {
+  border-radius: 50%;
+}
+
+.resume-social-media-buttons {
+  max-height: 30px;
+  max-width: 30px;
+  height: auto;
+  width: auto;
 }

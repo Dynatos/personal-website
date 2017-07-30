@@ -1,13 +1,12 @@
 import React from 'react';
 import NavBar from './NavBar/NavBar';
+import PictureAndInfoBox from './Homepage/components/PictureAndInfoBox';
 
 const HomePage = () => {
   return (
     <div>
       <NavBar />
-      <p>
-        Welcome to my website!
-      </p>
+      <PictureAndInfoBox/>
     </div>
   );
 };

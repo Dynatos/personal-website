@@ -11,13 +11,13 @@ const navBarData = {
   //sends you to the runescape gear suggester
   runescape: {
     linkTo: "runescape",
-    description: "Runescape Gear Suggestor"
+    description: "Runescape Tool"
   },
 
   //sends you to the basic todo app
   todo: {
     linkTo: "todo",
-    description: "Basic todo app"
+    description: "Todo App"
   },
 
   //sends you to 404 page
