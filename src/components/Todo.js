@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Todo = ({ onClick, completed, text, deleteTodo, deleted }) => (
+const Todo = ({ onClick, completed, text, deleteTodo}) => (
   <div
     className="visible-todo"
     onClick={onClick}
     style={{
       backgroundColor: completed ? 'green' : 'red',
-      textDecoration: completed ? 'line-through' : 'none',
-      display: deleted ? 'none' : 'block'
+      textDecoration: completed ? 'line-through' : 'none'
     }}
   >
     <div className="todo-text">
