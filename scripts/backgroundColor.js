@@ -1,5 +1,5 @@
 export default function returnBackground() {
-  if (window.location.href === "http://localhost:3000/runescape") {
+  if (window.location.pathname.toLowerCase() === "/runescape") {
     document.getElementById("html").setAttribute("style", "background: #d4c191");
   }
   else {
