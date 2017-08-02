@@ -14,7 +14,7 @@ class EquipmentItems extends Component {
     function setImagePath() {
       if (topItems) {
         if (topItems.tradeable) {
-          return "http://services.runescape.com/m=itemdb_oldschool/a=1/1501149801561_obj_sprite.gif?id=" + topItems.id;
+          return "http://services.runescape.com/m=itemdb_oldschool/a=1/1501497033562_obj_sprite.gif?id=" + topItems.id;
         }
         return require('../../static/itemspritesbyid/' + topItems.id + '.png');
       }
