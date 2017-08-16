@@ -167,7 +167,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 0px;  /* remove scrollbar space */
+  width: 0;  /* remove scrollbar space */
   background: transparent;  /* optional: just make scrollbar invisible */
 }
 
@@ -490,4 +490,30 @@ body {
   max-width: 30px;
   height: auto;
   width: auto;
+}
+
+.resume-highest-parent {
+  width: auto;
+  height: auto;
+  min-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px auto 0;
+}
+
+.resume-personal-section {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.resume-professional-section {
+  max-width: 720px;
+  border: 5px solid gray;
+  background-color: #c6ffec;
+  border-radius: 2%;
+  margin: 0 auto;
+}
+
+.resume-professional-child {
+  padding: 3px;
 }
