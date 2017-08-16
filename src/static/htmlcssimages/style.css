@@ -460,6 +460,11 @@ body {
   user-select: none;
 }
 
+.navbar-element:hover {
+  background: grey;
+  color: blue;
+}
+
 .navbar-element--link {
   text-decoration: none;
 }
