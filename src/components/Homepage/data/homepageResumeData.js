@@ -18,21 +18,23 @@ export const resumeData = {
 
   dataBox: {
     aboutMe: "I am an aspiring web developer using this site as my resume and proof of abilities.",
-    experience: {
-      job1: {
+    experience: [
+
+      {
         company: "Kauai Nut Roasters",
         position: "Kitchen Manager, Website Manager, Head Roaster",
         startDate: "July 2012",
         endDate: "March 2017"
       },
 
-      job2: {
+      /*{
         company: "test",
         position: "test",
         startDate: "test",
         endDate: "test"
-      },
-    },
+      }*/
+
+    ],
     skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Git", "ES2016"]
   }
 };
