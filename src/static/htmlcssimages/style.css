@@ -527,6 +527,18 @@ body {
   padding: 3px;
 }
 
+.resume-skills-highest-parent {
+
+}
+
+.resume-skills-title-box {
+  text-align: left;
+  font-size: 18px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 5px 0;
+}
+
 .resume-skills-parent {
   display: flex;
   flex-wrap: wrap;

@@ -47,7 +47,12 @@ class ProfessionalSection extends Component {
       <div className="resume-professional-child">
         {this.aboutMe()}
         {this.renderJobs()}
-        <Skills />
+        <div className="resume-skills-highest-parent">
+          <div className="resume-skills-title-box">
+            Skills:
+          </div>
+          <Skills />
+        </div>
       </div>
     );
   }
