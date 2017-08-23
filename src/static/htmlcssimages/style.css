@@ -151,7 +151,6 @@
 * {
   box-sizing: border-box;
   text-align: center;
-  user-select: none;
 }
 
 html {
@@ -173,6 +172,11 @@ body {
 
 #app {
   max-height: 30px;
+}
+
+
+.navbar-parent, .resume-picture, .all-stat-icon, .equipment--slot-text, .equipment--image-containers {
+  user-select: none;
 }
 
 .user-choice-parent, .final-stats, .equipment--big-box {
@@ -521,4 +525,19 @@ body {
 
 .resume-professional-child {
   padding: 3px;
+}
+
+.resume-skills-parent {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.resume-skills-skill {
+  width: auto;
+  height: 24px;
+  background-color: black;
+  color: teal;
+  padding: 0 2px;
+  margin: 0 auto;
 }

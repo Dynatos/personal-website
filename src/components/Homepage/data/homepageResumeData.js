@@ -1,8 +1,8 @@
 export const resumeData = {
   pictureAndInfoBox: {
     name: "Jason Wortley",
-    title: "Website Developer",
-    currentResidence: "Seattle, Washington, USA",
+    title: "Web Developer",
+    currentResidence: "Seattle, Washington",
     contactInfo: "jason@jasonwortley.com",
     externalURLs: [
       "https://www.github.com/dynatos",
@@ -35,6 +35,6 @@ export const resumeData = {
       }*/
 
     ],
-    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Git", "ES2016"]
+    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Git", "ES2016", "NPM", "Docker"]
   }
 };

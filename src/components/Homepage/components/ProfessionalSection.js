@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {resumeData} from '../data/homepageResumeData';
+import Skills from "./Skills";
 
 const data = resumeData.dataBox;
 const jobs = data.experience;
@@ -8,7 +9,7 @@ let mappedJobs = [];
 class ProfessionalSection extends Component {
 
   aboutMe() {
-    return (
+    return(
       <div className="homepage-about-me">
         {data.aboutMe}
       </div>
@@ -37,7 +38,6 @@ class ProfessionalSection extends Component {
   renderJobs() {
     for (let i = 0; i < jobs.length; i++) {
       mappedJobs.push(i);
-      console.log(mappedJobs);
     }
     return mappedJobs.map(e => this.experience(e));
   }
@@ -47,6 +47,7 @@ class ProfessionalSection extends Component {
       <div className="resume-professional-child">
         {this.aboutMe()}
         {this.renderJobs()}
+        <Skills />
       </div>
     );
   }
