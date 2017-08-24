@@ -30,6 +30,14 @@
   .equipment--item1, .equipment--item2, .equipment--item3 {
     display: none!important;
   }
+
+  .resume-skills-parent {
+    width: 320px;
+  }
+
+  .resume-professional-section {
+    margin: 100px auto 0;
+  }
 }
 
 
@@ -61,8 +69,18 @@
     width: auto;
     margin: 15px auto;
   }
+
   .equipment--item1, .equipment--item2, .equipment--item3 {
     display: none!important;
+  }
+
+  .resume-skills-parent {
+    width: 320px;
+  }
+
+  .resume-professional-section {
+    margin: 100px auto 0;
+    width: 100%;
   }
 }
 
@@ -85,8 +103,20 @@
   .equipment--item1 {
     display: table-cell!important;
   }
+
+
 }
 
+
+@media only screen and (min-width: 600px) {
+  .resume-skills-parent {
+    width: 585px;
+  }
+
+  .resume-job-experience-title-box, .resume-about-me-title-box {
+    width: auto;
+  }
+}
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
@@ -115,8 +145,14 @@
   .equipment--item2, .equipment--item3 {
     display: table-cell!important;
   }
+
 }
 
+@media only screen and (min-width: 980px) {
+  .resume-professional-section {
+    margin: 200px;
+  }
+}
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
@@ -124,6 +160,7 @@
     width: 992px;
     margin: 10px auto;
   }
+
 }
 
 
@@ -140,6 +177,10 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .resume-title-bar {
+    width: auto;
+  }
 }
 
 
@@ -154,8 +195,7 @@
 }
 
 html {
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100%;
 }
 
@@ -173,7 +213,6 @@ body {
 #app {
   max-height: 30px;
 }
-
 
 .navbar-parent, .resume-picture, .all-stat-icon, .equipment--slot-text, .equipment--image-containers {
   user-select: none;
@@ -441,23 +480,24 @@ body {
   overflow: hidden;
   position: fixed;
   top: 0;
-  margin-bottom: 10px;
   z-index: 1;
 }
 
 .nav-element-holder {
+  height: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+  background-color: darkorange;
 }
 
 .navbar-element {
   min-width: 15%;
   max-width: 35%;
-  height: 24px;
-  background-color: white;
-  border: 1px solid black;
+  height: 32px;
+  background-color: #555;
+  color: white;
   margin: 2px;
   padding: 0 3px;
   font-size: 16px;
@@ -465,12 +505,13 @@ body {
 }
 
 .navbar-element:hover {
-  background: grey;
-  color: blue;
+  background: #000;
+  transition: all 0.3s ease;
 }
 
 .navbar-element--link {
   text-decoration: none;
+  background-color: #555;
 }
 
 .visible-todo {
@@ -511,45 +552,74 @@ body {
 }
 
 .resume-personal-section {
-  max-width: 400px;
+  max-width: 300px;
   margin: 0 auto;
+  display: block;
 }
 
 .resume-professional-section {
-  max-width: 720px;
-  border: 5px solid gray;
-  background-color: #c6ffec;
-  border-radius: 2%;
-  margin: 0 auto;
+  max-width: 680px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .resume-professional-child {
-  padding: 3px;
+  padding: 3px 0;
 }
 
-.resume-skills-highest-parent {
-
-}
-
-.resume-skills-title-box {
+.resume-title-bar {
   text-align: left;
   font-size: 18px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  margin: 5px 0;
+  margin: 5px auto;
 }
 
 .resume-skills-parent {
   display: flex;
   flex-wrap: wrap;
-  background-color: black;
+  margin: 0 auto;
 }
 
 .resume-skills-skill {
   width: auto;
+  min-width: 64px;
   height: 24px;
-  background-color: black;
-  color: teal;
+  background-color: #000;
+  color: darkorange;
   padding: 0 2px;
-  margin: 0 auto;
+  margin: 2px auto;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.resume-job-dates-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume-job-date {
+  width: auto;
+}
+
+.resume-job-start-date {
+  text-align: right;
+  margin-left: auto;
+}
+
+.resume-job-end-date {
+  text-align: left;
+  margin-right: auto;
+}
+
+.hide {
+  height: 0;
+  width: 0;
+  display: none;
+}
+
+.todo-app-highest-parent {
+  margin-top: 50px;
 }

@@ -10,26 +10,41 @@ class ProfessionalSection extends Component {
 
   aboutMe() {
     return(
-      <div className="homepage-about-me">
-        {data.aboutMe}
+      <div>
+        <div className="resume-title-bar resume-about-me-title-box">
+          About Me:
+        </div>
+        <div className="resume-about-me">
+          {data.aboutMe}
+        </div>
       </div>
     );
   }
 
   experience(jobNumber) {
     return(
-      <div key={"jobExperience" + jobNumber} className={"resume-job-experience job-number-" + jobNumber}>
-        <div className="resume-job-company-name company">
-          {jobs[jobNumber].company}
+      <div>
+        <div className="resume-title-bar resume-job-experience-title-box">
+          Professional History:
         </div>
-        <div className="resume-job-position">
-          {jobs[jobNumber].position}
-        </div>
-        <div className="resume-job-start-date resume-job-date">
-          {jobs[jobNumber].startDate}
-        </div>
-        <div className="resume-job-end-date resume-job-date">
-          {jobs[jobNumber].endDate}
+        <div key={"jobExperience" + jobNumber} className={"resume-job-experience job-number-" + jobNumber}>
+          <div className="resume-job-company-name company">
+            {jobs[jobNumber].company}
+          </div>
+          <div className="resume-job-position">
+            {jobs[jobNumber].position}
+          </div>
+          <div className="resume-job-dates-parent">
+            <div className="resume-job-start-date resume-job-date">
+              {jobs[jobNumber].startDate}
+            </div>
+            <div>
+              &mdash;
+            </div>
+            <div className="resume-job-end-date resume-job-date">
+              {jobs[jobNumber].endDate}
+            </div>
+          </div>
         </div>
       </div>
     );
@@ -48,7 +63,7 @@ class ProfessionalSection extends Component {
         {this.aboutMe()}
         {this.renderJobs()}
         <div className="resume-skills-highest-parent">
-          <div className="resume-skills-title-box">
+          <div className="resume-title-bar resume-skills-title-box">
             Skills:
           </div>
           <Skills />

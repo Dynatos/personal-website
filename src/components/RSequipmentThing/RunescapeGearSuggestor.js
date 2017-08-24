@@ -16,6 +16,7 @@ import FinalStats from './FinalStats';
 require('../../static/htmlcssimages/style.css');
 import NavBar from '../NavBar/NavBar';
 import getDesiredStatsFromState from '../../../scripts/sorterWithLessSpaghetti';
+import {getBackground, removeBackground} from '../../../scripts/backgroundColor';
 /*import '../../static/htmlcssimages/kCode';
 import '../../../src/static/htmlcssimages/sound/rstheme.mp3';
 import '../../../src/static/htmlcssimages/images/backgroundtexture.jpg';*/
@@ -40,6 +41,13 @@ function getTopItemsForSlots(sortedItems, numberToSlice) {
 }
 
 class RunescapeStatTool extends Component {
+
+  componentDidMount() {
+    getBackground();
+  }
+  componentWillUnmount() {
+    removeBackground();
+  }
 
 //this assigns initial state but I am not 100% certain what the constructor and super things have to do.
 //TODO learn what this does more precisely
