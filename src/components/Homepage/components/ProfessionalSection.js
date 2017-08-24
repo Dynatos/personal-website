@@ -23,7 +23,7 @@ class ProfessionalSection extends Component {
 
   experience(jobNumber) {
     return(
-      <div>
+      <div key={jobNumber}>
         <div className="resume-title-bar resume-job-experience-title-box">
           Professional History:
         </div>
