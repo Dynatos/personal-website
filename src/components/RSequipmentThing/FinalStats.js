@@ -4,8 +4,6 @@ import statProps, {topRow, midRow, botRow} from './statProps';
 
 class FinalStats extends Component {
 
-
-
   addStats(currentStat) {
     let score = 0;
     let topItemsForSlots = this.props.topItemsForSlots;
@@ -18,14 +16,6 @@ class FinalStats extends Component {
       score += currentItem.stats[currentStat.statCategory][currentStat.attackStyle];
     }
     return score.toString();
-  }
-
-  oneOrZero(statName) {
-    let toggledStat = this.props.checkedAllStatStates[statName];
-    if (toggledStat) {
-      return "1";
-    }
-    else return "0";
   }
 
   renderStat(statToRender) {

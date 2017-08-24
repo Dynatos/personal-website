@@ -7,7 +7,6 @@ function equipmentItemBoxNumberArrayMaker(value) {
   for (let i = 0; i < value; i++) {
     numberOfEquipmentBoxesToMap[i] =  i;
   }
-  console.log("number of equipment boxes to render: " + numberOfEquipmentBoxesToMap);
   return numberOfEquipmentBoxesToMap;
 }
 
