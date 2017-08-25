@@ -313,6 +313,7 @@ body {
   width: auto;
   height: auto;
   top: 0;
+  margin-bottom: 45px;
   border: 1px solid #afa282;
   color: darkorange;
 }
