@@ -10,7 +10,7 @@ class ProfessionalSection extends Component {
 
   aboutMe() {
     return(
-      <div>
+      <div className="resume-about-me-parent">
         <div className="resume-title-bar resume-about-me-title-box">
           About Me:
         </div>
@@ -23,7 +23,7 @@ class ProfessionalSection extends Component {
 
   experience(jobNumber) {
     return(
-      <div key={jobNumber}>
+      <div key={jobNumber} className="resume-jobs-parent">
         <div className="resume-title-bar resume-job-experience-title-box">
           Professional History:
         </div>

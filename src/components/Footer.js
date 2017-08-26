@@ -2,7 +2,7 @@ import React from 'react';
 import FilterLink from '../containers/FilterLink';
 
 const Footer = () => (
-  <p>
+  <p className="todo-app-footer">
     Show:
     {' '}
     <FilterLink filter="SHOW_ALL">

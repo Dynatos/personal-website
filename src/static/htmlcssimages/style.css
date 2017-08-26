@@ -150,7 +150,7 @@
 
 @media only screen and (min-width: 980px) {
   .resume-professional-section {
-    margin: 200px;
+    margin-top: 50px;
   }
 }
 
@@ -584,6 +584,19 @@ body {
   margin: 0 auto;
 }
 
+.resume-about-me-parent {
+  min-height:200px;
+}
+
+.resume-jobs-parent {
+  min-height:150px;
+}
+
+.resume-skills-highest-parent {
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
 .resume-skills-skill {
   width: auto;
   min-width: 64px;
@@ -623,4 +636,9 @@ body {
 
 .todo-app-highest-parent {
   margin-top: 50px;
+}
+
+.todo-app-footer {
+  min-height: 25px;
+  margin-bottom: 25px;
 }
