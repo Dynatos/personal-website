@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-
 class IconAndCheckbox extends Component {
 
   render() {
@@ -12,8 +11,10 @@ class IconAndCheckbox extends Component {
         <div className={"all-stat-icon " + this.props.attackStyle + "-icon"}>
           <img src={require('../../static/htmlcssimages/images/icons/' + iconName + '.png')} className="icon-image" />
         </div>
-        <input type="checkbox" className="user-choice-stat" onChange={this.props.handleClick} value={this.props.checked}
-          />
+        <div className="todo-app-highest-parent">
+          <input type="checkbox" className="user-choice-stat" onChange={this.props.handleClick}
+                 value={this.props.checked} />
+        </div>
       </div>
     );
   }

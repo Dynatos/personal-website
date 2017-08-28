@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import EquipmentSlotBox from './EquipmentSlotBox';
 
-
-
-
 class IconAndCheckbox extends Component {
 
   renderSlotBoxes() {
@@ -18,7 +15,6 @@ class IconAndCheckbox extends Component {
       return <EquipmentSlotBox slotTitle={slotTitle} topItemsForSlot={filteredItems[slotTitle]} key={slotTitle}/>;
     });
   }
-
 
   render() {
     return (

@@ -45,42 +45,36 @@ class RunescapeStatTool extends Component {
   componentDidMount() {
     getBackground();
   }
+
   componentWillUnmount() {
     removeBackground();
   }
 
-//this assigns initial state but I am not 100% certain what the constructor and super things have to do.
-//TODO learn what this does more precisely
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-//this is the handleClick function that runs when a checkbox is checked. This sets the state of each box true or false
+  //this is the handleClick function that runs when a checkbox is checked. This sets the state of each box true or false
   handleToggleClick(statName) {
-    this.setState({
-      [statName]: !this.state[statName]
-    });
+    this.props.toggleStat(statName);
   }
 
   render() {
+    const {statNameToggleValues} = this.props;
 
-// this variable's value is equal to an array, in order, of each item listed from best to work based on the current
-// desired stats (current checked checkboxes)
-    let sortedItems = getDesiredStatsFromState(this.state);
+    // this variable's value is equal to an array, in order, of each item listed from best to work based on the current
+    // desired stats (current checked checkboxes)
+    let sortedItems = getDesiredStatsFromState(statNameToggleValues);
     function sliceTopItems(numberToSlice) {
       return getTopItemsForSlots(sortedItems, numberToSlice);
     }
 
-//this is the highest parent div of the whole app. This is where we call all the main components and take in/pass down
-//our state, props, and where we handle taking in the handleClick call
+    //this is the highest parent div of the whole app. This is where we call all the main components and take in/pass down
+    //our state, props, and where we handle taking in the handleClick call
     return (
       <div>
         <NavBar />
         <div className="highest-parent">
           <div className="user-and-final-parent">
             <DesiredStats handleClick={(statName) => this.handleToggleClick(statName)}
-                          checkedAllStatStates={this.state} />
-            <FinalStats checkedAllStatStates={this.state} topItemsForSlots={sliceTopItems(1)} />
+                          checkedAllStatStates={statNameToggleValues} />
+            <FinalStats checkedAllStatStates={statNameToggleValues} topItemsForSlots={sliceTopItems(1)} />
           </div>
           <EquipmentDetails sortedItems={sortedItems} filteredItemsByEquipSlot={sliceTopItems(4)} />
         </div>

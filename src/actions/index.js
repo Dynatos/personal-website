@@ -1,3 +1,7 @@
+import toggleStatConstants from '../constants/toggle-stat';
+
+const {toggleStatValue} = toggleStatConstants;
+
 let nextTodoId = 0;
 export const addTodo = text => {
   return {
@@ -25,5 +29,12 @@ export const deleteTodo = id => {
   return {
     type: 'DELETE_TODO',
     id
+  };
+};
+
+export const toggleStat = stat => {
+  return {
+    type: toggleStatValue,
+    stat
   };
 };
