@@ -17,7 +17,11 @@ export const resumeData = {
   },
 
   dataBox: {
-    aboutMe: "I am an aspiring web developer using this site as my resume and proof of abilities.",
+    aboutMe: "I am an aspiring web developer using this site as my resume and proof of abilities. This page is written " +
+    "in React and all of the sections on this page are generated from a single javascript data file. Every section on thi" +
+    "s page can be updated by simply changing the strings in that data file, and any section can be duplicated " +
+    "with a single call. This makes for robust, reusable code, while also keeping this page easy to maintain and update. " +
+    "Both of which are big time savers.",
     experience: [
 
       {

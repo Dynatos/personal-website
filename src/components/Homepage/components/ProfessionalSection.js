@@ -12,7 +12,7 @@ class ProfessionalSection extends Component {
     return(
       <div className="resume-about-me-parent">
         <div className="resume-title-bar resume-about-me-title-box">
-          About Me:
+          About This Page:
         </div>
         <div className="resume-about-me">
           {data.aboutMe}
