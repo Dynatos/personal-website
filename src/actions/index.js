@@ -1,11 +1,11 @@
-import toggleStatConstants from '../constants/toggle-stat';
+import toggleStatConstants from '../constants/constants';
 
-const {toggleStatValue} = toggleStatConstants;
+const { addTodoString, setVisibilityFilterValue, toggleTodoValue, deleteTodoValue, toggleStatValue } = toggleStatConstants;
 
 let nextTodoId = 0;
 export const addTodo = text => {
   return {
-    type: 'ADD_TODO',
+    type: addTodoString,
     id: nextTodoId++,
     text
   };
@@ -13,21 +13,21 @@ export const addTodo = text => {
 
 export const setVisibilityFilter = filter => {
   return {
-    type: 'SET_VISIBILITY_FILTER',
+    type: setVisibilityFilterValue,
     filter
   };
 };
 
 export const toggleTodo = id => {
   return {
-    type: 'TOGGLE_TODO',
+    type: toggleTodoValue,
     id
   };
 };
 
 export const deleteTodo = id => {
   return {
-    type: 'DELETE_TODO',
+    type: deleteTodoValue,
     id
   };
 };

@@ -23,11 +23,8 @@ class ProfessionalSection extends Component {
 
   experience(jobNumber) {
     return(
-      <div key={jobNumber} className="resume-jobs-parent">
-        <div className="resume-title-bar resume-job-experience-title-box">
-          Professional History:
-        </div>
-        <div key={"jobExperience" + jobNumber} className={"resume-job-experience job-number-" + jobNumber}>
+      <div key={"jobExperience" + jobNumber}>
+        <div  className={"resume-job-experience job-number-" + jobNumber}>
           <div className="resume-job-company-name company">
             {jobs[jobNumber].company}
           </div>
@@ -51,8 +48,10 @@ class ProfessionalSection extends Component {
   }
 
   renderJobs() {
-    for (let i = 0; i < jobs.length; i++) {
-      mappedJobs.push(i);
+    if (mappedJobs.length === 0) {
+      for (let i = 0; i < jobs.length; i++) {
+        mappedJobs.push(i);
+      }
     }
     return mappedJobs.map(e => this.experience(e));
   }
@@ -61,7 +60,12 @@ class ProfessionalSection extends Component {
     return (
       <div className="resume-professional-child">
         {this.aboutMe()}
-        {this.renderJobs()}
+        <div className="resume-title-bar resume-job-experience-title-box">
+          Professional History:
+        </div>
+        <div className="resume-jobs-parent">
+          {this.renderJobs()}
+        </div>
         <div className="resume-skills-highest-parent">
           <div className="resume-title-bar resume-skills-title-box">
             Skills:

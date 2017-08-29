@@ -207,7 +207,7 @@ body {
 
 ::-webkit-scrollbar {
   width: 0;  /* remove scrollbar space */
-  background: transparent;  /* optional: just make scrollbar invisible */
+  background-color: transparent;
 }
 
 #app {
@@ -614,6 +614,28 @@ body {
   flex-wrap: wrap;
 }
 
+.resume-job-experience {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume-job-company-name, .resume-job-position {
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.resume-job-company-name {
+  width: 30%;
+}
+
+.resume-job-position {
+  width: 70%;
+}
+
+.resume-job-dates-parent {
+  margin: 0 auto 50px;
+}
+
 .resume-job-date {
   width: auto;
 }
@@ -641,4 +663,8 @@ body {
 .todo-app-footer {
   min-height: 25px;
   margin-bottom: 25px;
+}
+
+.highest-parent {
+  z-index: -1;
 }

@@ -42,20 +42,24 @@ function getTopItemsForSlots(sortedItems, numberToSlice) {
 
 class RunescapeStatTool extends Component {
 
+  //this is used to set the background color of the page when this component is mounted.
   componentDidMount() {
     getBackground();
   }
 
+  //this is used to set the background color of the page when this component is dismounted.
   componentWillUnmount() {
     removeBackground();
   }
 
-  //this is the handleClick function that runs when a checkbox is checked. This sets the state of each box true or false
+  //this is where we dispatch our toggleStat action from. When a checkbox is clicked, it calls this function, which in
+  //turn calls our dispatchable action to update the store.
   handleToggleClick(statName) {
     this.props.toggleStat(statName);
   }
 
   render() {
+    //this const is equal to the state object of the runescape app, where
     const {statNameToggleValues} = this.props;
 
     // this variable's value is equal to an array, in order, of each item listed from best to work based on the current

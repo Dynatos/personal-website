@@ -27,12 +27,12 @@ export const resumeData = {
         endDate: "March 2017"
       },
 
-      /*{
-        company: "test",
-        position: "test",
-        startDate: "test",
-        endDate: "test"
-      }*/
+      // {
+      //   company: "test",
+      //   position: "test",
+      //   startDate: "test",
+      //   endDate: "test"
+      // }
 
     ],
     skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Git", "ES2016", "NPM", "Docker"]
