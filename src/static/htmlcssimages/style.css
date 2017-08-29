@@ -532,6 +532,11 @@ body {
   user-select: none;
 }
 
+.resume-highest-parent {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+}
+
 .resume-picture {
   border-radius: 50%;
 }
@@ -607,6 +612,7 @@ body {
   margin: 2px auto;
   border-left: 1px solid white;
   border-right: 1px solid white;
+  font-size: 13px;
 }
 
 .resume-job-dates-parent {
@@ -633,7 +639,7 @@ body {
 }
 
 .resume-job-dates-parent {
-  margin: 0 auto 50px;
+  margin: 25px auto;
 }
 
 .resume-job-date {

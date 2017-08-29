@@ -47,6 +47,11 @@ class ProfessionalSection extends Component {
     );
   }
 
+  // This is the only part of this component that isn't really self explanatory. This function allows the page to render
+  // all of the objects in our data file dynamically, so if a job is added or removed the page will reflect this change
+  // automatically. The if statement is a fix for the page rendering an additional experience method every time the page
+  // was reloaded. The return statement must be outside of the if statement or the app will stop displaying the experience
+  // section altogether
   renderJobs() {
     if (mappedJobs.length === 0) {
       for (let i = 0; i < jobs.length; i++) {

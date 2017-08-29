@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import NavBar from './NavBar/NavBar';
-import PictureAndInfoBox from './Homepage/components/PictureAndInfoBox';
-import ProfessionalSection from './Homepage/components/ProfessionalSection';
+import NavBar from '../NavBar/NavBar';
+import PictureAndInfoBox from './components/PictureAndInfoBox';
+import ProfessionalSection from './components/ProfessionalSection';
 
 class HomePage extends Component {
 

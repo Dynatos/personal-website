@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
-import HomePage from './components/HomePage';
+import HomePage from './components/Homepage/HomePage';
 import RunescapeGearSuggestorContainer from './containers/RunescapeGearSuggestorContainer';
 import App from './components/App';
-import TodoApp from './components/TodoApp';
+import TodoApp from './components/Todo/TodoApp';
 import NotFoundPage from './components/NotFoundPage';
 
 export default (

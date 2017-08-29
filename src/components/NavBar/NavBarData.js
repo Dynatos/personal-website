@@ -1,31 +1,25 @@
+// Any links added must be added to both the navElements array and the navBarData object, otherwise they will not work
 export const navElements = ["homepage", "runescape", "todo"];
 
 const navBarData = {
 
-  //sends you back to the homepage
+  // Sends you back to the homepage
   homepage: {
     linkTo: "/",
     description: "Homepage"
   },
 
-  //sends you to the runescape gear suggester
+  // Sends you to the runescape gear suggester
   runescape: {
     linkTo: "runescape",
     description: "Runescape Tool"
   },
 
-  //sends you to the basic todo app
+  // Sends you to the basic todo app
   todo: {
     linkTo: "todo",
     description: "Todo App"
-  },
-
-  //sends you to 404 page
-  nullTest: {
-    linkTo: "non",
-    description: "This is a null link"
   }
-
 };
 
 export default navBarData;

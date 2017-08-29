@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import { toggleTodo, deleteTodo } from '../actions';
 import toggleStatConstants from '../constants/constants';
-import TodoList from '../components/TodoList';
+import TodoList from '../components/Todo/TodoList';
 
 const { showAll, showCompleted, showActive } = toggleStatConstants;
 

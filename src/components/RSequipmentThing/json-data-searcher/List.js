@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../../styles/about-page.css';
+import '../../../styles/about-page.css';
 
 class List extends Component{
   render() {

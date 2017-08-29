@@ -4,6 +4,10 @@ import statProps, {topRow, midRow, botRow} from './statProps';
 
 class FinalStats extends Component {
 
+  // This method is where we calculate the total of every stat based on the top (left most in the UI) items for each
+  // equipment slot. First we set a score of 0, then we receive our top items for every slot through props. Then we
+  // define the strings that need to be used to reference our data for each equipment slot. Finally, we loop through
+  // every item in topItemsForSlots and add the relevant stat to our score, which is returned at the end of the loop
   addStats(currentStat) {
     let score = 0;
     let topItemsForSlots = this.props.topItemsForSlots;
@@ -18,6 +22,8 @@ class FinalStats extends Component {
     return score.toString();
   }
 
+  // This is the map method that we use to render the visual component of our UI. This method is called once for each
+  // stat. The displayValue is calculated using a call to addStats with our statToRender's data as it's argument
   renderStat(statToRender) {
     let statProp = statProps[statToRender];
     let statName = statProp.statName;

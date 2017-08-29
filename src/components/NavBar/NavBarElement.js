@@ -19,9 +19,7 @@ class NavBarElement extends Component {
 // would link to /runescape where you could find the Runescape gear suggesting app)
   renderNavBarElements(navElement) {
     let currentNavDataToMap = navBarData[navElement];
-
     return (
-
         <Link  to={currentNavDataToMap.linkTo}  className={"navbar-element navbar-element--link nav-element--" +
         this.homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)} key={navElement}>
           <div key={currentNavDataToMap.linkTo}>

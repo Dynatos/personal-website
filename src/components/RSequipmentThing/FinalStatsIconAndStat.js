@@ -1,14 +1,11 @@
 import React, {Component} from 'react';
 
-
-//TO DO: replace 00 (line 20) with injected stat total number
-
+// This is the component called in FinalStats, it is called in the return statement of our map function there. This is
+// where all relevant data is received as props
 class FinalStatsIconAndStat extends Component {
 
   render() {
-
     let iconName = this.props.imageNamePath || this.props.attackStyle;
-
     return (
       <div>
         <div className={"all-stat-icon " + this.props.attackStyle + "-icon"}>

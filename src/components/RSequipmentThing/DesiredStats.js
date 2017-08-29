@@ -4,33 +4,31 @@ import statProps, {topRow, midRow, botRow} from './statProps';
 
 class DesiredStats extends Component {
 
-// this function takes in a unique statName (statToRender), then defines variables with names equal to the required keys
+// This function takes in a unique statName (statToRender), then defines variables with names equal to the required keys
 // from statProps, and assigns the values to be equal to the value of the same key in statProps
 // (eg: attackStab returns {attackStyle: "stab",statCategory: "attack",statName: "attackStab"})
-// the return statement starts with a spread operator, which defines "this.props.x = x" or in this case defines:
+// The return statement starts with a spread operator, which defines "this.props.x = x" or in this case defines:
 // this.props.statProp = statProps[statToRender], which is equal to the object on line 10.
-// next, we define our handleClick as a callback to RunescapeGearSuggestor's handleClick prop (which is a call to a
+// Next, we define our handleClick as a callback to RunescapeGearSuggestor's handleClick prop (which is a call to a
 // function that is defined in its call to this component). We hand it the required arguments for it to set the state.
-// next we set the checked prop to equal true or false based on the current stat's state (checkedAllStatStates[statName])
-// finally, we define a key as a unique value (statName), this is so React can differentiate between all of the
-// checkboxes and update properly. This is a requirement to make the React work.
+// Next we set the checked prop to equal true or false based on the current stat's state (checkedAllStatStates[statName])
+// Finally, we define a key as a unique value (statName), this is so React can differentiate between all of the
+// checkboxes and update properly. This is a requirement to make the React work
   renderStat(statToRender) {
     let statProp = statProps[statToRender];
     let statName = statProp.statName;
-
     return (
       <IconAndCheckbox {...statProp} handleClick={() => this.props.handleClick(statName)}
                        checked={this.props.checkedAllStatStates[statName]} key={statName} />
     );
   }
 
-// the only really noteworthy/confusing part of the return statement is the map. We call a map of the the desired
+// The only really noteworthy/confusing part of the return statement is the map. We call a map of the the desired
 // array of elements (which is defined in statProps (.js)) and set the map's first argument as a callback to our
 // renderStat function. We refer to it as this.renderStat because renderStat is defined in the same Component as our
 // return statement. We follow with a second argument of this, which binds the "this" to this file, as map.
-// this map will return one IconAndCheckbox call per item in the mapped array.
+// This map will return one IconAndCheckbox call per item in the mapped array
   render() {
-
     return (
       <div className="user-choice-parent head-text">
         Check for desired stats
@@ -44,7 +42,6 @@ class DesiredStats extends Component {
           </div>
         </div>
 
-
         <div className="user-choice-div-child">
           <div className="user-choice-category">
             Defensive
@@ -54,7 +51,6 @@ class DesiredStats extends Component {
           </div>
         </div>
 
-
         <div className="user-choice-div-child">
           <div className="user-choice-category">
             Bonus
@@ -63,7 +59,6 @@ class DesiredStats extends Component {
             {botRow.map(this.renderStat, this)}
           </div>
         </div>
-
 
       </div>
     );
