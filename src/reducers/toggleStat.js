@@ -1,6 +1,6 @@
-import toggleStatConstants from '../constants/constants';
+import Constants from '../constants/constants';
 
-const {toggleStatValue} = toggleStatConstants;
+const {toggleStatValue} = Constants;
 
 //here we set the default state of the runescape app, this is possibly redundant, but there isn't really a reason not
 //to have it, as it may cause breaks in the future if anything changes.

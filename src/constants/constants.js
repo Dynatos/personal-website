@@ -12,7 +12,12 @@ const constants = {
   addTodoString: 'ADD_TODO',
   setVisibilityFilterValue: 'SET_VISIBILITY_FILTER',
   toggleTodoValue: 'TOGGLE_TODO',
-  deleteTodoValue: 'DELETE_TODO'
+  deleteTodoValue: 'DELETE_TODO',
+  pushFirstOperand: 'PUSH_FIRST_OPERAND',
+  pushSecondOperand: 'PUSH_SECOND_OPERAND',
+  setOperator: 'SET_OPERATOR',
+  calculateOperation: 'CALCULATE_OPERATION',
+  resetButton: 'RESET'
 };
 
 export default constants;

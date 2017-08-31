@@ -11,7 +11,7 @@
 // highest total desired stats to lowest total desired stats. This gets returned to getDesiredStatsFromState, which
 // returns that list to the initial call in RunescapeGearSuggestor, where it is assigned as the value of sortedItems.
 
-import Items from '../src/components/json-data-searcher/items-with-stats';
+import Items from '../src/components/RSequipmentThing/json-data-searcher/items-with-stats';
 import statProps from '../src/components/RSequipmentThing/statProps';
 
 

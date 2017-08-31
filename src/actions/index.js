@@ -2,7 +2,8 @@ import Constants from '../constants/constants';
 
 // Here we import our constants, which are just strings that are immutable. We do this so we can be certain no typos
 // are made when calling these strings.
-const { addTodoString, setVisibilityFilterValue, toggleTodoValue, deleteTodoValue, toggleStatValue } = Constants;
+const { addTodoString, setVisibilityFilterValue, toggleTodoValue, deleteTodoValue, toggleStatValue, pushFirstOperand,
+  pushSecondOperand, setOperator, calculateOperation, resetButton } = Constants;
 
 let nextTodoId = 0;
 export const addTodo = text => {
@@ -38,5 +39,40 @@ export const toggleStat = stat => {
   return {
     type: toggleStatValue,
     stat
+  };
+};
+
+export const firstOperand = (operand, firstOperandSet) => {
+  return {
+    type: pushFirstOperand,
+    operand,
+    firstOperandSet
+  };
+};
+
+export const secondOperand = (operand, firstOperandSet) => {
+  return {
+    type: pushSecondOperand,
+    operand,
+    firstOperandSet
+  };
+};
+
+export const setCalculatorOperator = operatorValue => {
+  return {
+    type: setOperator,
+    operatorValue
+  };
+};
+
+export const calculateFinalValue = () => {
+  return {
+    type: calculateOperation
+  };
+};
+
+export const resetCalculator = () => {
+  return {
+    type: resetButton
   };
 };

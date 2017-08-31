@@ -1,5 +1,5 @@
 // Any links added must be added to both the navElements array and the navBarData object, otherwise they will not work
-export const navElements = ["homepage", "runescape", "todo"];
+export const navElements = ["homepage", "runescape", "todo", "calculator"];
 
 const navBarData = {
 
@@ -15,10 +15,16 @@ const navBarData = {
     description: "Runescape Tool"
   },
 
-  // Sends you to the basic todo app
+  // Sends you to the todo app
   todo: {
     linkTo: "todo",
     description: "Todo App"
+  },
+
+  // Sends you to the calculator
+  calculator: {
+    linkTo: "calculator",
+    description: "Calculator"
   }
 };
 
