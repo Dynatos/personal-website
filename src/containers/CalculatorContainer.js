@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { firstOperand, secondOperand, setCalculatorOperator, calculateFinalValue, resetCalculator } from '../actions';
+import { firstOperand, secondOperand, setCalculatorOperator, calculateFinalValue, resetCalculator, addPeriod } from '../actions';
 import Calculator from '../components/Calculator/Calculator';
 
 // Here we map the relevant state info for reference via this.props.DESIRED_KEY (eg statNameToggleValues for this)
@@ -28,6 +28,9 @@ const mapDispatchToProps = dispatch => {
     },
     resetCalc: () => {
       dispatch(resetCalculator());
+    },
+    addPeriod: () => {
+      dispatch(addPeriod());
     }
   };
 };

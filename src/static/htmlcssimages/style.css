@@ -711,7 +711,7 @@ body {
 }
 
 .calculator-reset {
-  width: 10%;
+  width: 12%;
   height: 50px;
   border: 1px solid black;
   vertical-align: middle;
@@ -721,10 +721,20 @@ body {
   font-size: 40px;
 }
 
-.calculator-screen {
-  min-width: 90%;
+.calculator-screen-operator {
+  width: 8%;
   height: 50px;
   border: 1px solid black;
+  border-right: none;
+  background-color: rgb(220,255,220);
+  font-size: 40px;
+}
+
+.calculator-screen {
+  min-width: 80%;
+  height: 50px;
+  border: 1px solid black;
+  border-left: none;
   text-align: right;
   background-color: rgb(220,255,220);
   font-size: 40px;

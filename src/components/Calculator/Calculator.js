@@ -25,6 +25,10 @@ export default class Calculator extends Component {
     this.props.resetCalc();
   }
 
+  addPeriod() {
+    this.props.addPeriod();
+  }
+
   render() {
 
     const {currentStateOfApplication} = this.props;
@@ -34,7 +38,7 @@ export default class Calculator extends Component {
         <NavBar />
         <CalculatorButtons numberClick={(operand, firstOperandSet) => this.handleNumberClick(operand, firstOperandSet)}
                            calculateClick={() => this.handleCalculate()} resetClick={() => this.handleReset()}
-                           setOperator={(operator) => this.handleOperator(operator)}
+                           setOperator={(operator) => this.handleOperator(operator)} periodClick={() => this.addPeriod()}
                            currentState={currentStateOfApplication} />
       </div>
     );

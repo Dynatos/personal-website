@@ -17,7 +17,8 @@ const constants = {
   pushSecondOperand: 'PUSH_SECOND_OPERAND',
   setOperator: 'SET_OPERATOR',
   calculateOperation: 'CALCULATE_OPERATION',
-  resetButton: 'RESET'
+  resetButton: 'RESET',
+  pushPeriod: 'PUSH_PERIOD'
 };
 
 export default constants;
