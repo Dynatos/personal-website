@@ -6,19 +6,19 @@ const navBarData = {
   // Sends you back to the homepage
   homepage: {
     linkTo: "/",
-    description: "Homepage"
+    description: "Home"
   },
 
   // Sends you to the runescape gear suggester
   runescape: {
     linkTo: "runescape",
-    description: "Runescape Tool"
+    description: "RS Tool"
   },
 
   // Sends you to the todo app
   todo: {
     linkTo: "todo",
-    description: "Todo App"
+    description: "Todos"
   },
 
   // Sends you to the calculator
