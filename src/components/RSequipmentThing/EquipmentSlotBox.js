@@ -15,8 +15,8 @@ let equipmentItemsMapArray = equipmentItemBoxNumberArrayMaker(4);
 class EquipmentSlotBox extends Component {
 
   equipmentItemsMapCallback(currentValue) {
-    return <EquipmentItems topItems={this.props.topItemsForSlot[currentValue]} uniqueClassNumber={currentValue}
-                           key={currentValue}/>;
+    return (<EquipmentItems topItems={this.props.topItemsForSlot[currentValue]} uniqueClassNumber={currentValue}
+                           key={currentValue}/>);
   }
 
   render() {
