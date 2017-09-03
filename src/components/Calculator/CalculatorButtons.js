@@ -8,9 +8,9 @@ class CalculatorButtons extends Component {
 
   displayNum(currentStateOfApplication) {
     if (currentStateOfApplication.secondOperand.length === 0) {
-      return this.sliceNumZeroToX(currentStateOfApplication.firstOperand, 12);
+      return this.sliceNumZeroToX(currentStateOfApplication.firstOperand, 10);
     }
-    return this.sliceNumZeroToX(currentStateOfApplication.secondOperand, 12);
+    return this.sliceNumZeroToX(currentStateOfApplication.secondOperand, 10);
   }
 
   render() {
