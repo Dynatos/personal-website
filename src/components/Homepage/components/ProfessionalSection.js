@@ -25,7 +25,7 @@ class ProfessionalSection extends Component {
     return(
       <div key={"jobExperience" + jobNumber}>
         <div  className={"resume-job-experience job-number-" + jobNumber}>
-          <div className="resume-job-company-name company">
+          <div className={"resume-job-company-name company--" + jobs[jobNumber].company}>
             {jobs[jobNumber].company}
           </div>
           <div className="resume-job-position">

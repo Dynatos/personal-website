@@ -110,7 +110,7 @@
 
 @media only screen and (min-width: 600px) {
   .resume-skills-parent {
-    width: 585px;
+    width: 586px;
   }
 
   .resume-job-experience-title-box, .resume-about-me-title-box {
@@ -305,7 +305,7 @@ body {
   border: 1px solid #afa282;
 }
 
-.equipment--big-box, .equipment--slot-boxes, .equipment--slot-names, .equipment--item-names, .equipment--item-names--4, .equipment--image-containers, .equipment--image-containers--4, .equipment--slot-text, .equip-icon, .equipment--image {
+.equipment--big-box, .equipment--slot-boxes, .equipment--slot-names, .equipment--item-names, .equipment--image-containers, .equipment--slot-text, .equip-icon, .equipment--image {
   background-image: url('./images/rstexture.jpg')!important;
 }
 
@@ -320,10 +320,8 @@ body {
 
 .equipment--slot-boxes {
   width: auto;
-  max-width: 651px;
+  max-width: 658px;
   height: 80px;
-  border: 1px solid #afa282;
-  border-right: none;
   margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
@@ -332,42 +330,32 @@ body {
 .equipment--slot-names {
   width: 90px;
   height: 100%;
-  border-right: 1px solid #afa282;
+  border: 1px solid #afa282;
   margin: auto 0;
-  padding: auto;
   display: table;
 }
 
-.equipment--item-names, .equipment--item-names--4 {
+.equipment--item-names {
   display: table-cell;
 }
 
 .equipment--item-names {
   width: 140px;
   height: 20px;
-  border-right: 1px solid #afa282;
+  border: 1px solid #afa282;
   font-size: 16px;
 }
 
-.equipment--item-names--4 {
-  width: 138px;
-  height: 20px;
-  font-size: 16px;
-}
-
-.equipment--image-containers, .equipment--image-containers--4 {
+.equipment--image-containers {
   height: 62px;
   border-top: 1px solid #afa282;
+  left: -1px;
 }
 
 .equipment--image-containers {
   width: 140px;
-  border-right: 1px solid #afa282;
+  border: 1px solid #afa282;
   position: relative;
-}
-
-.equipment--image-containers--4 {
-  width: 138px;
 }
 
 .equipment--image {
@@ -495,12 +483,11 @@ body {
 .navbar-element {
   min-width: 15%;
   max-width: 35%;
-  height: 32px;
+  height: 30px;
   background-color: #555;
   color: white;
-  margin: 2px;
-  padding: 0 3px;
-  font-size: 16px;
+  margin: 0 2px;
+  font-size: 20px;
   user-select: none;
 }
 
@@ -589,7 +576,7 @@ body {
 }
 
 .resume-about-me-parent {
-  min-height:200px;
+  min-height:150px;
 }
 
 .resume-jobs-parent {
@@ -614,31 +601,37 @@ body {
   font-size: 13px;
 }
 
+.resume-job-experience {
+  border: 1px solid black;
+  margin: 5px auto;
+}
+
 .resume-job-dates-parent {
   display: flex;
   flex-wrap: wrap;
-}
-
-.resume-job-experience {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.resume-job-company-name, .resume-job-position {
-  height: 25px;
-  margin-bottom: 10px;
 }
 
 .resume-job-company-name {
-  width: 30%;
+  font-size: 24px;
 }
 
 .resume-job-position {
-  width: 70%;
+  font-size: 18px;
+}
+
+.resume-job-company-name, .resume-job-position {
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.resume-job-company-name, .resume-job-position {
+  width: auto;
+  margin: 10px auto;
 }
 
 .resume-job-dates-parent {
-  margin: 25px auto;
+  margin: 10px auto;
+  font-size: 12px;
 }
 
 .resume-job-date {
