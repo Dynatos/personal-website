@@ -4,13 +4,8 @@ import CalculatorButtons from "./CalculatorButtons";
 
 export default class Calculator extends Component {
 
-  handleNumberClick(operand, firstOperandSet) {
-    if (firstOperandSet) {
-      this.props.secondOperand(operand, firstOperandSet);
-    }
-    if (!firstOperandSet) {
-      this.props.firstOperand(operand, firstOperandSet);
-    }
+  handleNumberClick(operand) {
+    this.props.pushNumber(operand);
   }
 
   handleOperator(operator) {
@@ -36,7 +31,7 @@ export default class Calculator extends Component {
     return(
       <div>
         <NavBar />
-        <CalculatorButtons numberClick={(operand, firstOperandSet) => this.handleNumberClick(operand, firstOperandSet)}
+        <CalculatorButtons numberClick={(operand) => this.handleNumberClick(operand)}
                            calculateClick={() => this.handleCalculate()} resetClick={() => this.handleReset()}
                            setOperator={(operator) => this.handleOperator(operator)} periodClick={() => this.addPeriod()}
                            currentState={currentStateOfApplication} />

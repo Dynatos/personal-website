@@ -3,7 +3,7 @@ import {routerReducer} from 'react-router-redux';
 import todos from './todos';
 import visibilityFilter from './visibilityFilter';
 import toggleStat from './toggleStat';
-import calculatorReducer from './calculate';
+import calculatorReducer from './calculateFix';
 
 const rootReducer = combineReducers({
   routing: routerReducer,

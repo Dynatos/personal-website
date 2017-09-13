@@ -18,7 +18,8 @@ const constants = {
   setOperator: 'SET_OPERATOR',
   calculateOperation: 'CALCULATE_OPERATION',
   resetButton: 'RESET',
-  pushPeriod: 'PUSH_PERIOD'
+  pushPeriod: 'PUSH_PERIOD',
+  numberInput: 'NUMBER_INPUT'
 };
 
 export default constants;

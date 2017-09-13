@@ -32,11 +32,11 @@ const calculateTotal = (numOne, numTwo, operator) => {
 
 function numConcat(initialNum, concatNum) {
   let finalNum = initialNum.concat(concatNum);
-  if (finalNum.length <= 12) {
+  if (finalNum.length <= 23) {
     return finalNum;
   }
-  if (finalNum.length > 12) {
-    return finalNum.slice(0, 12);
+  if (finalNum.length > 23) {
+    return finalNum.slice(0, 23);
   }
 }
 

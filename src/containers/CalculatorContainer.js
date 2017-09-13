@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { firstOperand, secondOperand, setCalculatorOperator, calculateFinalValue, resetCalculator, addPeriod } from '../actions';
+import { setCalculatorOperator, calculateFinalValue, resetCalculator, addPeriod, pushNumber } from '../actions/index';
 import Calculator from '../components/Calculator/Calculator';
 
 // Here we map the relevant state info for reference via this.props.DESIRED_KEY (eg statNameToggleValues for this)
@@ -14,11 +14,8 @@ const mapStateToProps = state => {
 // Here we map dispatch to props, so that when you call this.props.toggleStat() you dispatch the action to the store
 const mapDispatchToProps = dispatch => {
   return {
-    firstOperand: (operand, firstOperandSet) => {
-      dispatch(firstOperand(operand, firstOperandSet));
-    },
-    secondOperand: (operand, firstOperandSet) => {
-      dispatch(secondOperand(operand, firstOperandSet));
+    pushNumber: (operand) => {
+      dispatch(pushNumber(operand));
     },
     setOperator: operatorValue => {
       dispatch(setCalculatorOperator(operatorValue));
