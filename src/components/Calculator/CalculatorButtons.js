@@ -27,7 +27,7 @@ class CalculatorButtons extends Component {
             <div className="calculator-button" onClick={() => this.props.numberClick("4")}>4</div>
             <div className="calculator-button" onClick={() => this.props.numberClick("5")}>5</div>
             <div className="calculator-button" onClick={() => this.props.numberClick("6")}>6</div>
-            <div className="calculator-button" onClick={() => this.props.setOperator('*')}>*</div>
+            <div className="calculator-button" onClick={() => this.props.setOperator('*')}>X</div>
           </div>
           <div className="calculator-button-parent">
             <div className="calculator-button" onClick={() => this.props.numberClick("1")}>1</div>
