@@ -53,7 +53,8 @@ const calculatorReducer = (state = defaultState, action) => {
         ...state
       };
     case setOperator:
-      if (state.equation === '-' || state.equation === '- ') {
+      if (state.equation === '-' || state.equation === '- ' || action.operatorValue === '/' && state.equation.length === 0
+          || action.operatorValue === '*' && state.equation.length === 0 || action.operatorValue === '+' && state.equation.length === 0) {
         return {
           ...state
         };
@@ -119,6 +120,11 @@ const calculatorReducer = (state = defaultState, action) => {
         ...state
       };
     case calculateOperation:
+      if (state.equation.length < 3) {
+        return {
+          ...state
+        };
+      }
       return {
         ...state,
         equation: calculateTotal(state.equation),
