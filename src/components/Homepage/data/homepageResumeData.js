@@ -7,10 +7,12 @@ export const resumeData = {
     externalURLs: [
       "https://www.github.com/dynatos",
       "https://www.facebook.com/JasonWortleyDynatos",
+      "https://www.linkedin.com/in/jason-wortley-902627148/"
     ],
     externalURLImages: [
       "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png",
-      "http://login.create.net/images/icons/user/facebook_30x30.png"
+      "http://login.create.net/images/icons/user/facebook_30x30.png",
+      "https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-256.png"
     ],
     description: "This page is written in React and generated from a JavaScript object containing data, all sections " +
     "are easily extensible and/or updated in seconds."
@@ -25,7 +27,7 @@ export const resumeData = {
     experience: [
       {
         company: "Kauai Nut Roasters",
-        position: "Nut Bagger > Nut Roaster > Head Roaster & Kitchen Manager",
+        position: "Nut Bagger > Roaster > Head Roaster & Kitchen Manager > Owner",
         startDate: "July 2012",
         endDate: "March 2017"
       },

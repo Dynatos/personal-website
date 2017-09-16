@@ -22,6 +22,12 @@ function pushNumber (initial, pushNum) {
 const calculatorReducer = (state = defaultState, action) => {
   switch (action.type) {
     case numberInput:
+      if (action.operand === '0' && state.equation === '' || action.operand === '0' && state.lastInputOperator
+      || action.operand === '0' && state.equation.slice(state.equation.length - 2, state.equation.length) === '- ') {
+        return {
+          ...state
+        };
+      }
       if (state.operatorSet) {
         return {
           ...state,

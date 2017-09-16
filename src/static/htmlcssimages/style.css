@@ -532,6 +532,7 @@ body {
   max-width: 30px;
   height: auto;
   width: auto;
+  margin: 2px 2px 0;
 }
 
 .resume-highest-parent {
@@ -685,31 +686,39 @@ body {
   flex-wrap: wrap;
 }
 
-.calculator-button {
-  width: 70px;
-  height: 70px;
+.calculator-button, .calculator-button-double, .calculator-button-triple {
+  height: 60px;
   border: 1px solid black;
-  border-radius: 5%;
   vertical-align: middle;
   user-select: none;
   margin: 4px 2px;
   background-color: white;
-  font-size: 48px;
+  font-size: 42px;
   box-shadow: 0 2px #000;
   font-family: 'Poppins', sans-serif;
 }
 
-.calculator-button:hover, .calculator-reset:hover {
+.calculator-button {
+  width: 70px;
+  border-radius: 5%;
+}
+
+.calculator-button-double {
+  width: 144px;
+  border-radius: 4%;
+}
+
+.calculator-button-triple {
+   width: 218px;
+  border-radius: 3%;
+ }
+
+.calculator-button:hover, .calculator-reset:hover, .calculator-button-double:hover, .calculator-button-triple:hover {
   background-color: lightgrey;
   transition: all 0.1s ease;
 }
 
-.calculator-reset:active {
-  background-color: grey;
-  transition: all 0.1s ease;
-}
-
-.calculator-button:active {
+.calculator-button:active, .calculator-button-double:active, .calculator-button-triple:active {
   box-shadow: 0 0 #000;
   transform: translateY(2px);
 }
@@ -717,29 +726,17 @@ body {
 .calculator-screen-and-reset {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-
-.calculator-reset {
-  width: 8%;
-  height: 30px;
-  border: 1px solid black;
-  vertical-align: middle;
-  color: red;
-  user-select: none;
-  background-color: white;
-  font-size: 20px;
 }
 
 .calculator-screen {
-  width: 92%;
+  width: 100%;
   height: 30px;
   border: 1px solid black;
-  border-left: none;
   text-align: right;
   background-color: rgb(220,255,220);
   font-size: 20px;
   overflow: hidden;
+  margin-bottom: 2px;
 }
 
 .calculator-screen:hover {

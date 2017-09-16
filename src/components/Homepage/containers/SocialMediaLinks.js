@@ -22,7 +22,7 @@ class SocialMediaLinks extends Component {
   render() {
 
     return (
-      <div>
+      <div className="resume-social-media-parent">
         {this.makeMedia()}
       </div>
     );
