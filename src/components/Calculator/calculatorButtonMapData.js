@@ -32,7 +32,7 @@ export const rowA = [
   {
     value: '7',
     displayValue: '7',
-    actionToDispatch: 'this.props.numberClick("7")',
+    actionToDispatch: 'numberClick',
     uniqueClassName: 'calculator-button-seven'
   },
   {

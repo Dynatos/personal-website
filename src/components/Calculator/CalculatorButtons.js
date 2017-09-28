@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { rowA, rowB, rowC, rowD } from './calculatorButtonMapData';
+//import { rowA, rowB, rowC, rowD } from './calculatorButtonMapData';
 
 class CalculatorButtons extends Component {
 
