@@ -4,27 +4,34 @@ import { data } from './articleData';
 export default class ArticleSideBar extends Component {
   
   render() {
-  
-    const dataMapCallback = (e, i) => {
-      let element = e;
-      return (
-        <div key={i} className="article-sidebar-item">
-          <h2 className="article-sidebar">
-            {element.title}
-          </h2>
-          <p>
-            {element.body}
-          </p>
-        </div>
-      );
+    const filters = [];
+    const typeFilter = (element, index) => {
+      if (filters.indexOf(element.type) === -1) {
+        filters.push(element.type);
+        return (
+          <li key={index} className="article-sidebar-filter">
+            {element.type}
+          </li>
+        );
+      }
     };
     
     return (
-      <div>
-        <aside className="article-side-bar-highest-parent">
-          {data.map(dataMapCallback)}
-        </aside>
-      </div>
+      <aside className="article-sidebar-highest-parent">
+        <ul className="article-sidebar-filter-parent">
+          <h2>
+            Filter by:
+          </h2>
+          <br/>
+          {data.map(typeFilter)}
+          
+          <h2>
+            Posts by date:
+          </h2>
+          <br/>
+          {"TODO: replace with mapped data"}
+        </ul>
+      </aside>
     );
   }
 }

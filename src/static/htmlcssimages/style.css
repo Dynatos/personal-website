@@ -746,3 +746,31 @@ body {
 .calculator-screen:hover {
   cursor: text;
 }
+
+.article-all-highest-parent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-column-highest-parent {
+  width: 75%;
+  height: 100%;
+}
+
+.article-sidebar-highest-parent {
+  width: 25%;
+  height: 100%;
+}
+
+.article-sidebar-filter-parent {
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.article-sidebar-filter {
+  list-style: none;
+  font-size: 18px;
+}
