@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import {resumeData} from '../data/homepageResumeData';
 
 class NameAndTitle extends Component {
 
   render() {
-
-    const data = resumeData.pictureAndInfoBox;
-    const name = data.name;
-    const title = data.title;
+  
+    const { data } = this.props;
+    const name = data.pictureAndInfoBox.name;
+    const title = data.pictureAndInfoBox.title;
 
     return(
       <div>
