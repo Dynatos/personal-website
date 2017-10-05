@@ -5,7 +5,6 @@ class Skills extends Component {
   render() {
     
     const { data } = this.props;
-    console.log('skills data:', data);
     const skills = data.dataBox.skills;
   
     // This method renders a div for every skill in our data, it does this by creating an empty array and pushing an

@@ -6,7 +6,6 @@ class ProfessionalSection extends Component {
   render() {
     
     const { data } = this.props;
-    console.log('professional section data:', data);
     const jobs = data.dataBox.experience;
     let mappedJobs = [];
   

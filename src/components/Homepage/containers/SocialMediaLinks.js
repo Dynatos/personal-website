@@ -17,7 +17,6 @@ class SocialMediaLinks extends Component {
   render() {
   
     const { data } = this.props;
-    console.log('social media links data: ', data);
     const link = data.pictureAndInfoBox.externalURLs;
     const image = data.pictureAndInfoBox.externalURLImages;
 

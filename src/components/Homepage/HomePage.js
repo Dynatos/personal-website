@@ -9,7 +9,6 @@ class HomePage extends Component {
   render() {
   
     const data = resumeData;
-    console.log('data:', data);
     
     return (
       <div>
