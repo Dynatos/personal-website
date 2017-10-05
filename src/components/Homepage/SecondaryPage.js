@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import NavBar from '../NavBar/NavBar';
 import PictureAndInfoBox from './components/PictureAndInfoBox';
 import ProfessionalSection from './components/ProfessionalSection';
-import { resumeData } from './data/homepageResumeData';
+import { resumeData } from './data/secondaryPage';
 
-class HomePage extends Component {
-
-  render() {
+class SecondaryPage extends Component {
   
+  render() {
+    
     const data = resumeData;
     
     return (
@@ -26,4 +26,4 @@ class HomePage extends Component {
   }
 }
 
-export default HomePage;
+export default SecondaryPage;

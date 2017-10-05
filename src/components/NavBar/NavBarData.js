@@ -1,5 +1,5 @@
 // Any links added must be added to both the navElements array and the navBarData object, otherwise they will not work
-export const navElements = ["homepage", "runescape", "todo", "calculator", "articles"];
+export const navElements = ["homepage", "secondary", "runescape", "todo", "calculator", "articles"];
 
 const navBarData = {
 
@@ -31,6 +31,12 @@ const navBarData = {
   articles: {
     linkTo: "articles",
     description: "Articles"
+  },
+  
+  // Sends you to the article's page
+  secondary: {
+    linkTo: "secondary_home",
+    description: "Home #2"
   }
 };
 

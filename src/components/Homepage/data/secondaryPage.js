@@ -1,49 +1,53 @@
 export const resumeData = {
   pictureAndInfoBox: {
-    name: "Jason Wortley",
-    title: "Web Developer",
-    currentResidence: "Seattle, Washington",
-    contactInfo: "jason@jasonwortley.com",
+    name: "Human Name",
+    title: "Career Path",
+    currentResidence: "Anytown, Country",
+    contactInfo: "email@provider.extension",
     externalURLs: [
-      "https://www.github.com/dynatos",
-      "https://www.facebook.com/JasonWortleyDynatos",
-      "https://www.linkedin.com/in/jason-wortley-902627148/"
+      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     ],
     externalURLImages: [
-      "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png",
-      "http://login.create.net/images/icons/user/facebook_30x30.png",
-      "https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-256.png"
+      "https://placekitten.com/24/24",
+      "https://placekitten.com/24/24",
+      "https://placekitten.com/24/24"
     ],
     description: "This page is written in React and generated from a JavaScript object containing data, all sections " +
     "are easily extensible and/or updated in seconds."
   },
   
   dataBox: {
-    aboutMe: "I am an aspiring web developer using this site as my resume and proof of abilities. This page is written " +
-    "in React and all of the sections on this page pull their data from a single data file. Every section on this page " +
-    "can be updated by simply changing that data file, and any section can be duplicated with a single component call. " +
-    "This makes for robust, reusable code, while also keeping this page easy to maintain and update. Both of which are " +
-    "big time savers.",
+    aboutMe: "This is another page that is generated from a separate data file. The only thing required to make this" +
+      " was the creation of a new data file, a duplicate parent component calling the new data file, and a link to" +
+      " this new URL.",
     experience: [
       {
-        company: "Kauai Nut Roasters",
-        position: "Nut Bagger > Roaster > Head Roaster & Kitchen Manager > Owner",
-        startDate: "July 2012",
-        endDate: "March 2017"
+        company: "Employer",
+        position: "Position Title",
+        startDate: "MM/DD/YYYY",
+        endDate: "MM/DD/YYYY"
       },
       {
-        company: "Kauai Nut Roasters",
-        position: "Website Manager",
-        startDate: "November 2016",
-        endDate: "Present Day"
+        company: "Another Employer",
+        position: "Another Position Title",
+        startDate: "MM/DD/YYYY",
+        endDate: "MM/DD/YYYY"
       },
-      // {
-      //   company: "test",
-      //   position: "test",
-      //   startDate: "test",
-      //   endDate: "test"
-      // }
+      {
+        company: "And Another Employer",
+        position: "One More Position Title",
+        startDate: "MM/DD/YYYY",
+        endDate: "MM/DD/YYYY"
+      },
+      {
+        company: "Wow, Look at all these jobs!",
+        position: "And check out these job titles",
+        startDate: "MM/DD/YYYY",
+        endDate: "MM/DD/YYYY"
+      }
     ],
-    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Git", "ES2016", "NPM", "Docker"]
+    skills: ["Skills", "Sick Skills", "Mad Skills", "Pro Skills", "Epic Skills"]
   }
 };
