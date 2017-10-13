@@ -38,6 +38,19 @@
   .resume-professional-section {
     margin: 100px auto 0;
   }
+
+  .navbar-element {
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .navbar-parent {
+    height: 36px;
+  }
+
+  .nav-element-holder {
+    height: 36px;
+  }
 }
 
 
@@ -82,6 +95,19 @@
     margin: 100px auto 0;
     width: 100%;
   }
+
+  .navbar-element {
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .navbar-parent {
+    height: 36px;
+  }
+
+  .nav-element-holder {
+    height: 36px;
+  }
 }
 
 
@@ -103,8 +129,6 @@
   .equipment--item1 {
     display: table-cell!important;
   }
-
-
 }
 
 
@@ -146,6 +170,18 @@
     display: table-cell!important;
   }
 
+  .navbar-element {
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .navbar-parent {
+    height: 30px;
+  }
+
+  .nav-element-holder {
+    height: 30px;
+  }
 }
 
 @media only screen and (min-width: 980px) {
@@ -201,8 +237,8 @@ html {
 
 body {
   height: 100%;
-  margin: 30px auto 0;
-  overflow: auto
+  margin: 30px 1% 0 1%;
+  overflow: auto;
 }
 
 ::-webkit-scrollbar {
@@ -211,7 +247,7 @@ body {
 }
 
 #app {
-  max-height: 30px;
+  height: auto;
 }
 
 .navbar-parent, .resume-picture, .all-stat-icon, .equipment--slot-text, .equipment--image-containers {
@@ -320,7 +356,7 @@ body {
 
 .equipment--slot-boxes {
   width: auto;
-  max-width: 658px;
+  max-width: 650px;
   height: 80px;
   margin: 10px auto;
   display: flex;
@@ -341,21 +377,16 @@ body {
 
 .equipment--item-names {
   width: 140px;
-  height: 20px;
+  height: 80px;
   border: 1px solid #afa282;
+  border-left: none;
   font-size: 16px;
 }
 
 .equipment--image-containers {
-  height: 62px;
+  width: 139px;
+  height: 60px;
   border-top: 1px solid #afa282;
-  left: -1px;
-}
-
-.equipment--image-containers {
-  width: 140px;
-  border: 1px solid #afa282;
-  position: relative;
 }
 
 .equipment--image {
@@ -463,32 +494,37 @@ body {
 }
 
 .navbar-parent {
-  height: 30px;
   width: 100%;
-  background-color: grey;
+  background-image: url('./images/bgcolorPound555.png');
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 1;
+  overflow: hidden;
 }
 
 .nav-element-holder {
-  height: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  background-color: darkorange;
+  background-image: url('./images/bgcolorPound555.png');
 }
 
 .navbar-element {
   min-width: 15%;
   max-width: 35%;
-  height: 30px;
   background-color: #555;
+  background-image: url('./images/bgcolorPound555.png');
   color: white;
-  margin: 0 2px;
-  font-size: 20px;
+  padding: 0 3px;
+  margin: 0 3px 0 0;
   user-select: none;
+  overflow: hidden;
+}
+
+.navbar-element:hover {
+  background: #555;
 }
 
 .navbar-element:hover {
@@ -497,8 +533,10 @@ body {
 }
 
 .navbar-element--link {
+  border: 1px white solid;
+  border-bottom: none;
   text-decoration: none;
-  background-color: #555;
+  background-image: url('./images/bgcolorPound555.png');
 }
 
 .visible-todo {
@@ -591,15 +629,15 @@ body {
 
 .resume-skills-highest-parent {
   min-height: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .resume-skills-skill {
-  width: auto;
+  width: 33%;
   min-width: 60px;
   height: 20px;
-  background-color: #000;
-  color: darkorange;
+  background-color: #555;
+  color: white;
   padding: 0 2px;
   margin: 2px auto;
   border-left: 1px solid white;

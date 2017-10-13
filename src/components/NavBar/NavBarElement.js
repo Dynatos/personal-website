@@ -6,11 +6,11 @@ import navBarData, {navElements} from './NavBarData';
 class NavBarElement extends Component {
 
   homepageLinkClassNameAssigner(link) {
-  if (link !== "/") {
-    return link;
+    if (link !== "/") {
+      return link;
+    }
+    return "homepage";
   }
-  return "homepage";
-}
 
 // renderNavBarElements is the function that does the mapping. It is called as the callback function for the map that
 // returns all of our NavBar elements. Each element is created by taking the NavBarData and mapping it into the relevant
@@ -20,12 +20,12 @@ class NavBarElement extends Component {
   renderNavBarElements(navElement) {
     let currentNavDataToMap = navBarData[navElement];
     return (
-        <Link  to={currentNavDataToMap.linkTo}  className={"navbar-element navbar-element--link nav-element--" +
-        this.homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)} key={navElement}>
-          <div key={currentNavDataToMap.linkTo}>
-          {currentNavDataToMap.description}
-          </div>
-        </Link>
+      <Link  to={currentNavDataToMap.linkTo}  className={"navbar-element navbar-element--link nav-element--" +
+      this.homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)} key={navElement}>
+        <div key={currentNavDataToMap.linkTo}>
+        {currentNavDataToMap.description}
+        </div>
+      </Link>
     );
   }
 

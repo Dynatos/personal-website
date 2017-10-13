@@ -44,6 +44,6 @@ export const resumeData = {
       //   endDate: "test"
       // }
     ],
-    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Git", "ES2016", "NPM", "Docker"]
+    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Git", "ES2016+", "Node/NPM"]
   }
 };

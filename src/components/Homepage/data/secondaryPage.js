@@ -19,25 +19,25 @@ export const resumeData = {
   },
   
   dataBox: {
-    aboutMe: "This is another page that is generated from a separate data file. The only thing required to make this" +
-      " was the creation of a new data file, a duplicate parent component calling the new data file, and a link to" +
-      " this new URL.",
+    aboutMe: "This is another page that is generated from a separate data file. All I had to do to make this page was" +
+      " create a new data file and filler data, create a duplicate parent component with an updated data file" +
+      " reference, and add a navbar link to this page!",
     experience: [
       {
         company: "Employer",
-        position: "Position Title",
-        startDate: "MM/DD/YYYY",
-        endDate: "MM/DD/YYYY"
+        position: "Position X",
+        startDate: "Start of employment",
+        endDate: "End of employment"
       },
       {
-        company: "Another Employer",
-        position: "Another Position Title",
+        company: "Other Employer",
+        position: "Position Y",
         startDate: "MM/DD/YYYY",
         endDate: "MM/DD/YYYY"
       },
       {
         company: "And Another Employer",
-        position: "One More Position Title",
+        position: "One More Position",
         startDate: "MM/DD/YYYY",
         endDate: "MM/DD/YYYY"
       },
@@ -48,6 +48,6 @@ export const resumeData = {
         endDate: "MM/DD/YYYY"
       }
     ],
-    skills: ["Skills", "Sick Skills", "Mad Skills", "Pro Skills", "Epic Skills"]
+    skills: ["Any","Skills","Go","Down","Here","!"]
   }
 };
