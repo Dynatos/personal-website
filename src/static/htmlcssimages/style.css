@@ -373,14 +373,12 @@ body {
 
 .equipment--item-names {
   display: table-cell;
-}
-
-.equipment--item-names {
   width: 140px;
   height: 80px;
   border: 1px solid #afa282;
   border-left: none;
   font-size: 16px;
+  overflow: hidden;
 }
 
 .equipment--image-containers {
