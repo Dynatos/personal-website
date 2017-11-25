@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import EquipmentItems from "./EquipmentItems";
-require('../../static/htmlcssimages/images/icons/equipscreen');
-require('../../../dist/static/htmlcssimages/images/tradeableitemspritesbyid');
+require('../../static/tradeableitemspritesbyid');
 
 // This function returns an array from 0 to whatever value is given as the argument
 function equipmentItemBoxNumberArrayMaker(value) {
@@ -35,7 +34,7 @@ class EquipmentSlotBox extends Component {
       <div className={slotTitle + " equipment--slot-boxes"}>
         <div className="equipment--slot-names">
           <div className="equipment--slot-text text">
-            <img src={require('../../static/htmlcssimages/images/icons/equipscreen/' + slotTitle + '.png')} />
+            <img src={require('/' + slotTitle + '.png')} />
           </div>
         </div>
         {equipmentItemsMapArray.map((e) => this.equipmentItemsMapCallback(e), this)}
