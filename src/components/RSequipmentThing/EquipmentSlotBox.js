@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import EquipmentItems from "./EquipmentItems";
+require('../../static/htmlcssimages/images/icons/equipscreen');
 
 // This function returns an array from 0 to whatever value is given as the argument
 function equipmentItemBoxNumberArrayMaker(value) {
