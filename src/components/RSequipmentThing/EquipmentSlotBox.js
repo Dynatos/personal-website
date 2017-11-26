@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import EquipmentItems from "./EquipmentItems";
-require('../../static/tradeableitemspritesbyid');
 
 // This function returns an array from 0 to whatever value is given as the argument
 function equipmentItemBoxNumberArrayMaker(value) {
@@ -25,6 +24,7 @@ class EquipmentSlotBox extends Component {
 // This sets the values of the variables slotTitle and topItemsForSlot to be equal to this.props.slotTitle and
 // this.props.topItemsForSlot
     let {slotTitle} = this.props;
+    const imgSrc = '/' + slotTitle + '.png';
 
 // Here we return an Equipment Deatils box that contains data only related to it's slotTitle ("head", "cape", etc)
 // the first set of divs contain the image and set the css on the parents. The EquipmentItems calls give us our
@@ -34,7 +34,7 @@ class EquipmentSlotBox extends Component {
       <div className={slotTitle + " equipment--slot-boxes"}>
         <div className="equipment--slot-names">
           <div className="equipment--slot-text text">
-            <img src={require('/' + slotTitle + '.png')} />
+            <img src={require(imgSrc)} />
           </div>
         </div>
         {equipmentItemsMapArray.map((e) => this.equipmentItemsMapCallback(e), this)}
