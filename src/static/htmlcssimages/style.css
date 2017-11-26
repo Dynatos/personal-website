@@ -522,12 +522,14 @@ body {
 }
 
 .navbar-element:hover {
-  background: #555;
+  background: #000;
+  color: white;
+  transition: all 0.8s ease;
 }
 
-.navbar-element:hover {
-  background: #000;
-  transition: all 0.3s ease;
+.navbar-runescape-color:hover {
+  background: #d4c191;
+  transition: none;
 }
 
 .navbar-element--link {
@@ -538,13 +540,11 @@ body {
 }
 
 .navbar-element-active {
-  background-image: none;
-  background-color: white;
   color: black;
 }
 
 .navbar-runescape-color {
-  background-image: url('/bgcolor.png');
+  background-image: url('./images/bgcolor.png');
   color: black;
   border: #555555;
 }
