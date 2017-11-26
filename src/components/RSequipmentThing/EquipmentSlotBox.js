@@ -13,18 +13,17 @@ function equipmentItemBoxNumberArrayMaker(value) {
 let equipmentItemsMapArray = equipmentItemBoxNumberArrayMaker(4);
 
 class EquipmentSlotBox extends Component {
-
+  
   equipmentItemsMapCallback(currentValue) {
     return (<EquipmentItems topItems={this.props.topItemsForSlot[currentValue]} uniqueClassNumber={currentValue}
-                           key={currentValue}/>);
+                            key={currentValue}/>);
   }
-
+  
   render() {
 
 // This sets the values of the variables slotTitle and topItemsForSlot to be equal to this.props.slotTitle and
 // this.props.topItemsForSlot
     let {slotTitle} = this.props;
-    const imgSrc = '/' + slotTitle + '.png';
 
 // Here we return an Equipment Deatils box that contains data only related to it's slotTitle ("head", "cape", etc)
 // the first set of divs contain the image and set the css on the parents. The EquipmentItems calls give us our
@@ -34,7 +33,7 @@ class EquipmentSlotBox extends Component {
       <div className={slotTitle + " equipment--slot-boxes"}>
         <div className="equipment--slot-names">
           <div className="equipment--slot-text text">
-            <img src={require(imgSrc)} />
+            <img src={require('../../static/htmlcssimages/images/icons/equipscreen/' + slotTitle + '.png')} />
           </div>
         </div>
         {equipmentItemsMapArray.map((e) => this.equipmentItemsMapCallback(e), this)}

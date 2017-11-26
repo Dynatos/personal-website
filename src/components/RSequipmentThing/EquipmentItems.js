@@ -11,7 +11,7 @@ class EquipmentItems extends Component {
     function setImagePath() {
       if (topItems) {
         if (topItems.tradeable) {
-          return '../../static/tradeableitemspritesbyid/' + topItems.id + '.gif';
+          return require('../../static/tradeableitemspritesbyid/' + topItems.id + '.gif');
         }
         return require('../../static/itemspritesbyid/' + topItems.id + '.png');
       }
