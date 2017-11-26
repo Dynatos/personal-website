@@ -540,10 +540,13 @@ body {
 }
 
 .navbar-element-active {
+  background-image: none;
+  background-color: white;
   color: black;
 }
 
 .navbar-runescape-color {
+  background-color: none;
   background-image: url('./images/bgcolor.png');
   color: black;
   border: #555555;
