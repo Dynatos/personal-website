@@ -19,9 +19,17 @@ class NavBarElement extends Component {
 // would link to /runescape where you could find the Runescape gear suggesting app)
   renderNavBarElements(navElement) {
     let currentNavDataToMap = navBarData[navElement];
+    const indexOptions = currentNavDataToMap.linkTo === '/' ? {onlyActiveOnIndex: true} : {};
+    const runescapeBackgroundColor = currentNavDataToMap.linkTo === 'runescape' ?
+      {activeClassName: 'navbar-runescape-color'} : {};
+    
     return (
-      <Link  to={currentNavDataToMap.linkTo}  className={"navbar-element navbar-element--link nav-element--" +
-      this.homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)} key={navElement}>
+      <Link activeClassName="navbar-element-active" to={currentNavDataToMap.linkTo}
+            className={"navbar-element navbar-element--link nav-element--" + this.homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)}
+            key={navElement}
+            {...indexOptions}
+            {...runescapeBackgroundColor}
+      >
         <div key={currentNavDataToMap.linkTo}>
         {currentNavDataToMap.description}
         </div>

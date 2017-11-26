@@ -537,6 +537,18 @@ body {
   background-image: url('./images/bgcolorPound555.png');
 }
 
+.navbar-element-active {
+  background-image: none;
+  background-color: white;
+  color: black;
+}
+
+.navbar-runescape-color {
+  background-image: url('/bgcolor.png');
+  color: black;
+  border: #555555;
+}
+
 .visible-todo {
   list-style-type: none;
 }
