@@ -5,13 +5,13 @@ export const resumeData = {
     currentResidence: "Seattle, Washington",
     contactInfo: "jason@jasonwortley.com",
     externalURLs: [
-      "https://www.github.com/dynatos",
       "https://www.facebook.com/JasonWortleyDynatos",
+      "https://www.github.com/dynatos",
       "https://www.linkedin.com/in/jason-wortley-902627148/"
     ],
     externalURLImages: [
-      "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png",
       "http://login.create.net/images/icons/user/facebook_30x30.png",
+      "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png",
       "https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-256.png"
     ],
     description: "This page is written in React and generated from a JavaScript object containing data, all sections " +
@@ -19,11 +19,11 @@ export const resumeData = {
   },
 
   dataBox: {
-    aboutMe: "I am an aspiring web developer using this site as my resume and proof of abilities. This page is written " +
-    "in React and all of the sections on this page pull their data from a single data file. Every section on this page " +
-    "can be updated by simply changing that data file, and any section can be duplicated with a single component call. " +
-    "This makes for robust, reusable code, while also keeping this page easy to maintain and update. Both of which are " +
-    "big time savers.",
+    aboutMe: `I am an aspiring web developer using this site as my portfolio and central hub for projects.
+    This site is written using React and all of the components on this page pull their data from a single data file.
+    Each component can be edited by simply updating that data file, and any section can be duplicated with a single
+    component call. This method of design makes for reusable code and keeps this page easy to maintain and update.
+    The rest of this site consists of various projects that I built to practice and demonstrate what I have learned.`,
     experience: [
       {
         company: "Kauai Nut Roasters",

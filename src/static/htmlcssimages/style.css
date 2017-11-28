@@ -502,6 +502,8 @@ body {
 }
 
 .nav-element-holder {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -549,7 +551,8 @@ body {
   background-color: none;
   background-image: url('./images/bgcolor.png');
   color: black;
-  border: #555555;
+  border: 1px solid white;
+  border-bottom: none;
 }
 
 .visible-todo {
@@ -658,6 +661,10 @@ body {
   font-size: 15px;
 }
 
+.resume-skills-title-box {
+  margin: 25px auto 5px;
+}
+
 .resume-job-experience {
   border: 1px solid black;
   margin: 5px auto;
@@ -730,7 +737,7 @@ body {
 
 .calculator-highest-parent {
   max-width: 298px;
-  margin: 20px auto 0;
+  margin: 20px auto 40px;
   border: 1px solid black;
   border-radius: 1%;
   background-color: darkorange;
