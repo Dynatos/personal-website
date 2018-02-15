@@ -1,60 +1,43 @@
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3129129/22811426/bb69dc06-ef0c-11e6-8092-a0bea9060b35.png"/></p>
+This is the source code for my personal website, a live version can be found at jasonwortley.com
 
-[![Build status: Linux](https://img.shields.io/travis/coryhouse/react-slingshot.svg?style=flat-square)](https://travis-ci.org/coryhouse/react-slingshot)
-[![Build status: Windows](https://img.shields.io/appveyor/ci/coryhouse/react-slingshot/master.svg?style=flat-square)](https://ci.appveyor.com/project/coryhouse/react-slingshot/branch/master)
-[![Dependency Status](https://david-dm.org/coryhouse/react-slingshot.svg?style=flat-square)](https://david-dm.org/coryhouse/react-slingshot)
-[![Coverage Status](https://img.shields.io/coveralls/coryhouse/react-slingshot/master.svg?style=flat-square)](https://coveralls.io/github/coryhouse/react-slingshot?branch=master)
+The Boilerplate this is built on top of it React Slingshot which can be found at github.com/coryhouse/react-slingshot
 
-React Slingshot is a comprehensive starter kit for rapid application development using React. 
 
-Why Slingshot?
+## Projects & pages breakdown
 
-1. **One command to get started** - Type `npm start` to start development in your default browser.
-2. **Rapid feedback** - Each time you hit save, changes hot reload and linting and automated tests run.
-3. **One command line to check** - All feedback is displayed on a single command line.
-4. **No more JavaScript fatigue** - Slingshot uses the most popular and powerful libraries for working with React.
-5. **Working example app** - The included example app shows how this all works together.
-6. **Automated production build** - Type `npm run build` to do all this:
 
-[![React Slingshot Production Build](https://img.youtube.com/vi/qlfDLsX-J0U/0.jpg)](https://www.youtube.com/watch?v=qlfDLsX-J0U)
+&nbsp;**Homepage**
 
-## Get Started
-1. **Initial Machine Setup**. First time running the starter kit? Then complete the [Initial Machine Setup](https://github.com/coryhouse/react-slingshot#initial-machine-setup).
-2. **Clone the project**. `git clone https://github.com/coryhouse/react-slingshot.git`.
-3. **Run the setup script**. `npm run setup`
-4. **Run the example app**. `npm start -s`
-This will run the automated build process, start up a webserver, and open the application in your default browser. When doing development with this kit, this command will continue watching all your files. Every time you hit save the code is rebuilt, linting runs, and tests run automatically. Note: The -s flag is optional. It enables silent mode which suppresses unnecessary messages during the build.
-5. **Review the example app.** This starter kit includes a working example app that calculates fuel savings. Note how all source code is placed under /src. Tests are placed alongside the file under test. The final built app is placed under /dist. These are the files you run in production.
-6. **Delete the example app files.** Once you're comfortable with how the example app works, you can [delete those files and begin creating your own app](https://github.com/coryhouse/react-slingshot/blob/master/docs/FAQ.md#i-just-want-an-empty-starter-kit). 
-7. **Having issues?** See "Having Issues?" below.
+&nbsp;&nbsp;&nbsp;Built from multiple React components and a single data file. The data is inserted via props to 
+populate the components with text and links.
 
-## Initial Machine Setup
-1. **Install [Node 4.0.0 or greater](https://nodejs.org)** - (5.0 or greater is recommended for optimal build performance). Need to run multiple versions of Node? Use [nvm](https://github.com/creationix/nvm).
-2. **Install [Git](https://git-scm.com/downloads)**. 
-3. **[Disable safe write in your editor](http://webpack.github.io/docs/webpack-dev-server.html#working-with-editors-ides-supporting-safe-write)** to assure hot reloading works properly.
-4. On a Mac? You're all set. If you're on Linux or Windows, complete the steps for your OS below.  
- 
-**On Linux:**  
 
- * Run this to [increase the limit](http://stackoverflow.com/questions/16748737/grunt-watch-error-waiting-fatal-error-watch-enospc) on the number of files Linux will watch. [Here's why](https://github.com/coryhouse/react-slingshot/issues/6).    
-`echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p` 
+&nbsp;**Runescape tool**
 
-**On Windows:** 
- 
-* **Install [Python 2.7](https://www.python.org/downloads/)**. Some node modules may rely on node-gyp, which requires Python on Windows.
-* **Install C++ Compiler**. Browser-sync requires a C++ compiler on Windows. [Visual Studio Express](https://www.visualstudio.com/en-US/products/visual-studio-express-vs) comes bundled with a free C++ compiler. Or, if you already have Visual Studio installed: Open Visual Studio and go to File -> New -> Project -> Visual C++ -> Install Visual C++ Tools for Windows Desktop. The C++ compiler is used to compile browser-sync (and perhaps other Node modules).
+&nbsp;&nbsp;&nbsp;A tool for gear recommendations for the MMORPG Runescape. Suggestions are calculated by going through 
+JSON data of all equippable items and scoring them by adding all relevant stat values together into one integer. Once 
+all scores are calculated, they are sorted and the top 1, 2, or 4 items are displayed (determined by screen width). 
+All item images were downloaded by querying the Runescape Grand Exchange API and grabbing the link found in the 
+item.icon key. The JSON data was found on an old forum that I can't seem to find anymore.
 
-## Having Issues? Try these things first.
-1. Make sure you ran all steps in [Get started](https://github.com/coryhouse/react-slingshot/blob/master/README.md#get-started) including the [initial machine setup](https://github.com/coryhouse/react-slingshot#initial-machine-setup).
-2. Run `npm install` - If you forget to do this, you'll see this: `babel-node: command not found`.
-3. Install the latest version of Node. Or install [Node 5.12.0](https://nodejs.org/download/release/v5.12.0/) if you're having issues on Windows. Node 6 has issues on some Windows machines.
-4. Make sure files with names that begin with a dot (.babelrc, .editorconfig, .eslintrc) are copied to the project directory root. This is easy to overlook if you copy this repository manually.
-5. Don't run the project from a symbolic link. It may cause issues with file watches.
-6. Delete any .eslintrc that you're storing in your user directory. Also, disable any ESLint plugin / custom rules that you've enabled within your editor. These will conflict with the ESLint rules defined in this project.
-7. Make sure you don't have NODE_ENV set to production on your machine. If you do then the [development dependencies won't be installed](https://github.com/coryhouse/react-slingshot/issues/400#issuecomment-290497767). Here's [how to check](http://stackoverflow.com/a/27939821/26180). 
+API: http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json?item=INSERT_ITEM_ID_HERE
+
+
+&nbsp;**Todos**
+
+&nbsp;&nbsp;&nbsp;The todos app is a basic todo list maker that supports incomplete and completed states, filtration by 
+state, and a delete action. The code is mostly taken from the Redux documentation, with my personal additon of the 
+delete function.
+
+
+&nbsp;**Calculator**
+
+&nbsp;&nbsp;&nbsp;The calculator is pretty straight forward, the only unconventional aspect is the double functionality 
+of the '-' key which functions both as the subtraction operator as well as the negation operator.
+
+
 
 ## Technologies
-Slingshot offers a rich development experience using the following technologies:
 
 | **Tech** | **Description** |**Learn More**|
 |----------|-------|---|
@@ -71,7 +54,3 @@ Slingshot offers a rich development experience using the following technologies:
 | [PostCSS](https://github.com/postcss/postcss) | Transform styles with JS plugins. Used to autoprefix CSS |
 | [Editor Config](http://editorconfig.org) | Enforce consistent editor settings (spaces vs tabs, etc). | [IDE Plugins](http://editorconfig.org/#download) |
 | [npm Scripts](https://docs.npmjs.com/misc/scripts)| Glues all this together in a handy automated build. | [Pluralsight course](https://www.pluralsight.com/courses/npm-build-tool-introduction), [Why not Gulp?](https://medium.com/@housecor/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8#.vtaziro8n)  |
-
-The starter kit includes a working example app that puts all of the above to use.
-## Questions?
-Check out the [FAQ](/docs/FAQ.md)
