@@ -13,7 +13,7 @@ class ProfessionalSection extends Component {
       return(
         <div className="resume-about-me-parent">
           <div className="resume-title-bar resume-about-me-title-box">
-            About This Page:
+            About This Site:
           </div>
           <div className="resume-about-me">
             {data.dataBox.aboutMe}
@@ -73,7 +73,7 @@ class ProfessionalSection extends Component {
         </div>
         <div className="resume-skills-highest-parent">
           <div className="resume-title-bar resume-skills-title-box">
-            Skills:
+            Languages, Frameworks, & Skills:
           </div>
           <Skills data={data} />
         </div>

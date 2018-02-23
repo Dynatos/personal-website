@@ -1,6 +1,6 @@
 // This is a complex module so I will have a full explanation of its functionality here:
-// SlotTitles is how the different equipment details boxes are differentiated, it is used in the followup function
-// called getTopItemsForSlots. That function is called in the render function as it's value is maintained by topItemsObject
+// the slotTitles are how the equipment details boxes are differentiated, they are used in the function
+// getTopItemsForSlots. That function is called in the render function as it's value is maintained by topItemsObject
 // whose value is handed down as a prop into EquipmentDetails and FinalStats, the reason for this is explained in the
 // respective modules. The value of topItemsForSlots is an object with 10 keys (each a slotTitles string) and the value
 // of each key is 4 objects indexed 0-3. These objects contain all the info for each piece of gear, including name, id,

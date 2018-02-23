@@ -19,7 +19,7 @@ class NavBarElement extends Component {
 // would link to /runescape where you could find the Runescape gear suggesting app)
   renderNavBarElements(navElement) {
     let currentNavDataToMap = navBarData[navElement];
-    const indexOptions = currentNavDataToMap.linkTo === '/' ? {onlyActiveOnIndex: true} : {};
+    const indexOptions = currentNavDataToMap.linkTo === '/' ? {onlyActiveOnIndex: true} : {}; // onlyActiveOnIndex makes the '/' route not always appear active in a Single Page App
     const runescapeBackgroundColor = currentNavDataToMap.linkTo === 'runescape' ?
       {activeClassName: 'navbar-runescape-color'} : {};
     

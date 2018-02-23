@@ -3,14 +3,14 @@ import FilterLink from '../../containers/FilterLink';
 
 const Footer = () => (
   <p className="todo-app-footer">
-    Show:
+    Filter:
     {' '}
     <FilterLink filter="SHOW_ALL">
       All
     </FilterLink>
     {', '}
     <FilterLink filter="SHOW_ACTIVE">
-      Active
+      Incomplete
     </FilterLink>
     {', '}
     <FilterLink filter="SHOW_COMPLETED">

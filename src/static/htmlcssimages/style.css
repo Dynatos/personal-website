@@ -514,7 +514,7 @@ body {
 .navbar-element {
   min-width: 15%;
   max-width: 35%;
-  background-color: #555;
+  background-color: #555; /* double properties are purposeful to accommodate browsers and prevent bugs */
   background-image: url('./images/bgcolorPound555.png');
   color: white;
   padding: 0 3px;
@@ -526,7 +526,7 @@ body {
 .navbar-element:hover {
   background: #000;
   color: white;
-  transition: all 0.8s ease;
+  /*transition: all 0.15s ease;*/
 }
 
 .navbar-runescape-color:hover {
@@ -542,13 +542,13 @@ body {
 }
 
 .navbar-element-active {
-  background-image: none;
+  background-image: none; /* double properties are purposeful to accommodate browsers and prevent bugs */
   background-color: white;
   color: black;
 }
 
 .navbar-runescape-color {
-  background-color: none;
+  background-color: none; /* double properties are purposeful to accommodate browsers and prevent bugs */
   background-image: url('./images/bgcolor.png');
   color: black;
   border: 1px solid white;
@@ -583,6 +583,10 @@ body {
 
 .resume-picture {
   border-radius: 50%;
+}
+
+.resume-social-media-parent {
+  margin-top: 10px;
 }
 
 .resume-social-media-buttons {
@@ -636,7 +640,11 @@ body {
 }
 
 .resume-about-me-parent {
-  min-height:150px;
+  min-height:120px;
+}
+
+.resume-about-me {
+  padding: 0 10px;
 }
 
 .resume-jobs-parent {

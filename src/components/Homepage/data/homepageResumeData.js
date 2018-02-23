@@ -19,12 +19,17 @@ export const resumeData = {
   },
 
   dataBox: {
-    aboutMe: `I am an aspiring web developer using this site as my portfolio and central hub for projects.
-    This site is written using React and all of the components on this page pull their data from a single data file.
-    Each component can be edited by simply updating that data file, and any section can be duplicated with a single
-    component call. This method of design makes for reusable code and keeps this page easy to maintain and update.
-    The rest of this site consists of various projects that I built to practice and demonstrate what I have learned.`,
+    aboutMe: `This is where I showcase projects that I've created.
+    Everything here is written in React and the components on this page utilize props to pull their content from a
+    single data file. Any section can be edited simply by updating that data file.
+    This site is built with Docker, served via Nginx, and hosted by DigitalOcean.`,
     experience: [
+      {
+        company: "North Shore Geeks",
+        position: "Computer Repair Technician",
+        startDate: "2010",
+        endDate: "2013"
+      },
       {
         company: "Kauai Nut Roasters",
         position: "Nut Bagger > Roaster > Head Roaster & Kitchen Manager > Owner",
@@ -44,6 +49,6 @@ export const resumeData = {
       //   endDate: "test"
       // }
     ],
-    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Git", "ES2016+", "Node/NPM"]
+    skills: ["HTML", "CSS", "JavaScript (ES6+)", "React", "Redux", "Git", "Node", "Docker"]
   }
 };
