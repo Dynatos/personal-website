@@ -225,6 +225,11 @@
   src: url(./font/runescape_uf.otf);
 }
 
+@font-face {
+  font-family: PoE Fontin;
+  src: url(./font/Fontin-SmallCaps.ttf);
+}
+
 * {
   box-sizing: border-box;
   text-align: center;
@@ -840,3 +845,27 @@ body {
   list-style: none;
   font-size: 18px;
 }
+
+.poe-how-to-highest-parent {
+  font-family: "PoE Fontin", sans-serif;
+
+}
+
+.poe-input-output-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "PoE Fontin", sans-serif;
+}
+
+.poe-form-parent {
+  font-family: "PoE Fontin", sans-serif;
+
+}
+
+.poe-form-input {
+  height: 300px;
+  min-width: 180px;
+  font-family: "PoE Fontin", sans-serif;
+}
+

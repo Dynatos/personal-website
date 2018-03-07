@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router';
-import navBarData, {navElements} from './NavBarData';
+import navBarData, { navElements } from './NavBarData';
 
 // NavBarElement is the component that will map all our nav data to Link elements
 class NavBarElement extends Component {

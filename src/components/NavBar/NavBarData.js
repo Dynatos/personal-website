@@ -1,5 +1,8 @@
 // Any links added must be added to both the navElements array and the navBarData object, otherwise they will not work
-export const navElements = ["homepage", /*"secondary",*/ "runescape", "todo", "calculator"/*, "articles"*/];
+
+export const navElements = ["homepage",  "runescape", "todo", "calculator", 'pathofexile',
+  /* "secondary", "articles" */
+]; // String names in navElements must match navBarData key names in order to get mapped onto the navbar
 
 const navBarData = {
 
@@ -12,7 +15,7 @@ const navBarData = {
   // Sends you to the runescape gear suggester
   runescape: {
     linkTo: "runescape",
-    description: "RS Tool"
+    description: "RS Gear"
   },
 
   // Sends you to the todo app
@@ -25,6 +28,12 @@ const navBarData = {
   calculator: {
     linkTo: "calculator",
     description: "Calculator"
+  },
+  
+  // Sends you to the PoE DPS tool
+  pathofexile: {
+    linkTo: "poe_dps",
+    description: "PoE DPS"
   },
   
   // Sends you to the article's page

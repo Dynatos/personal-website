@@ -9,14 +9,14 @@
 // We also handle the toggling click of each checkbox in here. We set a state for each checkbox on click and the value
 // is either set to true or false, depending on the current state (state is set to opposite of current state)
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import DesiredStats from './DesiredStats';
 import EquipmentDetails from './EquipmentDetails';
 import FinalStats from './FinalStats';
 require('../../static/htmlcssimages/style.css');
 import NavBar from '../NavBar/NavBar';
 import getDesiredStatsFromState from '../../../scripts/sorterWithLessSpaghetti';
-import {getBackground, removeBackground} from '../../../scripts/backgroundColor';
+import { getBackground, removeBackground } from '../../../scripts/backgroundColor';
 
 // These are the "type" associated with each equip slot in the JSON file
 export const slotTitles = ["head", "cape", "neck", "weapon", "body", "shield", "legs", "hands", "feet", "ring"];
