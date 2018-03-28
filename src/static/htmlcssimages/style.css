@@ -255,6 +255,10 @@ body {
   height: auto;
 }
 
+/***********************************************************************************************************************/
+/*All runescape classes start here, my early naming convention hadn't accounted for future projects using the same file*/
+/***********************************************************************************************************************/
+
 .navbar-parent, .resume-picture, .all-stat-icon, .equipment--slot-text, .equipment--image-containers {
   user-select: none;
 }
@@ -476,6 +480,10 @@ body {
   position: relative;
   top: 2px;
 }
+
+/*********************************************************************************************************************/
+/*All runescape classes end here, my early naming convention hadn't accounted for future projects using the same file*/
+/*********************************************************************************************************************/
 
 .visible-todo {
   min-width: 240px;

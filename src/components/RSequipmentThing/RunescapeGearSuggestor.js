@@ -29,7 +29,7 @@ export const slotTitles = ["head", "cape", "neck", "weapon", "body", "shield", "
 function getTopItemsForSlots(sortedItems, numberToSlice) {
   // TopItemsForSlots gets filled with keys equal to slotTitles and the values of each key are the top 4 items filtered
   let topItemsForSlots = {};
-  for (let i=0; i<slotTitles.length; i++) {
+  for (let i = 0; i < slotTitles.length; i++) {
     let slotTitle = slotTitles[i];
     let topItemsForSlot = sortedItems.filter((item) => item.type === slotTitle).slice(0, numberToSlice);
     topItemsForSlots[slotTitle] = topItemsForSlot;
@@ -58,11 +58,12 @@ class RunescapeStatTool extends Component {
   render() {
     // This const is equal to the state object of the runescape app, which we hand down to several other components so
     // that our app can use current state to render up to date images/data
-    const {statNameToggleValues} = this.props;
+    const { statNameToggleValues } = this.props;
 
     // This variable's value is equal to an array, in order, of each item listed from best to work based on the current
     // desired stats (current checked checkboxes)
     let sortedItems = getDesiredStatsFromState(statNameToggleValues);
+    
     function sliceTopItems(numberToSlice) {
       return getTopItemsForSlots(sortedItems, numberToSlice);
     }

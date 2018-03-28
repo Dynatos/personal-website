@@ -9,6 +9,7 @@ import ArticleHome from './components/Articles/ArticleHome';
 import SecondaryPage from './components/Homepage/SecondaryPage';
 import PathOfExileDPSContainer from './components/PathOfExileDPS/PathOfExileDPSContainer';
 import NotFoundPage from './components/NotFoundPage';
+import CameronWrapper from './components/Cameron/CameronWrapper';
 
 export default (
   <Route path="/" component={App}>
@@ -19,6 +20,7 @@ export default (
     <Route path="articles" component={ArticleHome} />
     <Route path="secondary_home" component={SecondaryPage} />
     <Route path="poe_dps" component={PathOfExileDPSContainer} />
+    <Route path="cameron" component={CameronWrapper} />
     <Route path="*" component={NotFoundPage} />
   </Route>
 );

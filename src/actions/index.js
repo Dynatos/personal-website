@@ -73,3 +73,10 @@ export const addPeriod = () => {
     type: pushPeriod
   };
 };
+
+export const calculateDPS = itemData => {
+  return {
+    type: calculateDPS,
+    itemData
+  };
+};

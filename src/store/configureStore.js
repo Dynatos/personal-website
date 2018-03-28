@@ -11,7 +11,7 @@ function configureStoreProd(initialState) {
     // thunk middleware can also accept an extra argument to be passed to each thunk action
     // https://github.com/gaearon/redux-thunk#injecting-a-custom-argument
     thunk,
-    logger
+    //logger /*We don't want logger in production site*/
   ];
 
   return createStore(rootReducer, initialState, compose(
