@@ -53,6 +53,9 @@
   }
 }
 
+/* Values in parenthesis must evaluate to true to be enabled. EG: (min-width: 320px) means screen must be 320px or more.
+Queries must be included sequentially to overwrite values placed for smaller screens. Whichever query evaluates true last
+will be the final values used. Values specified below the queries will overwrite the values specified in the queries. */
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
@@ -110,7 +113,6 @@
   }
 }
 
-
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
   .equipment--big-box {
@@ -130,7 +132,6 @@
     display: table-cell!important;
   }
 }
-
 
 @media only screen and (min-width: 600px) {
   .resume-skills-parent {
@@ -198,7 +199,6 @@
   }
 
 }
-
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {

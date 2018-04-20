@@ -1,3 +1,42 @@
+:root {
+  /* Define custom colors as variables, reference with 'var(--COLOR-NAME)' */
+  --main-red: #D73500; /* Red from shirt on patch */
+  --main-black: #080403; /* Black of pants on patch */
+  --patch-border-red: #941100; /* Red outline on patch */
+  --patch-border-black: #060606; /* Black outline on patch */
+  --text-black: #111111; /* Text should never be true black (#000000) */
+  --border-black: #181818; /* Borders should be lighter than text black */
+}
+
+/* Values in parenthesis must evaluate to true to be enabled. EG: (min-width: 320px) means screen must be 320px or more.
+Queries must be included sequentially to overwrite values placed for smaller screens. Whichever query evaluates true last
+will be the final values used. Values specified below the queries will overwrite the values specified in the queries. */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
+
 * {
   box-sizing: border-box; /* Makes elements include border,padding, and margin in width calculations */
   text-align: center; /* Personal preference of text centered by default, override with more specific selector */
@@ -12,16 +51,7 @@ body {
   height: 100%;
   margin: 30px 1% 0 1%; /* Top right bottom left */
   overflow: auto; /* Possibly redundant */
-}
-
-:root {
-/* Define custom colors as variables, reference with 'var(--COLOR-NAME)' */
-  --main-red: #D73500; /* Red from shirt on patch */
-  --main-black: #080403; /* Black of pants on patch */
-  --patch-border-red: #941100; /* Red outline on patch */
-  --patch-border-black: #060606; /* Black outline on patch */
-  --text-black: #111111; /* Text should never be true black (#000000) */
-  --border-black: #181818; /* Borders should be lighter than text black */
+  background-color: var(--patch-border-red);
 }
 
 /* Removes scrollbar, commented out unless requested */
@@ -30,16 +60,47 @@ body {
 /*background-color: transparent;*/
 /*}*/
 
-/* Possibly unnecessary TODO: either remove or uncomment */
+/* Possibly useful TODO: either remove or uncomment */
 /*#app {*/
   /*height: auto;*/
 /*}*/
 
-.test1 {
-  height: 100px;
-  width: 100px;
-  margin: 10px;
-  border: 10px solid var(--main-red);
-  outline: 10px solid var(--border-black);
+.about-highest-parent, .schedule-highest-parent, .prices-highest-parent, .contact-highest-parent {
+  border: 10px solid var(--patch-border-black);
 }
 
+.about-highest-parent {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  background-color: white;
+  margin: 20px auto 0; /* top left/right bottom */
+  color: var(--text-black);
+}
+
+.schedule-highest-parent {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  background-color: white;
+  margin: 20px auto 0; /* top left/right bottom */
+  color: var(--text-black);
+}
+
+.prices-highest-parent {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  background-color: white;
+  margin: 20px auto 0; /* top left/right bottom */
+  color: var(--text-black);
+}
+
+.contact-highest-parent {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  background-color: white;
+  margin: 20px auto 0; /* top left/right bottom */
+  color: var(--text-black);
+}

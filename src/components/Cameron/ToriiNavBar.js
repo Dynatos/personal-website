@@ -7,7 +7,7 @@ export default class ToriiNavBar extends Component {
     
     return (
       <div>
-      
+        I am nav
       </div>
     );
     

@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
-import NavBar from '../NavBar/NavBar';
-import './style.css';
+//import NavBar from '../NavBar/NavBar'; //TODO: remove
+import './style.css'; //TODO: remove
+// import ToriiNavBar from "./ToriiNavBar";
+import About from './About';
+import Schedule from "./Schedule";
+import Prices from "./Prices";
+import Contact from "./Contact";
+import { aboutData, scheduleData, priceData, contactData } from './CameronData';
 
 export default class CameronWrapper extends Component {
   
@@ -8,10 +14,11 @@ export default class CameronWrapper extends Component {
     
     return (
       <div>
-        <NavBar />
-        <div className="test1">
-          asd
-        </div>
+        {/*<ToriiNavBar />*/}
+        <About aboutData={aboutData}/>
+        <Schedule scheduleData={scheduleData}/>
+        <Prices priceData={priceData}/>
+        <Contact contactData={contactData}/>
       </div>
     );
     
