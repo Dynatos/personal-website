@@ -20,7 +20,7 @@ const constants = {
   resetButton: 'RESET',
   pushPeriod: 'PUSH_PERIOD',
   numberInput: 'NUMBER_INPUT',
-  calculatePoeDPS: 'CALCULATE_DPS'
+  calculatePoeDPS: 'CALCULATE_POE_DPS'
 };
 
 export default constants;
