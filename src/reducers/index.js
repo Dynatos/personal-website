@@ -4,6 +4,7 @@ import todos from './todos';
 import visibilityFilter from './visibilityFilter';
 import toggleStat from './toggleStat';
 import calculatorReducer from './calculateFix';
+import PathOfExile
 
 const rootReducer = combineReducers({
   routing: routerReducer,

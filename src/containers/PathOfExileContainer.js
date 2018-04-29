@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import calculateDPS from '../actions';
+import { calculateDPS } from '../actions';
 import PathOfExileDPSContainer from '../components/PathOfExileDPS/PathOfExileDPSContainer';
 
 const mapStateToProps = state => {
@@ -10,15 +10,15 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    toggleStat: id => {
-      dispatch(toggleStat(id));
+    calculateDPS: id => {
+      dispatch(calculateDPS(id));
     }
   };
 };
 
-const RunescapeGearSuggestorContainer = connect(
+const PathOfExileContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(RunescapeGearSuggestor);
+)(PathOfExileDPSContainer);
 
-export default RunescapeGearSuggestorContainer;
+export default PathOfExileContainer;
