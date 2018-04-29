@@ -15,6 +15,11 @@ export const scheduleData = {
       startTime: "3:30 pm",
       endTime: "4:30 pm",
       ageRestriction: "Kids ages 5-9"
+    },
+    {
+      startTime: "",
+      endTime: "",
+      ageRestriction: "Kids ages 5-9"
     }
   ],
   

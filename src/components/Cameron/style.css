@@ -66,7 +66,7 @@ body {
 /*}*/
 
 .about-highest-parent, .schedule-highest-parent, .prices-highest-parent, .contact-highest-parent {
-  border: 10px solid var(--patch-border-black);
+  border: 1px solid var(--patch-border-black);
 }
 
 .about-highest-parent {
@@ -85,6 +85,8 @@ body {
   background-color: white;
   margin: 20px auto 0; /* top left/right bottom */
   color: var(--text-black);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .prices-highest-parent {
@@ -103,4 +105,25 @@ body {
   background-color: white;
   margin: 20px auto 0; /* top left/right bottom */
   color: var(--text-black);
+}
+
+.schedule-day-column {
+  width: 13%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 2px;
+
+}
+
+.schedule-day-name-row {
+  width: 100%;
+  height: 12%;
+  margin: 0 auto;
+  border-bottom: 2px solid var(--border-black);
+
+}
+
+.test1 {
+ border: 1px solid black;
 }
