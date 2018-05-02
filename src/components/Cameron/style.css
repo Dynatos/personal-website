@@ -108,7 +108,8 @@ body {
 }
 
 .schedule-day-column {
-  width: 13%;
+  max-width: 14.28%;
+  width: auto;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -125,5 +126,5 @@ body {
 }
 
 .test1 {
- border: 1px solid black;
+  border: 1px solid black;
 }

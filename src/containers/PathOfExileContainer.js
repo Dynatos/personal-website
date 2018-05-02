@@ -1,17 +1,19 @@
 import { connect } from 'react-redux';
-import { calculateDPS } from '../actions';
+import { calculatePOEDPS } from '../actions';
 import PathOfExileDPSContainer from '../components/PathOfExileDPS/PathOfExileDPSContainer';
 
 const mapStateToProps = state => {
   return {
-    statNameToggleValues: state.toggleStat
+    physical: state.PathOfExileReducer.physical,
+    elemental: state.PathOfExileReducer.elemental,
+    chaos: state.PathOfExileReducer.chaos
   };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-    calculateDPS: id => {
-      dispatch(calculateDPS(id));
+    calculatePOEDPS: itemData => {
+      dispatch(calculatePOEDPS(itemData));
     }
   };
 };

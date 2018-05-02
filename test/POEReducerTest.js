@@ -19,7 +19,7 @@ Str: 151
 Dex: 82
 Int: 105
 --------
-Sockets: R-B-R 
+Sockets: R-B-R
 --------
 Item Level: 76
 --------
@@ -49,7 +49,7 @@ Str: 151
 Dex: 82
 Int: 105
 --------
-Sockets: R-B-R 
+Sockets: R-B-R
 --------
 Item Level: 76
 --------
@@ -63,7 +63,7 @@ Adds 14 to 19 Physical Damage
 
 tape('assert that damage stats were obtained', function(t) {
   const testDamageData = getDamageData(testDataWithSingleElementalDamageProperty);
-  const calculateDPSData = calculateDPS(testDataWithSingleElementalDamageProperty);
+  const calculateDPSData = calculateDPS(null, null, testDataWithSingleElementalDamageProperty);
   t.equal(testDamageData.physicalDamage[0], '141', 'get damage data returns min physical damage');
   t.equal(testDamageData.physicalDamage[1], '241', 'get damage data returns max physical damage');
   t.equal(testDamageData.elementalDamage[0], '4', 'get damage data returns first min elemental damage');
@@ -82,7 +82,7 @@ tape('assert that damage stats were obtained', function(t) {
 
 tape('assert that all elemental damage stats were obtained', function(t) {
   const testDamageData = getDamageData(testDataWithMultipleElementalDamageProperties);
-  const calculateDPSData = calculateDPS(testDataWithMultipleElementalDamageProperties);
+  const calculateDPSData = calculateDPS(null, null, testDataWithMultipleElementalDamageProperties);
   t.equal(testDamageData.physicalDamage[0], '141', 'get damage data returns min physical damage');
   t.equal(testDamageData.physicalDamage[1], '241', 'get damage data returns max physical damage');
   t.equal(testDamageData.elementalDamage[0], '4', 'get damage data returns first min elemental damage');

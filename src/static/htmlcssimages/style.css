@@ -51,6 +51,10 @@
   .nav-element-holder {
     height: 36px;
   }
+
+  .poe-form-input, .poe-form-parent {
+    margin: 0 auto;
+  }
 }
 
 /* Values in parenthesis must evaluate to true to be enabled. EG: (min-width: 320px) means screen must be 320px or more.
@@ -111,6 +115,10 @@ will be the final values used. Values specified below the queries will overwrite
   .nav-element-holder {
     height: 36px;
   }
+
+  .poe-form-input, .poe-form-parent {
+    margin: 0 auto;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -140,6 +148,10 @@ will be the final values used. Values specified below the queries will overwrite
 
   .resume-job-experience-title-box, .resume-about-me-title-box {
     width: auto;
+  }
+
+  .poe-form-input, .poe-form-parent {
+    margin: 10px 10px 0;
   }
 }
 
@@ -872,8 +884,13 @@ body {
 }
 
 .poe-form-input {
-  height: 300px;
+  height: auto;
+  min-height: 360px;
   min-width: 180px;
   font-family: "PoE Fontin", sans-serif;
+}
+
+.test1 {
+  width: 100px;
 }
 

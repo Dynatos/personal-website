@@ -4,9 +4,27 @@ export default class LargeTextInputForm extends Component {
   
   render() {
     
+    const that = this;
+    
     return (
       <form className="poe-form-parent">
-        <input className="poe-form-input" type="text" placeholder="Paste Item Data Here" onSubmit={function(){alert('dps');}}/>
+        <textarea id="poe_item_data" className="poe-form-input" type="text" placeholder="Paste Item Data Here"
+                  onBlur={function pathOfExileDPSCalculateFormBlurCallback(){
+                    console.log('props for form: ', that.props);
+                    const itemData = document.querySelector('#poe_item_data').value;
+                    if (itemData) {
+                      that.props.calculatePOEDPS(itemData);
+                    }
+                  }}
+                  onSubmit={function pathOfExileDPSCalculateFormSubmitCallback(){
+                    const itemData = document.querySelector('#poe_item_data').value;
+                    if (itemData) {
+                      that.props.calculatePOEDPS(itemData);
+                    }
+                  }}
+        >
+        </textarea>
+        <input type="submit" />
       </form>
     );
     
