@@ -1,3 +1,7 @@
+:root {
+  --poe-font: "PoE Fontin";
+}
+
 /* Below 320px */
 @media only screen and (max-width: 320px) {
   .equipment--big-box {
@@ -50,10 +54,6 @@
 
   .nav-element-holder {
     height: 36px;
-  }
-
-  .poe-form-input, .poe-form-parent {
-    margin: 0 auto;
   }
 }
 
@@ -115,10 +115,6 @@ will be the final values used. Values specified below the queries will overwrite
   .nav-element-holder {
     height: 36px;
   }
-
-  .poe-form-input, .poe-form-parent {
-    margin: 0 auto;
-  }
 }
 
 /* Extra Small Devices, Phones */
@@ -148,10 +144,6 @@ will be the final values used. Values specified below the queries will overwrite
 
   .resume-job-experience-title-box, .resume-about-me-title-box {
     width: auto;
-  }
-
-  .poe-form-input, .poe-form-parent {
-    margin: 10px 10px 0;
   }
 }
 
@@ -867,30 +859,36 @@ body {
 }
 
 .poe-how-to-highest-parent {
-  font-family: "PoE Fontin", sans-serif;
-
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
 }
 
 .poe-input-output-parent {
+  max-width: 500px;
+  margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-family: "PoE Fontin", sans-serif;
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
 }
 
 .poe-form-parent {
-  font-family: "PoE Fontin", sans-serif;
-
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
 }
 
 .poe-form-input {
   height: auto;
-  min-height: 360px;
-  min-width: 180px;
-  font-family: "PoE Fontin", sans-serif;
+  min-height: 600px;
+  min-width: 300px;
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
 }
 
-.test1 {
-  width: 100px;
+.poe-form-parent {
+  margin: 10px auto;
+}
+
+.poe-item-display-parent {
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
 }
 

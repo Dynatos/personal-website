@@ -24,7 +24,6 @@ export default class LargeTextInputForm extends Component {
                   }}
         >
         </textarea>
-        <input type="submit" />
       </form>
     );
     

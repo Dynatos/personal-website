@@ -34,17 +34,19 @@ export default class ItemDPSDisplay extends Component {
     
     return (
       <div>
-        <div className="poe-item-display poe-item-display-physical">
-          Physical DPS: {physical}
-        </div>
-        <div className="poe-item-display poe-item-display-elemental">
-          Elemental DPS: {getAllElementalDPSInOneString(elemental)}
-        </div>
-        <div className="poe-item-display poe-item-display-chaos">
-          Chaos DPS: {chaos}
-        </div>
-        <div className="poe-item-display poe-item-display-total">
-          Total DPS: {getTotalDPS(arrayOfDPSNumbers)}
+        <div className="poe-item-display-parent">
+          <div className="poe-item-display poe-item-display-physical">
+            Physical DPS: {physical}
+          </div>
+          <div className="poe-item-display poe-item-display-elemental">
+            Elemental DPS: {getAllElementalDPSInOneString(elemental)}
+          </div>
+          <div className="poe-item-display poe-item-display-chaos">
+            Chaos DPS: {chaos}
+          </div>
+          <div className="poe-item-display poe-item-display-total">
+            Total DPS: {getTotalDPS(arrayOfDPSNumbers)}
+          </div>
         </div>
       </div>
     );
