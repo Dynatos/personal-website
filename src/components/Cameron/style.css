@@ -1,3 +1,8 @@
+/*
+Media queries are located at the bottom to overwrite defaults
+(defaults in place for older browsers that don't support css grid)
+*/
+
 :root {
   /* Define custom colors as variables, reference with 'var(--COLOR-NAME)' */
   --main-red: #D73500; /* Red from shirt on patch */
@@ -6,35 +11,6 @@
   --patch-border-black: #060606; /* Black outline on patch */
   --text-black: #111111; /* Text should never be true black (#000000) */
   --border-black: #181818; /* Borders should be lighter than text black */
-}
-
-/* Values in parenthesis must evaluate to true to be enabled. EG: (min-width: 320px) means screen must be 320px or more.
-Queries must be included sequentially to overwrite values placed for smaller screens. Whichever query evaluates true last
-will be the final values used. Values specified below the queries will overwrite the values specified in the queries. */
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-
 }
 
 * {
@@ -89,6 +65,39 @@ body {
   flex-wrap: wrap;
 }
 
+.test1 {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+}
+
+.schedule-day-column-with-classes {
+  width: 14.28%;
+  margin: 0 auto;
+  border: 1px solid var(--border-black);
+  border-top: none;
+  border-bottom: none;
+}
+
+.schedule-day-column-no-classes {
+
+}
+
+.schedule-day-name-row {
+  width: 100%;
+  height: 17%;
+  margin: 0 auto;
+  border-bottom: 2px solid var(--border-black);
+}
+
+.schedule-day-name-row:first-child {
+  border-left: none;
+}
+
+.schedule-day-name-row:last-child {
+  border-right: none;
+}
+
 .prices-highest-parent {
   width: 100%;
   max-width: 1000px;
@@ -107,24 +116,34 @@ body {
   color: var(--text-black);
 }
 
-.schedule-day-column {
-  max-width: 14.28%;
-  width: auto;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 2px;
+/* Values in parenthesis must evaluate to true to be enabled. EG: (min-width: 320px) means screen must be 320px or more.
+Queries must be included sequentially to overwrite values placed for smaller screens. Whichever query evaluates true last
+will be the final values used. Values specified below the queries will overwrite the values specified in the queries. */
+
+/* Support for extremely small devices and slim windows */
+@media only screen and (min-width: 1px) {
+  /*.schedule-highest-parent {*/
+    /*display: inline-grid;*/
+    /*grid-template-columns: repeat(7, 1fr);*/
+  /*}*/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
 
 }
 
-.schedule-day-name-row {
-  width: 100%;
-  height: 17%;
-  margin: 0 auto;
-  border-bottom: 2px solid var(--border-black);
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
 
 }
 
-.test1 {
-  border: 1px solid black;
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
 }

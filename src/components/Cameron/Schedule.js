@@ -15,7 +15,8 @@ function renderClassesForRenderSchedule(arrayOfCurrentDaysClassObjects, currentD
         return;
       }
       return (
-        <div className={"schedule-class schedule-" + currentDay + '-class'} key={"schedule-element-class-" + currentDay + '-' + i}>
+        <div className={"schedule-class schedule-" + currentDay + '-class'}
+             key={"schedule-element-class-" + currentDay + '-' + i}>
           <div className="schedule-class-time">
             {startTime} - {endTime}
           </div>
@@ -31,6 +32,9 @@ function renderClassesForRenderSchedule(arrayOfCurrentDaysClassObjects, currentD
 export default class Schedule extends Component {
   
   renderSchedule(scheduleData, that) {
+  
+    console.log('schedule data keys: ', Object.keys(scheduleData));
+    
     if (scheduleData) {
       return scheduleData.orderOfWeekDays.map(this.renderScheduleMapCallback, that);
     }
@@ -41,10 +45,12 @@ export default class Schedule extends Component {
   // that is happening that day
   renderScheduleMapCallback(currentDay, i) {
     
+    const classData = renderClassesForRenderSchedule(this.props.scheduleData[currentDay], currentDay);
+    
     return (
-      <div className={"schedule-day-column schedule-" + currentDay} key={"schedule-element-" + i}>
+      <div className={"schedule-day-column-with-classes schedule-" + currentDay} key={"schedule-element-" + i}>
         <div className={"schedule-day-name-row"}>{capitalizeFirstLetter(currentDay)}</div>
-        {renderClassesForRenderSchedule(this.props.scheduleData[currentDay], currentDay)}
+        {classData}
       </div>
     );
   }
