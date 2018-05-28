@@ -6,6 +6,7 @@ import About from './About';
 import Schedule from "./Schedule";
 import Prices from "./Prices";
 import Contact from "./Contact";
+import GoogleSlideshow from "./GoogleSlideshow";
 import { aboutData, scheduleData, priceData, contactData } from './CameronData';
 
 export default class CameronWrapper extends Component {
@@ -16,6 +17,7 @@ export default class CameronWrapper extends Component {
       <div>
         {/*<ToriiNavBar />*/}
         <About aboutData={aboutData}/>
+        <GoogleSlideshow />
         <Schedule scheduleData={scheduleData}/>
         <Prices priceData={priceData}/>
         <Contact contactData={contactData}/>

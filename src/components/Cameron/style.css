@@ -7,6 +7,8 @@ Media queries are located at the bottom to overwrite defaults
   /* Define custom colors as variables, reference with 'var(--COLOR-NAME)' */
   --main-red: #D73500; /* Red from shirt on patch */
   --main-black: #080403; /* Black of pants on patch */
+  --patch-sun-yellow: #FDE756;
+  --patch-sun-orange: #E5731B;
   --patch-border-red: #941100; /* Red outline on patch */
   --patch-border-black: #060606; /* Black outline on patch */
   --text-black: #111111; /* Text should never be true black (#000000) */
@@ -27,7 +29,13 @@ body {
   height: 100%;
   margin: 30px 1% 0 1%; /* Top right bottom left */
   overflow: auto; /* Possibly redundant */
-  background-color: var(--patch-border-red);
+  /*background-color: var(--patch-border-black);*/
+  /*background-image: linear-gradient(to right, var(--patch-border-red), var(--patch-border-black) 50%, var(--patch-border-red) 100%);*/
+  /*background-size: 100% 100%;*/
+  /*background-position: 50% 100%;*/
+  /*background-repeat: no-repeat;*/
+  /*background: radial-gradient(var(--patch-border-black), var(--patch-border-red));*/
+  background: radial-gradient(ellipse at center, grey, white)
 }
 
 /* Removes scrollbar, commented out unless requested */
@@ -42,7 +50,8 @@ body {
 /*}*/
 
 .about-highest-parent, .schedule-highest-parent, .prices-highest-parent, .contact-highest-parent {
-  border: 1px solid var(--patch-border-black);
+  border: 1px solid black;
+  box-shadow: 0 1px 2px 0 grey;
 }
 
 .about-highest-parent {
@@ -52,6 +61,15 @@ body {
   background-color: white;
   margin: 20px auto 0; /* top left/right bottom */
   color: var(--text-black);
+}
+
+.about-google-slideshow {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  min-width: 320px;
+  min-height: 600px;
+  margin: 0 auto;
 }
 
 .schedule-highest-parent {
@@ -98,6 +116,14 @@ body {
   border-right: none;
 }
 
+.schedule-google-calendar {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  min-width: 320px;
+  min-height: 480px;
+}
+
 .prices-highest-parent {
   width: 100%;
   max-width: 1000px;
@@ -112,7 +138,7 @@ body {
   max-width: 1000px;
   height: 100%;
   background-color: white;
-  margin: 20px auto 0; /* top left/right bottom */
+  margin: 20px auto 40px; /* top left/right bottom */
   color: var(--text-black);
 }
 

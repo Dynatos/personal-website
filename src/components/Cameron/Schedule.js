@@ -32,11 +32,9 @@ function renderClassesForRenderSchedule(arrayOfCurrentDaysClassObjects, currentD
 export default class Schedule extends Component {
   
   renderSchedule(scheduleData, that) {
-  
-    console.log('schedule data keys: ', Object.keys(scheduleData));
-    
     if (scheduleData) {
-      return scheduleData.orderOfWeekDays.map(this.renderScheduleMapCallback, that);
+      let orderOfWeekDays = Object.keys(scheduleData);
+      return orderOfWeekDays.map(this.renderScheduleMapCallback, that);
     }
   }
   
@@ -62,7 +60,9 @@ export default class Schedule extends Component {
     return (
       <div>
         <div className="schedule-highest-parent">
-          {this.renderSchedule(this.props.scheduleData, this)}
+            <iframe src="https://calendar.google.com/calendar/embed?src=icuj41nptkgdo03cm3iv4fst9c%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+                    className="schedule-google-calendar" frameborder="0" scrolling="no"/>
+          {/*{this.renderSchedule(this.props.scheduleData, this)}*/}
         </div>
       </div>
     );

@@ -8,7 +8,7 @@ export const aboutData = {
 
 export const scheduleData = {
   
-  orderOfWeekDays: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+  //orderOfWeekDays: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
   
   monday: [
     {
