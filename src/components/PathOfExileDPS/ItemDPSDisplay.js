@@ -25,8 +25,6 @@ const getTotalDPS = function getTotalDPS(arrayOfDPSNumbers) {
   return counter;
 };
 
-const test1 = [];
-
 export default class ItemDPSDisplay extends Component {
 
   render() {
