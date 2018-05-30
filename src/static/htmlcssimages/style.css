@@ -530,7 +530,8 @@ body {
 
 .navbar-element {
   min-width: 15%;
-  max-width: 35%;
+  max-width: 19%;
+  width: 100%;
   background-color: #555; /* double properties are purposeful to accommodate browsers and prevent bugs */
   background-image: url('./images/bgcolorPound555.png');
   color: white;
@@ -644,9 +645,9 @@ body {
 
 .resume-title-bar {
   text-align: left;
-  font-size: 18px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  font-size: 22px;
+  /*border-top: 1px solid black;*/
+  /*border-bottom: 1px solid black;*/
   margin: 5px auto;
 }
 
@@ -657,11 +658,14 @@ body {
 }
 
 .resume-about-me-parent {
-  min-height:120px;
+  min-height: 120px;
+  margin: 30px 0;
 }
 
 .resume-about-me {
-  padding: 0 10px;
+  text-align: justify;
+  line-height: 1.75;
+  padding: 12px 0 24px;
 }
 
 .resume-jobs-parent {
@@ -691,8 +695,10 @@ body {
 }
 
 .resume-job-experience {
-  border: 1px solid black;
-  margin: 5px auto;
+  border: 1px solid #ccc;
+  margin: 12px auto;
+  background: #f2f2f2;
+  padding: 16px 0;
 }
 
 .resume-job-dates-parent {

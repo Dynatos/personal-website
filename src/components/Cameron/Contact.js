@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import './style.css'; //TODO: delete
 
 export default class Contact extends Component {
-  
+
   render() {
-    
+
     const { contactData } = this.props;
-    
+
     return (
-      <div>
+      <div id="about">
         <div className="contact-highest-parent">
           <div className="contact-name">
             {contactData.contactName}
@@ -25,6 +25,6 @@ export default class Contact extends Component {
         </div>
       </div>
     );
-    
+
   }
 }

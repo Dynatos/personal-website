@@ -13,16 +13,15 @@ export const resumeData = {
       "http://login.create.net/images/icons/user/facebook_30x30.png",
       "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png",
       "https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-256.png"
-    ],
-    description: "This page is written in React and generated from a JavaScript object containing data, all sections " +
-    "are easily extensible and/or updated in seconds."
+    ]
   },
 
   dataBox: {
-    aboutMe: `This is where I showcase projects that I've created.
-    Everything here is written in React and the components on this page utilize props to pull their content from a
-    single data file. Any section can be edited simply by updating that data file.
-    This site is built with Docker, served via Nginx, and hosted by DigitalOcean.`,
+    aboutMe: `Welcome to my project showcasing website! I'm an aspiring web developer, & this is 
+    where I host some of the projects that I've created over the course of learning web development. 
+    I specialise in Javascript & React, which are what primarily make up this site's source code. It's 
+    built with Node & Docker, & served via Nginx. The source code can be found on my GitHub in the 
+    'personal-website' repository.`,
     experience: [
       {
         company: "North Shore Geeks",
@@ -32,7 +31,7 @@ export const resumeData = {
       },
       {
         company: "Kauai Nut Roasters",
-        position: "Nut Bagger > Roaster > Head Roaster & Kitchen Manager > Owner",
+        position: "Owner & Kitchen Manager",
         startDate: "July 2012",
         endDate: "March 2017"
       },
@@ -52,3 +51,29 @@ export const resumeData = {
     skills: ["HTML", "CSS", "JavaScript (ES6+)", "React", "Redux", "Git", "Node", "Docker"]
   }
 };
+
+// const specificEmploymentDates = {
+//   company: "Kauai Nut Roasters",
+//   position: [
+//     {
+//       title: "Nut Bagger",
+//       startDate: "July 2012",
+//       endDate: "September 2013"
+//     },
+//     {
+//       title: "Nut Roaster",
+//       startDate: "September 2013",
+//       endDate: "July 2014"
+//     },
+//     {
+//       title: "Head Roaster & Kitchen Manager",
+//       startDate: "July 2014",
+//       endDate: "March 2017"
+//     },
+//     {
+//       title: "Owner",
+//       startDate: "April 2016",
+//       endDate: "March 2017"
+//     }
+//   ]
+// };
