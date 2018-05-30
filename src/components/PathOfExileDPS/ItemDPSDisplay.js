@@ -25,15 +25,17 @@ const getTotalDPS = function getTotalDPS(arrayOfDPSNumbers) {
   return counter;
 };
 
+const test1 = [];
+
 export default class ItemDPSDisplay extends Component {
-  
+
   render() {
-    
+
     let { physical, elemental, chaos } = this.props.propsFromState;
     let arrayOfDPSNumbers = [elemental[0], elemental[1], elemental[2], physical, chaos];
-    
+
     return (
-      <div>
+      <div className="margin-zero-auto">
         <div className="poe-item-display-parent">
           <div className="poe-item-display poe-item-display-physical">
             Physical DPS: {physical}
@@ -50,6 +52,6 @@ export default class ItemDPSDisplay extends Component {
         </div>
       </div>
     );
-    
+
   }
 }

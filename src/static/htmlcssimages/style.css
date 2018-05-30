@@ -115,6 +115,10 @@ will be the final values used. Values specified below the queries will overwrite
   .nav-element-holder {
     height: 36px;
   }
+
+  .navbar-element-inner-text {
+    padding-top: 2px;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -134,6 +138,10 @@ will be the final values used. Values specified below the queries will overwrite
 
   .equipment--item1 {
     display: table-cell!important;
+  }
+
+  .navbar-element-inner-text {
+    padding-top: 7px;
   }
 }
 
@@ -177,7 +185,7 @@ will be the final values used. Values specified below the queries will overwrite
 
   .navbar-element {
     height: 30px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .navbar-parent {
@@ -186,6 +194,10 @@ will be the final values used. Values specified below the queries will overwrite
 
   .nav-element-holder {
     height: 30px;
+  }
+
+  .navbar-element-inner-text {
+    padding-top: 2px;
   }
 }
 
@@ -257,6 +269,14 @@ body {
 
 #app {
   height: auto;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-zero-auto {
+  margin: 0 auto;
 }
 
 /***********************************************************************************************************************/
@@ -870,7 +890,7 @@ body {
 
 .poe-input-output-parent {
   max-width: 500px;
-  margin: 10px auto;
+  margin: 10px auto 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

@@ -22,7 +22,7 @@ class NavBarElement extends Component {
     const indexOptions = currentNavDataToMap.linkTo === '/' ? {onlyActiveOnIndex: true} : {}; // onlyActiveOnIndex makes the '/' route not always appear active in a Single Page App
     const runescapeBackgroundColor = currentNavDataToMap.linkTo === 'runescape' ?
       {activeClassName: 'navbar-runescape-color'} : {};
-    
+
     return (
       <Link activeClassName="navbar-element-active" to={currentNavDataToMap.linkTo}
             className={"navbar-element navbar-element--link nav-element--" + homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)}
@@ -30,7 +30,7 @@ class NavBarElement extends Component {
             {...indexOptions}
             {...runescapeBackgroundColor}
       >
-        <div key={currentNavDataToMap.linkTo}>
+        <div key={currentNavDataToMap.linkTo} className="navbar-element-inner-text">
         {currentNavDataToMap.description}
         </div>
       </Link>
