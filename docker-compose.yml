@@ -2,7 +2,7 @@ version: '3'
 services:
     frontend:
         restart: unless-stopped
-        build: frontend
+        build: .
         ports:
             - 80:80/tcp
             - 443:443/tcp
