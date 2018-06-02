@@ -3,6 +3,15 @@ This is the source code for my personal website, a live version can be found at 
 The Boilerplate this is built on top of it React Slingshot which can be found at github.com/coryhouse/react-slingshot
 
 
+## Deployment
+
+```
+npm run build
+sudo docker-compose build
+sudo docker-compose down
+sudo docker-compose up -d
+```
+
 ## Projects & pages breakdown
 
 

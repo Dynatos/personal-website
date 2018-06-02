@@ -8,20 +8,18 @@ export default class Contact extends Component {
     const { contactData } = this.props;
 
     return (
-      <div id="about">
-        <div className="contact-highest-parent">
-          <div className="contact-name">
-            {contactData.contactName}
-          </div>
-          <div className="contact-phone-number">
-            {contactData.phoneNumber}
-          </div>
-          <div className="contact-email">
-            {contactData.email}
-          </div>
-          <div className="contact-address">
-            {contactData.address}
-          </div>
+      <div id="contact" className="contact-highest-parent">
+        <div className="contact-name">
+          {contactData.contactName}
+        </div>
+        <div className="contact-phone-number">
+          {contactData.phoneNumber}
+        </div>
+        <div className="contact-email">
+          {contactData.email}
+        </div>
+        <div className="contact-address">
+          {contactData.address}
         </div>
       </div>
     );

@@ -7,22 +7,24 @@ import Schedule from "./Schedule";
 import Prices from "./Prices";
 import Contact from "./Contact";
 import GoogleSlideshow from "./GoogleSlideshow";
-import { aboutData, scheduleData, priceData, contactData } from './CameronData';
+import {aboutData, scheduleData, priceData, contactData, singlePageNavBarData} from './CameronData';
+import SinglePageAnchorNavBar from "./SinglePageAnchorNavBar";
 
 export default class CameronWrapper extends Component {
-  
+
   render() {
-    
+
     return (
       <div>
         {/*<ToriiNavBar />*/}
-        <About aboutData={aboutData}/>
+        <SinglePageAnchorNavBar navData={singlePageNavBarData} />
+        <About aboutData={aboutData} />
         <GoogleSlideshow />
-        <Schedule scheduleData={scheduleData}/>
-        <Prices priceData={priceData}/>
-        <Contact contactData={contactData}/>
+        <Schedule scheduleData={scheduleData} />
+        <Prices priceData={priceData} />
+        <Contact contactData={contactData} />
       </div>
     );
-    
+
   }
 }

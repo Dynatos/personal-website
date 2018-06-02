@@ -1,3 +1,26 @@
+export const singlePageNavBarData = {
+  about: {
+    id: 'about',
+    textToDisplay: 'About'
+  },
+  slideshow: {
+    id: 'slideshow',
+    textToDisplay: 'Images'
+  },
+  schedule: {
+    id: 'schedule',
+    textToDisplay: 'Schedule'
+  },
+  prices: {
+    id: 'prices',
+    textToDisplay: 'Prices'
+  },
+  contact: {
+    id: 'contact',
+    textToDisplay: 'Contact'
+  }
+};
+
 export const aboutData = {
   headerText: "Ryu Dojo Kenpo Karate",
   bodyText: `Hawaiian Kenpo is a practical self defense system that utilizes the philosophies and mindset of
@@ -7,9 +30,9 @@ export const aboutData = {
 };
 
 export const scheduleData = {
-  
+
   //orderOfWeekDays: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
-  
+
   monday: [
     {
       startTime: "3:30 pm",
@@ -22,7 +45,7 @@ export const scheduleData = {
       ageRestriction: "Kids ages 5-9"
     }
   ],
-  
+
   tuesday: [
     {
       startTime: "3:30 pm",
@@ -35,11 +58,11 @@ export const scheduleData = {
       ageRestriction: "Adults"
     }
   ],
-  
+
   wednesday: [
     {}
   ],
-  
+
   thursday: [
     {
       startTime: "3:30 pm",
@@ -52,19 +75,19 @@ export const scheduleData = {
       ageRestriction: "Adults"
     }
   ],
-  
+
   friday: [
     {}
   ],
-  
+
   saturday: [
     {}
   ],
-  
+
   sunday: [
     {}
   ]
-  
+
 };
 
 export const priceData = {

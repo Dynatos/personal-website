@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import './style.css'; //TODO: delete
 
 export default class Prices extends Component {
-  
+
   render() {
-    
+
     return (
-      <div>
-        <div className="prices-highest-parent">
+      <div className="prices-highest-parent">
+        <span id="prices" />
+        <div className="prices-inner-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum, nunc in posuere dapibus, risus
           arcu venenatis orci, at vulputate lectus nibh nec augue. Duis blandit nulla diam, ac bibendum ante pretium et.
           Phasellus tempor varius enim, vel faucibus turpis rutrum et. Donec in placerat libero, sed mollis nunc.
@@ -24,6 +25,5 @@ export default class Prices extends Component {
         </div>
       </div>
     );
-    
   }
 }
