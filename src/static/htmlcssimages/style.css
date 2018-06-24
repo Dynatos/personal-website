@@ -235,6 +235,37 @@ will be the final values used. Values specified below the queries will overwrite
   }
 }
 
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+  font-family: 'Libre Baskerville', serif;
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.libre {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
 
 @font-face {
   font-family: RuneScape UF;

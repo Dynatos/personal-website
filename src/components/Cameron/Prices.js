@@ -23,6 +23,18 @@ export default class Prices extends Component {
           suscipit lectus lobortis, pulvinar fermentum neque. Integer non dolor quis tellus imperdiet efficitur.
           Suspendisse sodales massa mauris, facilisis feugiat.
         </div>
+        <div className="raleway">
+          Lorem ipsum dolor sit amet &
+        </div>
+        <div className="sans">
+          Lorem ipsum dolor sit amet &
+        </div>
+        <div className="libre">
+          Lorem ipsum dolor sit amet &
+        </div>
+        <div className="poppins">
+          Lorem ipsum dolor sit amet &
+        </div>
       </div>
     );
   }
