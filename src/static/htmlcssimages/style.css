@@ -1,5 +1,6 @@
 :root {
   --poe-font: "PoE Fontin";
+  --runescape-font: "RuneScape UF";
 }
 
 /* Below 320px */
@@ -949,3 +950,6 @@ body {
   margin: 10px auto;
 }
 
+.runescape-user-input-form {
+  font-family: var(--runescape-font), "RuneScape UF", sans-serif;
+}
