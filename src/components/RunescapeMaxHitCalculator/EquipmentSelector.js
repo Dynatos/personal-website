@@ -1,34 +1,98 @@
 import React, { Component } from 'react';
-const allItemData = require('runescape_item_stat_data.json');
+import ReactSearchBar from 'react-search-bar';
+import { setStrengthValueFromEquipment } from '../../../scripts/calculateMaxHitCapsule';
+import allItemData from './items_with_strength_bonus';
+import styles from './RunescapeMaxHitStyles.css';
 
-const itemNameArray = Object.keys(allItemData);
+const suggestions = getSuggestionsFromObjects(allItemData);
 
-// function getItemNamesContainingInputText() {
-//   const outputElement = document.querySelector('#EquipmentSelect');
-//   const valueContainingElement = document.querySelector('#EquipmentToEquip');
-//
-//   itemNameArray.forEach(function cb(itemName) {
-//
-//   });
-// }
-//
-// function confirmEquip() {
-//
-// }
+function getSuggestionsFromObjects(objectWithNames) {
+  const itemNameArray = Object.keys(objectWithNames);
+  const returnArr = [];
+  itemNameArray.forEach((currentName) => {
+    const value = currentName.split('_').join(' ');
+    returnArr.push(value.toLowerCase());
+  });
+  return returnArr;
+}
+
+function getDefaultSuggestions(suggestions) {
+  return suggestions.slice(0, 20);
+}
+
+function suggestionRenderer(suggestion) {
+  return (
+    <span>
+      <span>{suggestion[0].toUpperCase().concat(suggestion.substring(1))}</span>
+    </span>
+  );
+}
 
 export default class EquipmentSelector extends Component {
   
+  constructor(props) {
+    super(props);
+    
+    this.state = {
+      suggestions: getDefaultSuggestions(suggestions),
+    };
+  }
+  
+  handleChange(value) {
+    const newSuggestions = [];
+    
+    suggestions.forEach((word) => { // for each word
+      
+      if (newSuggestions.length >= 20) {
+        return;
+      }
+      
+      if (word.indexOf(value) !== -1) {
+        newSuggestions.push( // push the current word into the new set of suggestions
+          word
+        );
+      }
+      
+    });
+    
+    this.setState({
+      ...this.state,
+      suggestions: newSuggestions
+    });
+  }
+  
+  handleSearch(value) {
+    const item = allItemData[value] || suggestions.forEach(word => word.filter(word.includes(value)));
+    
+    if (typeof item === 'object') {
+      const strengthValue = item.other.melee_strength;
+      console.log('setting strength value: ', strengthValue);
+      setStrengthValueFromEquipment(strengthValue);
+    }
+  }
+  
+  handleClear() {
+    this.setState({
+      ...this.state,
+      suggestions: getDefaultSuggestions(suggestions)
+    });
+  }
+  
   render() {
     
-    // return (
-    //   <div>
-    //     <form>
-    //       <select id="EquipmentSelect" type="text" placeholder="Item Name" onInput={getItemNamesContainingInputText}>
-    //         <option value="None">None</option>
-    //       </select>
-    //       <button onClick={confirmEquip}>Equip</button>
-    //     </form>
-    //   </div>
-    // );
+    return (
+      <ReactSearchBar
+        renderClearButton
+        renderSearchButton
+        placeholder="Enter an item's name"
+        onChange={this.handleChange.bind(this)}
+        onClear={this.handleClear.bind(this)}
+        onSearch={this.handleSearch.bind(this)}
+        suggestions={this.state.suggestions}
+        suggestionRenderer={suggestionRenderer}
+        styles={styles}
+        id="RunescapeMaxHitGearSearchBar"
+      />
+    );
   }
 }

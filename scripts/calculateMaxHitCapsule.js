@@ -2,13 +2,13 @@ export default function calculateMaxHit(e) {
   if (e) {e.preventDefault();} //stop form submission from refreshing page
   
   const strLvl      = parseInt(document.querySelector('#osrs-strength').value) || 1;
-  const prayer      = document.querySelector('#osrs-prayer').value;
-  const strBoost    = document.querySelector('#osrs-boost').value;
-  const stance      = document.querySelector('#osrs-stance').value;
-  const voidBonus   = document.querySelector('#osrs-voidKnight').value;
-  const other       = document.querySelector('#osrs-other').value;
+  const prayer      =          document.querySelector('#osrs-prayer').value;
+  const strBoost    =          document.querySelector('#osrs-boost').value;
+  const stance      =          document.querySelector('#osrs-stance').value;
+  const voidBonus   =          document.querySelector('#osrs-voidKnight').value;
+  const other       =          document.querySelector('#osrs-other').value;
   const strFromGear = parseInt(document.querySelector('#osrs-equipment-strength-bonus').value) || 0;
-  const combatType = document.querySelector('#osrs-other-combat-type').value;
+  const combatType  =          document.querySelector('#osrs-other-combat-type').value;
   
   const outPutParent = document.querySelector('#osrs-max-hit-output');
   
@@ -99,6 +99,16 @@ export function checkMeleeOrRange(e) {
     combatType.style = 'display: default';
     combatTypeLabel.style = 'display: default';
   }
+}
+
+//export function getSearchText() {
+//  return document.querySelector('#RunescapeMaxHitGearSearchBar').value;
+//}
+
+export function setStrengthValueFromEquipment(strengthValue) {
+  const strengthBonusElement = document.querySelector('#osrs-equipment-strength-bonus');
+  
+  strengthBonusElement.value = (strengthBonusElement.value || 0) + strengthValue;
 }
 
 function applyStrengthBuff(strLevel, boostType) {
