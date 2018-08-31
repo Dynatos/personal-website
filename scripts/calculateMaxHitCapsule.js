@@ -11,6 +11,7 @@ export default function calculateMaxHit(e) {
   const combatType  =          document.querySelector('#osrs-other-combat-type').value;
   
   const outPutParent = document.querySelector('#osrs-max-hit-output');
+  const img = document.querySelector('.osrs-damage-splat');
   
   // Order of operations is critical here, these steps are in a particular order to match the game's logic exactly
   
@@ -23,10 +24,30 @@ export default function calculateMaxHit(e) {
   const maxHitBeforeOther = calculateMaxHitWithEffectiveLevelAndGearBonus(effectiveStrLvl, strFromGear);
   
   const maxHit = getMaxHitAfterOtherEquipmentMultiplier(maxHitBeforeOther, other, combatType);
+  const maxHitStringLength = maxHit.toString().length;
   
   //TODO get str bonus from gear using gear data
   
   outPutParent.innerText = maxHit || 'Error';
+  
+  if (maxHitStringLength === 1) {
+    outPutParent.style.position = 'absolute';
+    outPutParent.style.top = '9px';
+    outPutParent.style.left = '14px';
+  
+    img.style.display = 'initial';
+  }
+  if (maxHitStringLength === 2) {
+    outPutParent.style.position = 'absolute';
+    outPutParent.style.top = '9px';
+    outPutParent.style.left = '11px';
+  
+    img.style.display = 'initial';
+  }
+  
+  if (!maxHit) {
+    img.style.display = 'none';
+  }
 }
 
 export function checkDharoks(e) {

@@ -953,3 +953,20 @@ body {
 .runescape-user-input-form {
   font-family: var(--runescape-font), "RuneScape UF", sans-serif;
 }
+
+.runescape-max-hit-display-wrapper {
+  font-family: var(--runescape-font), "RuneScape UF", sans-serif;
+  width: 36px;
+  margin: 5px auto;
+  text-align: center;
+  color: black;
+  position: relative;
+}
+
+.osrs-damage-splat {
+  width: 36px;
+  position: relative;
+  left: 0;
+  margin: 0 auto;
+}
+
