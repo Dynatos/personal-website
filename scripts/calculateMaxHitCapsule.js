@@ -40,12 +40,15 @@ export default function calculateMaxHit(e) {
   if (maxHitStringLength === 2) {
     outPutParent.style.position = 'absolute';
     outPutParent.style.top = '9px';
-    outPutParent.style.left = '11px';
+    outPutParent.style.left = '10px';
   
     img.style.display = 'initial';
   }
+  if (maxHitStringLength >= 3) {
+    img.style.display = 'none';
+  }
   
-  if (!maxHit) {
+  if (!maxHit || outPutParent.innerText === 'Error') {
     img.style.display = 'none';
   }
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ReactSearchBar from 'react-search-bar';
 import { setStrengthValueFromEquipment } from '../../../scripts/calculateMaxHitCapsule';
 import allItemData from './items_with_strength_bonus';
-import styles from './RunescapeMaxHitStyles.css';
 
 const suggestions = getSuggestionsFromObjects(allItemData);
 
@@ -90,7 +89,6 @@ export default class EquipmentSelector extends Component {
         onSearch={this.handleSearch.bind(this)}
         suggestions={this.state.suggestions}
         suggestionRenderer={suggestionRenderer}
-        styles={styles}
         id="RunescapeMaxHitGearSearchBar"
       />
     );

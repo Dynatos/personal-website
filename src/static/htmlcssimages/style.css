@@ -290,7 +290,7 @@ html {
 
 body {
   height: 100%;
-  margin: 30px 2px 10px;
+  margin: 30px 2px;
   overflow: auto;
 }
 
@@ -950,14 +950,44 @@ body {
   margin: 10px auto;
 }
 
-.runescape-user-input-form {
+.osrs-max-hit-user-input-form  {
+  margin-top: 25px;
   font-family: var(--runescape-font), "RuneScape UF", sans-serif;
 }
 
-.runescape-max-hit-display-wrapper {
+.osrs-max-hit-wrapper {
+  margin-top: 12px;
+}
+
+.osrs-max-hit-user-input-form {
+
+}
+
+.osrs-max-hit-strength-boost {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+#osrs-boost,
+#osrs-missing-health,
+#osrs-attack,
+#osrs-defence,
+#osrs-range,
+#osrs-magic {
+  margin: 2px auto;
+  font-family: var(--runescape-font), "RuneScape UF", sans-serif;
+}
+
+#osrs-equipment-strength-bonus {
+  margin: 5px auto 25px;
+}
+
+.osrs-max-hit-display-wrapper {
   font-family: var(--runescape-font), "RuneScape UF", sans-serif;
   width: 36px;
-  margin: 5px auto;
+  margin: 5px auto 40px;
   text-align: center;
   color: black;
   position: relative;
@@ -970,3 +1000,23 @@ body {
   margin: 0 auto;
 }
 
+.react-search-bar__input {
+  width: 100%;
+  font-family: var(--runescape-font), "RuneScape UF", sans-serif;
+
+}
+
+.react-search-bar__submit {
+  display: none;
+  font-family: var(--runescape-font), "RuneScape UF", sans-serif;
+}
+
+.react-search-bar__suggestion {
+  width: 100%;
+  font-family: var(--runescape-font), "RuneScape UF", sans-serif;
+  background-color: #D0D0D0;
+}
+
+.react-search-bar__suggestion:hover {
+  background-color: #B0B0B0;
+}
