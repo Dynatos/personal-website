@@ -1,0 +1,951 @@
+:root {
+  --poe-font: "PoE Fontin";
+}
+
+/* Below 320px */
+@media only screen and (max-width: 320px) {
+  .equipment--big-box {
+    max-width: 233px;
+  }
+
+  .highest-parent {
+    width: 320px;
+    margin: 10px auto;
+  }
+
+  .equipment--big-box {
+    margin: 30px auto 0;
+    padding: 0 0 20px 0;
+  }
+
+  .final-stats {
+    margin: 15px auto
+  }
+
+  .user-choice-parent {
+    margin: 15px auto
+  }
+
+  .user-and-final-parent {
+    width: auto;
+    margin: 15px auto;
+  }
+
+  .equipment--item1, .equipment--item2, .equipment--item3 {
+    display: none!important;
+  }
+
+  .resume-skills-parent {
+    width: 320px;
+  }
+
+  .resume-professional-section {
+    margin: 100px auto 0;
+  }
+
+  .navbar-element {
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .navbar-parent {
+    height: 36px;
+  }
+
+  .nav-element-holder {
+    height: 36px;
+  }
+}
+
+/* Values in parenthesis must evaluate to true to be enabled. EG: (min-width: 320px) means screen must be 320px or more.
+Queries must be included sequentially to overwrite values placed for smaller screens. Whichever query evaluates true last
+will be the final values used. Values specified below the queries will overwrite the values specified in the queries. */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .equipment--big-box {
+    max-width: 233px;
+  }
+
+  .highest-parent {
+    width: 320px;
+    margin: 10px auto;
+  }
+
+  .equipment--big-box {
+    margin: 30px auto 0;
+    padding: 0 0 20px 0;
+  }
+
+  .final-stats {
+    margin: 15px auto
+  }
+
+  .user-choice-parent {
+    margin: 15px auto
+  }
+
+  .user-and-final-parent {
+    width: auto;
+    margin: 15px auto;
+  }
+
+  .equipment--item1, .equipment--item2, .equipment--item3 {
+    display: none!important;
+  }
+
+  .resume-skills-parent {
+    width: 320px;
+  }
+
+  .resume-professional-section {
+    margin: 100px auto 0;
+    width: 100%;
+  }
+
+  .navbar-element {
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .navbar-parent {
+    height: 36px;
+  }
+
+  .nav-element-holder {
+    height: 36px;
+  }
+
+  .navbar-element-inner-text {
+    padding-top: 2px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .equipment--big-box {
+    max-width: 373px;
+  }
+
+  .highest-parent {
+    width: 480px;
+    margin: 10px auto;
+  }
+
+  .equipment--item2, .equipment--item3 {
+    display: none!important;
+  }
+
+  .equipment--item1 {
+    display: table-cell!important;
+  }
+
+  .navbar-element-inner-text {
+    padding-top: 7px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .resume-skills-parent {
+    width: 586px;
+  }
+
+  .resume-job-experience-title-box, .resume-about-me-title-box {
+    width: auto;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .equipment--big-box {
+    max-width: 700px;
+  }
+
+  .highest-parent {
+    width: auto;
+    margin: 10px auto;
+  }
+
+  .equipment--big-box {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 400px;
+  }
+
+  .user-and-final-parent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .equipment--item2, .equipment--item3 {
+    display: table-cell!important;
+  }
+
+  .navbar-element {
+    height: 30px;
+    font-size: 24px;
+  }
+
+  .navbar-parent {
+    height: 30px;
+  }
+
+  .nav-element-holder {
+    height: 30px;
+  }
+
+  .navbar-element-inner-text {
+    padding-top: 2px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .resume-professional-section {
+    margin-top: 50px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .highest-parent {
+    width: 992px;
+    margin: 10px auto;
+  }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .highest-parent {
+    height: auto;
+    width: 1200px;
+    margin: 10px auto;
+  }
+
+  .user-and-final-parent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .resume-title-bar {
+    width: auto;
+  }
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+  font-family: 'Libre Baskerville', serif;
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.libre {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+  font-family: RuneScape UF;
+  src: url(./font/runescape_uf.otf);
+}
+
+@font-face {
+  font-family: PoE Fontin;
+  src: url(./font/Fontin-SmallCaps.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 30px 2px 10px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* remove scrollbar space */
+  background-color: transparent;
+}
+
+#app {
+  height: auto;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-zero-auto {
+  margin: 0 auto;
+}
+
+/***********************************************************************************************************************/
+/*All runescape classes start here, my early naming convention hadn't accounted for future projects using the same file*/
+/***********************************************************************************************************************/
+
+.navbar-parent, .resume-picture, .all-stat-icon, .equipment--slot-text, .equipment--image-containers {
+  user-select: none;
+}
+
+.user-choice-parent, .final-stats, .equipment--big-box {
+  font-family: "RuneScape UF", sans-serif;
+}
+
+.user-choice-parent, .final-stats {
+  background: #d4c191;
+}
+
+.user-choice-parent, .final-stats {
+  width: 320px;
+  height: auto;
+  border: 1px solid #afa282;
+}
+
+.user-choice-div-child, .final-stats-div-child {
+  width: 290px;
+  height: auto;
+  border: 1px solid #afa282;
+  margin: 15px auto;
+  background: #d4c191;
+}
+
+.user-choice-div-child {
+  padding: 1px 0;
+}
+
+.user-choice-category, .final-stats-category {
+  font-size: 22px;
+  color: #7b4f17;
+  background: #d4c191;
+}
+
+.user-choice-top-row, .user-choice-bottom-row, .final-stats-top-row, .final-stats-bottom-row {
+  width: 270px;
+  height: auto;
+  margin: 0 auto 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #d4c191;
+}
+
+.user-choice-top-row {
+  height: auto;
+}
+
+.user-choice-bottom-row {
+  height: 24px;
+}
+
+.user-choice-stat {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #afa282;
+  margin: 8px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #5D563D;
+}
+
+.all-stat-icon {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #d4c191;
+  height: 29px;
+}
+
+.icon-image {
+  max-width: 100%;
+  background: #d4c191;
+  align-self: center;
+}
+
+.final-stats-stat {
+  min-width: 22px;
+  height: 16px;
+  margin: 10px auto auto;
+  padding: 2px;
+  font-size: 14px;
+  background: #dbcba3;
+  border: 1px solid #afa282;
+}
+
+.equipment--big-box, .equipment--slot-boxes, .equipment--slot-names, .equipment--item-names, .equipment--image-containers, .equipment--slot-text, .equip-icon, .equipment--image {
+  background-image: url('./images/rstexture.jpg')!important;
+}
+
+.equipment--big-box {
+  width: auto;
+  height: auto;
+  top: 0;
+  margin-bottom: 45px;
+  border: 1px solid #afa282;
+  color: darkorange;
+}
+
+.equipment--slot-boxes {
+  width: auto;
+  max-width: 650px;
+  height: 80px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equipment--slot-names {
+  width: 90px;
+  height: 100%;
+  border: 1px solid #afa282;
+  margin: auto 0;
+  display: table;
+}
+
+.equipment--item-names {
+  display: table-cell;
+  width: 140px;
+  height: 80px;
+  border: 1px solid #afa282;
+  border-left: none;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.equipment--image-containers {
+  width: 139px;
+  height: 60px;
+  border-top: 1px solid #afa282;
+}
+
+.equipment--image {
+  height: 100%;
+  max-height: 61px;
+  background-image: url('./images/icons/blankitemfinal.png')!important;
+  display: block;
+  margin: auto;
+}
+
+.head-text {
+  font-size: 25px;
+}
+
+.text {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.stab-icon {
+  width: 21px;
+  height: 31px;
+  position: relative;
+  left: 2px;
+}
+
+.slash-icon {
+  width: 27px;
+  height: 31px;
+  position: relative;
+  left: 3px;
+}
+
+.crush-icon {
+  width: 27px;
+  height: 31px;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+.magic-icon {
+  width: 27px;
+  height: 31px;
+  position: relative;
+  top: 3px;
+  left: 1px;
+}
+
+.range-icon {
+  width: 23px;
+  height: 31px;
+  position: relative;
+  top: 3px;
+  left: 1px;
+}
+
+.strength-icon {
+  height: 28px;
+  position: relative;
+  top: 4px;
+  left: -1px;
+}
+
+.range-strength-icon {
+  width: 26px;
+  height: 28px;
+  position: relative;
+  top: 1px;
+  left: 2px;
+}
+
+.magic-strength-icon {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  left: 2px;
+}
+
+.prayer-icon {
+  width: 23px;
+  height: 28px;
+  position: relative;
+  top: 2px;
+}
+
+/*********************************************************************************************************************/
+/*All runescape classes end here, my early naming convention hadn't accounted for future projects using the same file*/
+/*********************************************************************************************************************/
+
+.visible-todo {
+  min-width: 240px;
+  max-width: 640px;
+  min-height: 60px;
+  margin: auto;
+  border: solid 1px;
+  color: white;
+}
+
+.todo-ul-hide-bullet {
+  list-style-type: none;
+}
+
+.todo-text {
+  margin: auto;
+  padding: 18px;
+  font-size: 24px;
+}
+
+.navbar-parent {
+  width: 100%;
+  background-image: url('./images/bgcolorPound555.png');
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.nav-element-holder {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/bgcolorPound555.png');
+}
+
+.navbar-element {
+  min-width: 15%;
+  max-width: 19%;
+  width: 100%;
+  background-color: #555; /* double properties are purposeful to accommodate browsers and prevent bugs */
+  background-image: url('./images/bgcolorPound555.png');
+  color: white;
+  padding: 0 3px;
+  margin: 0 3px 0 0;
+  user-select: none;
+  overflow: hidden;
+}
+
+.navbar-element:hover {
+  background: #000;
+  color: white;
+  /*transition: all 0.15s ease;*/
+}
+
+.navbar-runescape-color:hover {
+  background: #d4c191;
+  transition: none;
+}
+
+.navbar-element--link {
+  border: 1px white solid;
+  border-bottom: none;
+  text-decoration: none;
+  background-image: url('./images/bgcolorPound555.png');
+}
+
+.navbar-element-active {
+  background-image: none; /* double properties are purposeful to accommodate browsers and prevent bugs */
+  background-color: white;
+  color: black;
+}
+
+.navbar-runescape-color {
+  background-color: none; /* double properties are purposeful to accommodate browsers and prevent bugs */
+  background-image: url('./images/bgcolor.png');
+  color: black;
+  border: 1px solid white;
+  border-bottom: none;
+}
+
+.visible-todo {
+  list-style-type: none;
+}
+
+.todo-delete {
+  width: 27px;
+  height: 27px;
+  display: block;
+  margin: auto;
+  background-color: white;
+  border: 1px solid black;
+  float: right;
+  color: black;
+  font-size: 17px;
+  user-select: none;
+}
+
+.resume-highest-parent {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+}
+
+.resume-picture-plus-info {
+  margin-top: 50px;
+}
+
+.resume-picture {
+  border-radius: 50%;
+}
+
+.resume-social-media-parent {
+  margin-top: 10px;
+}
+
+.resume-social-media-buttons {
+  max-height: 30px;
+  max-width: 30px;
+  height: auto;
+  width: auto;
+  margin: 2px 2px 0;
+}
+
+.resume-highest-parent {
+  width: auto;
+  height: auto;
+  min-width: 320px;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px auto 0;
+}
+
+.resume-personal-section {
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.resume-professional-section {
+  max-width: 680px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.resume-professional-child {
+  padding: 3px 0;
+}
+
+.resume-title-bar {
+  text-align: left;
+  font-size: 22px;
+  /*border-top: 1px solid black;*/
+  /*border-bottom: 1px solid black;*/
+  margin: 5px auto;
+}
+
+.resume-skills-parent {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.resume-about-me-parent {
+  min-height: 120px;
+  margin: 30px 0;
+}
+
+.resume-about-me {
+  text-align: justify;
+  line-height: 1.75;
+  padding: 12px 0 24px;
+}
+
+.resume-jobs-parent {
+  min-height:150px;
+}
+
+.resume-skills-highest-parent {
+  min-height: 100px;
+  margin-bottom: 50px;
+}
+
+.resume-skills-skill {
+  width: 33%;
+  min-width: 60px;
+  height: 20px;
+  background-color: #555;
+  color: white;
+  padding: 0 2px;
+  margin: 2px auto;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  font-size: 15px;
+}
+
+.resume-skills-title-box {
+  margin: 25px auto 5px;
+}
+
+.resume-job-experience {
+  border: 1px solid #ccc;
+  margin: 12px auto;
+  background: #f2f2f2;
+  padding: 16px 0;
+}
+
+.resume-job-dates-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume-job-company-name {
+  font-size: 24px;
+}
+
+.resume-job-position {
+  font-size: 18px;
+}
+
+.resume-job-company-name, .resume-job-position {
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.resume-job-company-name, .resume-job-position {
+  width: auto;
+  margin: 10px auto;
+}
+
+.resume-job-dates-parent {
+  margin: 10px auto;
+  font-size: 12px;
+}
+
+.resume-job-date {
+  width: auto;
+}
+
+.resume-job-start-date {
+  text-align: right;
+  margin-left: auto;
+}
+
+.resume-job-end-date {
+  text-align: left;
+  margin-right: auto;
+}
+
+.hide {
+  height: 0;
+  width: 0;
+  display: none;
+}
+
+.todo-app-highest-parent {
+  margin-top: 50px;
+}
+
+.todo-app-footer {
+  min-height: 25px;
+  margin-bottom: 25px;
+}
+
+.highest-parent {
+  z-index: -1;
+}
+
+.calculator-highest-parent:hover {
+  cursor: default;
+}
+
+.calculator-highest-parent {
+  max-width: 298px;
+  margin: 20px auto 40px;
+  border: 1px solid black;
+  border-radius: 1%;
+  background-color: darkorange;
+}
+
+.calculator-button-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calculator-button, .calculator-button-double, .calculator-button-triple {
+  height: 60px;
+  border: 1px solid black;
+  vertical-align: middle;
+  user-select: none;
+  margin: 4px 2px;
+  background-color: white;
+  font-size: 42px;
+  box-shadow: 0 2px #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.calculator-button {
+  width: 70px;
+  border-radius: 5%;
+}
+
+.calculator-button-double {
+  width: 144px;
+  border-radius: 4%;
+}
+
+.calculator-button-triple {
+   width: 218px;
+  border-radius: 3%;
+ }
+
+.calculator-button:hover, .calculator-reset:hover, .calculator-button-double:hover, .calculator-button-triple:hover {
+  background-color: lightgrey;
+  transition: all 0.1s ease;
+}
+
+.calculator-button:active, .calculator-button-double:active, .calculator-button-triple:active {
+  box-shadow: 0 0 #000;
+  transform: translateY(2px);
+}
+
+.calculator-screen-and-reset {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calculator-screen {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  text-align: right;
+  background-color: rgb(220,255,220);
+  font-size: 20px;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+
+.calculator-screen:hover {
+  cursor: text;
+}
+
+.article-all-highest-parent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-column-highest-parent {
+  width: 75%;
+  height: 100%;
+}
+
+.article-sidebar-highest-parent {
+  width: 25%;
+  height: 100%;
+}
+
+.article-sidebar-filter-parent {
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.article-sidebar-filter {
+  list-style: none;
+  font-size: 18px;
+}
+
+.poe-how-to-highest-parent {
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
+}
+
+.poe-input-output-parent {
+  max-width: 500px;
+  margin: 10px auto 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
+}
+
+.poe-form-parent {
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
+}
+
+.poe-form-input {
+  height: auto;
+  min-height: 600px;
+  min-width: 300px;
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
+}
+
+.poe-form-parent {
+  margin: 10px auto;
+}
+
+.poe-item-display-parent {
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+}
+

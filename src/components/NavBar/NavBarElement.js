@@ -1,0 +1,49 @@
+import React, {Component} from 'react';
+import {Link} from 'react-router';
+import navBarData, { navElements } from './NavBarData';
+
+function homepageLinkClassNameAssigner(link) {
+  if (link !== "/") {
+    return link;
+  }
+  return "homepage";
+}
+
+// NavBarElement is the component that will map all our nav data to Link elements
+class NavBarElement extends Component {
+
+// renderNavBarElements is the function that does the mapping. It is called as the callback function for the map that
+// returns all of our NavBar elements. Each element is created by taking the NavBarData and mapping it into the relevant
+// areas. Each element needs a link which must have a "to" property that defines what url to send the user to. The Links
+// will also need to have a short string that describes where the Link will send the user (e.g. "Runescape Gear Suggestor"
+// would link to /runescape where you could find the Runescape gear suggesting app)
+  renderNavBarElements(navElement) {
+    let currentNavDataToMap = navBarData[navElement];
+    const indexOptions = currentNavDataToMap.linkTo === '/' ? {onlyActiveOnIndex: true} : {}; // onlyActiveOnIndex makes the '/' route not always appear active in a Single Page App
+    const runescapeBackgroundColor = currentNavDataToMap.linkTo === 'runescape' ?
+      {activeClassName: 'navbar-runescape-color'} : {};
+
+    return (
+      <Link activeClassName="navbar-element-active" to={currentNavDataToMap.linkTo}
+            className={"navbar-element navbar-element--link nav-element--" + homepageLinkClassNameAssigner(currentNavDataToMap.linkTo)}
+            key={navElement}
+            {...indexOptions}
+            {...runescapeBackgroundColor}
+      >
+        <div key={currentNavDataToMap.linkTo} className="navbar-element-inner-text">
+        {currentNavDataToMap.description}
+        </div>
+      </Link>
+    );
+  }
+
+  render() {
+    return (
+      <div className="nav-element-holder">
+        {navElements.map(this.renderNavBarElements, this)}
+      </div>
+    );
+  }
+}
+
+export default NavBarElement;

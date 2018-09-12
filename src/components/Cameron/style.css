@@ -28,26 +28,26 @@ html {
   height: 100%;
 }
 
-body {
-  height: 100%;
-  margin: 30px 2px 10px; /* Top right/left bottom */
-  overflow: auto; /* Possibly redundant */
-  /*background-color: var(--patch-border-black);*/
-  /*background-image: linear-gradient(to right, var(--patch-border-red), var(--patch-border-black) 50%, var(--patch-border-red) 100%);*/
-  /*background-size: 100% 100%;*/
-  /*background-position: 50% 100%;*/
-  /*background-repeat: no-repeat;*/
-  /*background: radial-gradient(var(--patch-border-black), var(--patch-border-red));*/
-  background: radial-gradient(ellipse at center, grey, white);
-}
+/*body {*/
+  /*height: 100%;*/
+  /*margin: 30px 2px 10px; !* Top right/left bottom *!*/
+  /*overflow: auto; !* Possibly redundant *!*/
+  /*!*background-color: var(--patch-border-black);*!*/
+  /*!*background-image: linear-gradient(to right, var(--patch-border-red), var(--patch-border-black) 50%, var(--patch-border-red) 100%);*!*/
+  /*!*background-size: 100% 100%;*!*/
+  /*!*background-position: 50% 100%;*!*/
+  /*!*background-repeat: no-repeat;*!*/
+  /*!*background: radial-gradient(var(--patch-border-black), var(--patch-border-red));*!*/
+  /*background: radial-gradient(ellipse at center, grey, white)*/
+/*}*/
 
- /*Removes scrollbar, commented out unless requested*/
+/* Removes scrollbar, commented out unless requested */
 /*::-webkit-scrollbar {*/
   /*width: 0;  !* remove scrollbar space *!*/
 /*background-color: transparent;*/
 /*}*/
 
- /*Possibly useful TODO: either remove or uncomment*/
+/* Possibly useful TODO: either remove or uncomment */
 /*#app {*/
   /*height: auto;*/
 /*}*/
