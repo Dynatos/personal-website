@@ -4,7 +4,7 @@
 // whose value is handed down as a prop into EquipmentDetails and FinalStats, the reason for this is explained in the
 // respective modules. The value of topItemsForSlots is an object with 10 keys (each a slotTitles string) and the value
 // of each key is 4 objects indexed 0-3. These objects contain all the info for each piece of gear, including name, id,
-// stats, etc. These items are sorted in the sorterWithLessSpaghetti javascript file, and filtered here.
+// stats, etc. These items are sorted in the sorterWithLessSpaghetti.js file, and filtered here.
 //
 // We also handle the toggling click of each checkbox in here. We set a state for each checkbox on click and the value
 // is either set to true or false, depending on the current state (state is set to opposite of current state)

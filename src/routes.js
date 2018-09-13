@@ -10,6 +10,8 @@ import SecondaryPage from './components/Homepage/SecondaryPage';
 import PathOfExileContainer from './containers/PathOfExileContainer';
 import NotFoundPage from './components/NotFoundPage';
 import CameronWrapper from './components/Cameron/CameronWrapper';
+import RunescapeExpToolContainer from './components/RunescapeExpTool/RunescapeExpToolContainer';
+import RunescapeMaxHitCalculatorContainer from './components/RunescapeMaxHitCalculator/RunescapeMaxHitCalculatorContainer';
 
 export default (
   <Route path="/" component={App}>
@@ -21,6 +23,8 @@ export default (
     <Route path="secondary_home" component={SecondaryPage} />
     <Route path="poe_dps" component={PathOfExileContainer} />
     <Route path="cameron" component={CameronWrapper} />
+    <Route path="runescape_exp" component={RunescapeExpToolContainer} />
+    <Route path="runescape_max_hit" component={RunescapeMaxHitCalculatorContainer} />
     <Route path="*" component={NotFoundPage} />
   </Route>
 );

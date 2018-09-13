@@ -1,0 +1,8719 @@
+{
+  "Machete": {
+    "name": "Machete",
+    "off": {
+      "attack": "+0",
+      "strength": "+6",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+5",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_dagger": {
+    "name": "Iron_dagger",
+    "off": {
+      "attack": "+5",
+      "strength": "+3",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_dagger": {
+    "name": "Bronze_dagger",
+    "off": {
+      "attack": "+4",
+      "strength": "+2",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_dagger": {
+    "name": "Steel_dagger",
+    "off": {
+      "attack": "+8",
+      "strength": "+4",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_dagger": {
+    "name": "Mithril_dagger",
+    "off": {
+      "attack": "+11",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_dagger": {
+    "name": "Adamant_dagger",
+    "off": {
+      "attack": "+15",
+      "strength": "+8",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_dagger": {
+    "name": "Rune_dagger",
+    "off": {
+      "attack": "+25",
+      "strength": "+12",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+24",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_dagger": {
+    "name": "Dragon_dagger",
+    "off": {
+      "attack": "+40",
+      "strength": "+25",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+40",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_dagger": {
+    "name": "Black_dagger",
+    "off": {
+      "attack": "+10",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_dagger(p)": {
+    "name": "Steel_dagger(p)",
+    "off": {
+      "attack": "+8",
+      "strength": "+4",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_dagger(p)": {
+    "name": "Iron_dagger(p)",
+    "off": {
+      "attack": "+5",
+      "strength": "+3",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_dagger(p)": {
+    "name": "Bronze_dagger(p)",
+    "off": {
+      "attack": "+4",
+      "strength": "+2",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_dagger(p)": {
+    "name": "Mithril_dagger(p)",
+    "off": {
+      "attack": "+11",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_dagger(p)": {
+    "name": "Adamant_dagger(p)",
+    "off": {
+      "attack": "+15",
+      "strength": "+8",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_spear": {
+    "name": "Iron_spear",
+    "off": {
+      "attack": "+8",
+      "strength": "+8",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_dagger(p)": {
+    "name": "Rune_dagger(p)",
+    "off": {
+      "attack": "+25",
+      "strength": "+12",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+24",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_spear": {
+    "name": "Bronze_spear",
+    "off": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_dagger(p)": {
+    "name": "Dragon_dagger(p)",
+    "off": {
+      "attack": "+40",
+      "strength": "+25",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+40",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_dagger(p)": {
+    "name": "Black_dagger(p)",
+    "off": {
+      "attack": "+10",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_spear": {
+    "name": "Steel_spear",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_spear": {
+    "name": "Adamant_spear",
+    "off": {
+      "attack": "+24",
+      "strength": "+24",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+28",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_spear": {
+    "name": "Mithril_spear",
+    "off": {
+      "attack": "+17",
+      "strength": "+17",
+      "defense": "+17",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+18",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_spear": {
+    "name": "Rune_spear",
+    "off": {
+      "attack": "+36",
+      "strength": "+36",
+      "defense": "+36",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_spear": {
+    "name": "Dragon_spear",
+    "off": {
+      "attack": "+55",
+      "strength": "+55",
+      "defense": "+55",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+5",
+      "range": "+5"
+    },
+    "other": {
+      "melee_strength": "+60",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_spear(p)": {
+    "name": "Bronze_spear(p)",
+    "off": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_spear(p)": {
+    "name": "Iron_spear(p)",
+    "off": {
+      "attack": "+8",
+      "strength": "+8",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_spear(p)": {
+    "name": "Steel_spear(p)",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_spear(p)": {
+    "name": "Adamant_spear(p)",
+    "off": {
+      "attack": "+24",
+      "strength": "+24",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+28",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_spear(p)": {
+    "name": "Mithril_spear(p)",
+    "off": {
+      "attack": "+17",
+      "strength": "+17",
+      "defense": "+17",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+18",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_pickaxe": {
+    "name": "Bronze_pickaxe",
+    "off": {
+      "attack": "+4",
+      "strength": "-2",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+5",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_pickaxe": {
+    "name": "Iron_pickaxe",
+    "off": {
+      "attack": "+5",
+      "strength": "-2",
+      "defense": "+3",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_spear(p)": {
+    "name": "Rune_spear(p)",
+    "off": {
+      "attack": "+36",
+      "strength": "+36",
+      "defense": "+36",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_spear(p)": {
+    "name": "Dragon_spear(p)",
+    "off": {
+      "attack": "+55",
+      "strength": "+55",
+      "defense": "+55",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+5",
+      "range": "+5"
+    },
+    "other": {
+      "melee_strength": "+60",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_pickaxe": {
+    "name": "Adamant_pickaxe",
+    "off": {
+      "attack": "+17",
+      "strength": "-2",
+      "defense": "+15",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+19",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_pickaxe": {
+    "name": "Steel_pickaxe",
+    "off": {
+      "attack": "+8",
+      "strength": "-2",
+      "defense": "+6",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+9",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_pickaxe": {
+    "name": "Mithril_pickaxe",
+    "off": {
+      "attack": "+12",
+      "strength": "-2",
+      "defense": "+10",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+13",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_pickaxe": {
+    "name": "Rune_pickaxe",
+    "off": {
+      "attack": "+26",
+      "strength": "-2",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+29",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_sword": {
+    "name": "Bronze_sword",
+    "off": {
+      "attack": "+4",
+      "strength": "+3",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+5",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_sword": {
+    "name": "Steel_sword",
+    "off": {
+      "attack": "+11",
+      "strength": "+8",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_sword": {
+    "name": "Black_sword",
+    "off": {
+      "attack": "+14",
+      "strength": "+10",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_sword": {
+    "name": "Iron_sword",
+    "off": {
+      "attack": "+6",
+      "strength": "+4",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_sword": {
+    "name": "Adamant_sword",
+    "off": {
+      "attack": "+23",
+      "strength": "+18",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+24",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_sword": {
+    "name": "Mithril_sword",
+    "off": {
+      "attack": "+16",
+      "strength": "+11",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+17",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_longsword": {
+    "name": "Bronze_longsword",
+    "off": {
+      "attack": "+4",
+      "strength": "+5",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_sword": {
+    "name": "Rune_sword",
+    "off": {
+      "attack": "+38",
+      "strength": "+26",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+39",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_longsword": {
+    "name": "Iron_longsword",
+    "off": {
+      "attack": "+6",
+      "strength": "+8",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_longsword": {
+    "name": "Steel_longsword",
+    "off": {
+      "attack": "+9",
+      "strength": "+14",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+16",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_longsword": {
+    "name": "Black_longsword",
+    "off": {
+      "attack": "+13",
+      "strength": "+18",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+16",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_longsword": {
+    "name": "Mithril_longsword",
+    "off": {
+      "attack": "+15",
+      "strength": "+20",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+22",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_longsword": {
+    "name": "Adamant_longsword",
+    "off": {
+      "attack": "+20",
+      "strength": "+29",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+31",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_longsword": {
+    "name": "Dragon_longsword",
+    "off": {
+      "attack": "+58",
+      "strength": "+69",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+71",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_2h_sword": {
+    "name": "Bronze_2h_sword",
+    "off": {
+      "attack": "-4",
+      "strength": "+9",
+      "defense": "+8",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_longsword": {
+    "name": "Rune_longsword",
+    "off": {
+      "attack": "+38",
+      "strength": "+47",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+49",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_2h_sword": {
+    "name": "Steel_2h_sword",
+    "off": {
+      "attack": "-4",
+      "strength": "+21",
+      "defense": "+16",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+22",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_2h_sword": {
+    "name": "Iron_2h_sword",
+    "off": {
+      "attack": "-4",
+      "strength": "+13",
+      "defense": "+10",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_2h_sword": {
+    "name": "Mithril_2h_sword",
+    "off": {
+      "attack": "-4",
+      "strength": "+30",
+      "defense": "+24",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+31",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_2h_sword": {
+    "name": "Black_2h_sword",
+    "off": {
+      "attack": "-4",
+      "strength": "+27",
+      "defense": "+21",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+26",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_2h_sword": {
+    "name": "Adamant_2h_sword",
+    "off": {
+      "attack": "-4",
+      "strength": "+43",
+      "defense": "+30",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+44",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_2h_sword": {
+    "name": "Rune_2h_sword",
+    "off": {
+      "attack": "-4",
+      "strength": "+69",
+      "defense": "+50",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+70",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_scimitar": {
+    "name": "Bronze_scimitar",
+    "off": {
+      "attack": "+1",
+      "strength": "+7",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_scimitar": {
+    "name": "Steel_scimitar",
+    "off": {
+      "attack": "+3",
+      "strength": "+15",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_scimitar": {
+    "name": "Iron_scimitar",
+    "off": {
+      "attack": "+2",
+      "strength": "+10",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+9",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_scimitar": {
+    "name": "Black_scimitar",
+    "off": {
+      "attack": "+4",
+      "strength": "+19",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_scimitar": {
+    "name": "Mithril_scimitar",
+    "off": {
+      "attack": "+5",
+      "strength": "+21",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+20",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_scimitar": {
+    "name": "Adamant_scimitar",
+    "off": {
+      "attack": "+6",
+      "strength": "+29",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+28",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_warhammer": {
+    "name": "Bronze_warhammer",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+10",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+8",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_warhammer": {
+    "name": "Iron_warhammer",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+11",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+9",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_scimitar": {
+    "name": "Rune_scimitar",
+    "off": {
+      "attack": "+7",
+      "strength": "+45",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+44",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_warhammer": {
+    "name": "Steel_warhammer",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+18",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+16",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_warhammer": {
+    "name": "Black_warhammer",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+22",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+19",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_warhammer": {
+    "name": "Mithril_warhammer",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+25",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+20",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_axe": {
+    "name": "Iron_axe",
+    "off": {
+      "attack": "-2",
+      "strength": "+5",
+      "defense": "+3",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_axe": {
+    "name": "Bronze_axe",
+    "off": {
+      "attack": "-2",
+      "strength": "+4",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+5",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_warhammer": {
+    "name": "Adamant_warhammer",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+33",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+31",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_warhammer": {
+    "name": "Rune_warhammer",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+53",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+48",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_axe": {
+    "name": "Steel_axe",
+    "off": {
+      "attack": "-2",
+      "strength": "+8",
+      "defense": "+6",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+9",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_axe": {
+    "name": "Mithril_axe",
+    "off": {
+      "attack": "-2",
+      "strength": "+12",
+      "defense": "+10",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+13",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_axe": {
+    "name": "Adamant_axe",
+    "off": {
+      "attack": "-2",
+      "strength": "+17",
+      "defense": "+15",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+19",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_axe": {
+    "name": "Black_axe",
+    "off": {
+      "attack": "-2",
+      "strength": "+10",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_axe": {
+    "name": "Rune_axe",
+    "off": {
+      "attack": "-2",
+      "strength": "+26",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+29",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_battleaxe": {
+    "name": "Iron_battleaxe",
+    "off": {
+      "attack": "-2",
+      "strength": "+8",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+13",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_battleaxe": {
+    "name": "Steel_battleaxe",
+    "off": {
+      "attack": "-2",
+      "strength": "+16",
+      "defense": "+11",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+20",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_battleaxe": {
+    "name": "Black_battleaxe",
+    "off": {
+      "attack": "-2",
+      "strength": "+20",
+      "defense": "+15",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+24",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_battleaxe": {
+    "name": "Mithril_battleaxe",
+    "off": {
+      "attack": "-2",
+      "strength": "+22",
+      "defense": "+17",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+29",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_battleaxe": {
+    "name": "Bronze_battleaxe",
+    "off": {
+      "attack": "-2",
+      "strength": "+6",
+      "defense": "+3",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+9",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_battleaxe": {
+    "name": "Adamant_battleaxe",
+    "off": {
+      "attack": "-2",
+      "strength": "+31",
+      "defense": "+26",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+41",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_battleaxe": {
+    "name": "Rune_battleaxe",
+    "off": {
+      "attack": "-2",
+      "strength": "+48",
+      "defense": "+43",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+64",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Staff": {
+    "name": "Staff",
+    "off": {
+      "attack": "+0",
+      "strength": "-1",
+      "defense": "+7",
+      "magic": "+4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+4",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_battleaxe": {
+    "name": "Dragon_battleaxe",
+    "off": {
+      "attack": "-2",
+      "strength": "+70",
+      "defense": "+65",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+85",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Staff_of_air": {
+    "name": "Staff_of_air",
+    "off": {
+      "attack": "+0",
+      "strength": "-1",
+      "defense": "+7",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Staff_of_water": {
+    "name": "Staff_of_water",
+    "off": {
+      "attack": "+0",
+      "strength": "-1",
+      "defense": "+7",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Staff_of_earth": {
+    "name": "Staff_of_earth",
+    "off": {
+      "attack": "+1",
+      "strength": "-1",
+      "defense": "+9",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+5",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Staff_of_fire": {
+    "name": "Staff_of_fire",
+    "off": {
+      "attack": "+3",
+      "strength": "-1",
+      "defense": "+9",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Magic_staff": {
+    "name": "Magic_staff",
+    "off": {
+      "attack": "+2",
+      "strength": "-1",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Fire_battlestaff": {
+    "name": "Fire_battlestaff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+28",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Battlestaff": {
+    "name": "Battlestaff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+25",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+32",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Water_battlestaff": {
+    "name": "Water_battlestaff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+28",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Earth_battlestaff": {
+    "name": "Earth_battlestaff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+28",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Air_battlestaff": {
+    "name": "Air_battlestaff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+28",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mystic_fire_staff": {
+    "name": "Mystic_fire_staff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mystic_water_staff": {
+    "name": "Mystic_water_staff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mystic_air_staff": {
+    "name": "Mystic_air_staff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mystic_earth_staff": {
+    "name": "Mystic_earth_staff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_mace": {
+    "name": "Iron_mace",
+    "off": {
+      "attack": "+4",
+      "strength": "-2",
+      "defense": "+9",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "Black_mace": {
+    "name": "Black_mace",
+    "off": {
+      "attack": "+8",
+      "strength": "-2",
+      "defense": "+16",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+13",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+2"
+    }
+  },
+  "Steel_mace": {
+    "name": "Steel_mace",
+    "off": {
+      "attack": "+7",
+      "strength": "-2",
+      "defense": "+13",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+11",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+2"
+    }
+  },
+  "Bronze_mace": {
+    "name": "Bronze_mace",
+    "off": {
+      "attack": "+1",
+      "strength": "-2",
+      "defense": "+6",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+5",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "Mithril_mace": {
+    "name": "Mithril_mace",
+    "off": {
+      "attack": "+11",
+      "strength": "-2",
+      "defense": "+18",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+16",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Adamant_mace": {
+    "name": "Adamant_mace",
+    "off": {
+      "attack": "+13",
+      "strength": "-2",
+      "defense": "+25",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+23",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Dragon_mace": {
+    "name": "Dragon_mace",
+    "off": {
+      "attack": "+40",
+      "strength": "-2",
+      "defense": "+60",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+55",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+5"
+    }
+  },
+  "Rune_mace": {
+    "name": "Rune_mace",
+    "off": {
+      "attack": "+20",
+      "strength": "-2",
+      "defense": "+39",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+36",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+4"
+    }
+  },
+  "Amulet_of_glory": {
+    "name": "Amulet_of_glory",
+    "off": {
+      "attack": "+10",
+      "strength": "+10",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+10"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+3",
+      "defense": "+3",
+      "magic": "+3",
+      "range": "+3"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Amulet_of_glory(4)": {
+    "name": "Amulet_of_glory(4)",
+    "off": {
+      "attack": "+10",
+      "strength": "+10",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+10"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+3",
+      "defense": "+3",
+      "magic": "+3",
+      "range": "+3"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Amulet_of_strength": {
+    "name": "Amulet_of_strength",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Amulet_of_power": {
+    "name": "Amulet_of_power",
+    "off": {
+      "attack": "+6",
+      "strength": "+6",
+      "defense": "+6",
+      "magic": "+6",
+      "range": "+6"
+    },
+    "def": {
+      "attack": "+6",
+      "strength": "+6",
+      "defense": "+6",
+      "magic": "+6",
+      "range": "+6"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "Assorted_flowers": {
+    "name": "Assorted_flowers",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Red_flowers": {
+    "name": "Red_flowers",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Blue_flowers": {
+    "name": "Blue_flowers",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Yellow_flowers": {
+    "name": "Yellow_flowers",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Purple_flowers": {
+    "name": "Purple_flowers",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Orange_flowers": {
+    "name": "Orange_flowers",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mixed_flowers": {
+    "name": "Mixed_flowers",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "White_flowers": {
+    "name": "White_flowers",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_flowers": {
+    "name": "Black_flowers",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Silver_sickle": {
+    "name": "Silver_sickle",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+1",
+      "magic": "+1",
+      "range": "+1"
+    },
+    "other": {
+      "melee_strength": "+1",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Lava_battlestaff": {
+    "name": "Lava_battlestaff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+28",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mystic_lava_staff": {
+    "name": "Mystic_lava_staff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_claws": {
+    "name": "Bronze_claws",
+    "off": {
+      "attack": "+3",
+      "strength": "+4",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+5",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_claws": {
+    "name": "Iron_claws",
+    "off": {
+      "attack": "+4",
+      "strength": "+6",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_claws": {
+    "name": "Steel_claws",
+    "off": {
+      "attack": "+8",
+      "strength": "+11",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+6",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_claws": {
+    "name": "Black_claws",
+    "off": {
+      "attack": "+10",
+      "strength": "+14",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+4",
+      "strength": "+7",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_claws": {
+    "name": "Mithril_claws",
+    "off": {
+      "attack": "+11",
+      "strength": "+16",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+4",
+      "strength": "+8",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+17",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_claws": {
+    "name": "Adamant_claws",
+    "off": {
+      "attack": "+18",
+      "strength": "+23",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+6",
+      "strength": "+12",
+      "defense": "+3",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+24",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_claws": {
+    "name": "Rune_claws",
+    "off": {
+      "attack": "+26",
+      "strength": "+38",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+10",
+      "strength": "+19",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+39",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Climbing_boots": {
+    "name": "Climbing_boots",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Spiked_boots": {
+    "name": "Spiked_boots",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_halberd": {
+    "name": "Bronze_halberd",
+    "off": {
+      "attack": "+7",
+      "strength": "+8",
+      "defense": "+0",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "+1",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+8",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_halberd": {
+    "name": "Iron_halberd",
+    "off": {
+      "attack": "+9",
+      "strength": "+12",
+      "defense": "+0",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "+1",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_halberd": {
+    "name": "Steel_halberd",
+    "off": {
+      "attack": "+14",
+      "strength": "+19",
+      "defense": "+0",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "+1",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+20",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_halberd": {
+    "name": "Black_halberd",
+    "off": {
+      "attack": "+19",
+      "strength": "+25",
+      "defense": "+0",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "+2",
+      "defense": "+3",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+20",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_halberd": {
+    "name": "Mithril_halberd",
+    "off": {
+      "attack": "+22",
+      "strength": "+28",
+      "defense": "+0",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "+2",
+      "defense": "+4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+29",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_halberd": {
+    "name": "Adamant_halberd",
+    "off": {
+      "attack": "+28",
+      "strength": "+41",
+      "defense": "+0",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "+3",
+      "defense": "+4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_halberd": {
+    "name": "Rune_halberd",
+    "off": {
+      "attack": "+48",
+      "strength": "+67",
+      "defense": "+0",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "+4",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+68",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_halberd": {
+    "name": "Dragon_halberd",
+    "off": {
+      "attack": "+70",
+      "strength": "+95",
+      "defense": "+0",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "+4",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+89",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Berserker_helm": {
+    "name": "Berserker_helm",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-5",
+      "range": "-5"
+    },
+    "def": {
+      "attack": "+31",
+      "strength": "+29",
+      "defense": "+33",
+      "magic": "+0",
+      "range": "+30"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_boots": {
+    "name": "Adamant_boots",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-3",
+      "range": "-1"
+    },
+    "def": {
+      "attack": "+10",
+      "strength": "+11",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+1",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Abyssal_whip": {
+    "name": "Abyssal_whip",
+    "off": {
+      "attack": "+0",
+      "strength": "+82",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+82",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_boots": {
+    "name": "Rune_boots",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-3",
+      "range": "-1"
+    },
+    "def": {
+      "attack": "+12",
+      "strength": "+13",
+      "defense": "+14",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Granite_maul": {
+    "name": "Granite_maul",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+81",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+79",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Slayer's_staff": {
+    "name": "Slayer's_staff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+25",
+      "magic": "+12",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_spear": {
+    "name": "Black_spear",
+    "off": {
+      "attack": "+15",
+      "strength": "+15",
+      "defense": "+15",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+16",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_spear(p)": {
+    "name": "Black_spear(p)",
+    "off": {
+      "attack": "+15",
+      "strength": "+15",
+      "defense": "+15",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+16",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_scimitar": {
+    "name": "Dragon_scimitar",
+    "off": {
+      "attack": "+8",
+      "strength": "+67",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+66",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Willow_blackjack": {
+    "name": "Willow_blackjack",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+8",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Ancient_staff": {
+    "name": "Ancient_staff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+15",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+15",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "-1"
+    }
+  },
+  "Ahrim's_staff": {
+    "name": "Ahrim's_staff",
+    "off": {
+      "attack": "+12",
+      "strength": "-1",
+      "defense": "+65",
+      "magic": "+15",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+5",
+      "defense": "+2",
+      "magic": "+15",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+68",
+      "range_strength": "+0",
+      "magic": "+5",
+      "prayer": "+0"
+    }
+  },
+  "Dharok's_greataxe": {
+    "name": "Dharok's_greataxe",
+    "off": {
+      "attack": "-4",
+      "strength": "+103",
+      "defense": "+95",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+105",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Guthan's_warspear": {
+    "name": "Guthan's_warspear",
+    "off": {
+      "attack": "+75",
+      "strength": "+75",
+      "defense": "+75",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+7",
+      "strength": "+7",
+      "defense": "+7",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+75",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Torag's_hammers": {
+    "name": "Torag's_hammers",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+85",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+72",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Verac's_flail": {
+    "name": "Verac's_flail",
+    "off": {
+      "attack": "+68",
+      "strength": "-2",
+      "defense": "+82",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+72",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+6"
+    }
+  },
+  "Ahrim's_staff_0": {
+    "name": "Ahrim's_staff_0",
+    "off": {
+      "attack": "+12",
+      "strength": "-1",
+      "defense": "+65",
+      "magic": "+15",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+5",
+      "defense": "+2",
+      "magic": "+15",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+68",
+      "range_strength": "+0",
+      "magic": "+5",
+      "prayer": "+0"
+    }
+  },
+  "Dharok's_greataxe_0": {
+    "name": "Dharok's_greataxe_0",
+    "off": {
+      "attack": "-4",
+      "strength": "+103",
+      "defense": "+95",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+105",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Guthan's_warspear_0": {
+    "name": "Guthan's_warspear_0",
+    "off": {
+      "attack": "+75",
+      "strength": "+75",
+      "defense": "+75",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+7",
+      "strength": "+7",
+      "defense": "+7",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+75",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Torag's_hammers_0": {
+    "name": "Torag's_hammers_0",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+85",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+72",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Verac's_flail_0": {
+    "name": "Verac's_flail_0",
+    "off": {
+      "attack": "+68",
+      "strength": "-2",
+      "defense": "+82",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+72",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+6"
+    }
+  },
+  "Bone_spear": {
+    "name": "Bone_spear",
+    "off": {
+      "attack": "+11",
+      "strength": "+11",
+      "defense": "+11",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+13",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bone_club": {
+    "name": "Bone_club",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+16",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+15",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_dagger(p+)": {
+    "name": "Iron_dagger(p+)",
+    "off": {
+      "attack": "+5",
+      "strength": "+3",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_dagger(p+)": {
+    "name": "Bronze_dagger(p+)",
+    "off": {
+      "attack": "+4",
+      "strength": "+2",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_dagger(p+)": {
+    "name": "Steel_dagger(p+)",
+    "off": {
+      "attack": "+8",
+      "strength": "+4",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_dagger(p+)": {
+    "name": "Mithril_dagger(p+)",
+    "off": {
+      "attack": "+11",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_dagger(p+)": {
+    "name": "Adamant_dagger(p+)",
+    "off": {
+      "attack": "+15",
+      "strength": "+8",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_dagger(p+)": {
+    "name": "Rune_dagger(p+)",
+    "off": {
+      "attack": "+25",
+      "strength": "+12",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+24",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_dagger(p+)": {
+    "name": "Dragon_dagger(p+)",
+    "off": {
+      "attack": "+40",
+      "strength": "+25",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+40",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_dagger(p+)": {
+    "name": "Black_dagger(p+)",
+    "off": {
+      "attack": "+10",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_dagger(p++)": {
+    "name": "Iron_dagger(p++)",
+    "off": {
+      "attack": "+5",
+      "strength": "+3",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_dagger(p++)": {
+    "name": "Bronze_dagger(p++)",
+    "off": {
+      "attack": "+4",
+      "strength": "+2",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_dagger(p++)": {
+    "name": "Steel_dagger(p++)",
+    "off": {
+      "attack": "+8",
+      "strength": "+4",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_dagger(p++)": {
+    "name": "Adamant_dagger(p++)",
+    "off": {
+      "attack": "+15",
+      "strength": "+8",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_dagger(p++)": {
+    "name": "Mithril_dagger(p++)",
+    "off": {
+      "attack": "+11",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_dagger(p++)": {
+    "name": "Rune_dagger(p++)",
+    "off": {
+      "attack": "+25",
+      "strength": "+12",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+24",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_dagger(p++)": {
+    "name": "Dragon_dagger(p++)",
+    "off": {
+      "attack": "+40",
+      "strength": "+25",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+40",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_dagger(p++)": {
+    "name": "Black_dagger(p++)",
+    "off": {
+      "attack": "+10",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_spear(p+)": {
+    "name": "Iron_spear(p+)",
+    "off": {
+      "attack": "+8",
+      "strength": "+8",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_spear(p+)": {
+    "name": "Bronze_spear(p+)",
+    "off": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_spear(p+)": {
+    "name": "Steel_spear(p+)",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_spear(p+)": {
+    "name": "Mithril_spear(p+)",
+    "off": {
+      "attack": "+17",
+      "strength": "+17",
+      "defense": "+17",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+18",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_spear(p+)": {
+    "name": "Adamant_spear(p+)",
+    "off": {
+      "attack": "+24",
+      "strength": "+24",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+28",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_spear(p+)": {
+    "name": "Dragon_spear(p+)",
+    "off": {
+      "attack": "+55",
+      "strength": "+55",
+      "defense": "+55",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+5",
+      "range": "+5"
+    },
+    "other": {
+      "melee_strength": "+60",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_spear(p++)": {
+    "name": "Iron_spear(p++)",
+    "off": {
+      "attack": "+8",
+      "strength": "+8",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_spear(p+)": {
+    "name": "Rune_spear(p+)",
+    "off": {
+      "attack": "+36",
+      "strength": "+36",
+      "defense": "+36",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_spear(p++)": {
+    "name": "Bronze_spear(p++)",
+    "off": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_spear(p++)": {
+    "name": "Steel_spear(p++)",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_spear(p++)": {
+    "name": "Adamant_spear(p++)",
+    "off": {
+      "attack": "+24",
+      "strength": "+24",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+28",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_spear(p++)": {
+    "name": "Mithril_spear(p++)",
+    "off": {
+      "attack": "+17",
+      "strength": "+17",
+      "defense": "+17",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+18",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_spear(p+)": {
+    "name": "Black_spear(p+)",
+    "off": {
+      "attack": "+15",
+      "strength": "+15",
+      "defense": "+15",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+16",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_spear(p++)": {
+    "name": "Rune_spear(p++)",
+    "off": {
+      "attack": "+36",
+      "strength": "+36",
+      "defense": "+36",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_spear(p++)": {
+    "name": "Dragon_spear(p++)",
+    "off": {
+      "attack": "+55",
+      "strength": "+55",
+      "defense": "+55",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+5",
+      "range": "+5"
+    },
+    "other": {
+      "melee_strength": "+60",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_spear(p++)": {
+    "name": "Black_spear(p++)",
+    "off": {
+      "attack": "+15",
+      "strength": "+15",
+      "defense": "+15",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+16",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Opal_machete": {
+    "name": "Opal_machete",
+    "off": {
+      "attack": "+0",
+      "strength": "+8",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Jade_machete": {
+    "name": "Jade_machete",
+    "off": {
+      "attack": "+0",
+      "strength": "+11",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Red_topaz_machete": {
+    "name": "Red_topaz_machete",
+    "off": {
+      "attack": "+0",
+      "strength": "+16",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+1"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Oak_blackjack(o)": {
+    "name": "Oak_blackjack(o)",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Oak_blackjack(d)": {
+    "name": "Oak_blackjack(d)",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Willow_blackjack(o)": {
+    "name": "Willow_blackjack(o)",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+8",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Willow_blackjack(d)": {
+    "name": "Willow_blackjack(d)",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+8",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Maple_blackjack": {
+    "name": "Maple_blackjack",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+20",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Maple_blackjack(o)": {
+    "name": "Maple_blackjack(o)",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+20",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Maple_blackjack(d)": {
+    "name": "Maple_blackjack(d)",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+20",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Toktz-xil-ak": {
+    "name": "Toktz-xil-ak",
+    "off": {
+      "attack": "+47",
+      "strength": "+38",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+49",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Toktz-ket-xil": {
+    "name": "Toktz-ket-xil",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-12",
+      "range": "-8"
+    },
+    "def": {
+      "attack": "+40",
+      "strength": "+42",
+      "defense": "+38",
+      "magic": "+0",
+      "range": "+65"
+    },
+    "other": {
+      "melee_strength": "+5",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Toktz-xil-ek": {
+    "name": "Toktz-xil-ek",
+    "off": {
+      "attack": "+16",
+      "strength": "+48",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+39",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Toktz-mej-tal": {
+    "name": "Toktz-mej-tal",
+    "off": {
+      "attack": "+15",
+      "strength": "-1",
+      "defense": "+55",
+      "magic": "+15",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+10",
+      "strength": "+15",
+      "defense": "+5",
+      "magic": "+15",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+55",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+5"
+    }
+  },
+  "Tzhaar-ket-em": {
+    "name": "Tzhaar-ket-em",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+62",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+56",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Tzhaar-ket-om": {
+    "name": "Tzhaar-ket-om",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+80",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+85",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mud_battlestaff": {
+    "name": "Mud_battlestaff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+28",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mystic_mud_staff": {
+    "name": "Mystic_mud_staff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Amulet_of_fury": {
+    "name": "Amulet_of_fury",
+    "off": {
+      "attack": "+10",
+      "strength": "+10",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+10"
+    },
+    "def": {
+      "attack": "+15",
+      "strength": "+15",
+      "defense": "+15",
+      "magic": "+15",
+      "range": "+15"
+    },
+    "other": {
+      "melee_strength": "+8",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+5"
+    }
+  },
+  "White_claws": {
+    "name": "White_claws",
+    "off": {
+      "attack": "+10",
+      "strength": "+14",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+4",
+      "strength": "+7",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_battleaxe": {
+    "name": "White_battleaxe",
+    "off": {
+      "attack": "-2",
+      "strength": "+20",
+      "defense": "+15",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+24",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_dagger": {
+    "name": "White_dagger",
+    "off": {
+      "attack": "+10",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_dagger(p)": {
+    "name": "White_dagger(p)",
+    "off": {
+      "attack": "+10",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_dagger(p+)": {
+    "name": "White_dagger(p+)",
+    "off": {
+      "attack": "+10",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_dagger(p++)": {
+    "name": "White_dagger(p++)",
+    "off": {
+      "attack": "+10",
+      "strength": "+5",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_mace": {
+    "name": "White_mace",
+    "off": {
+      "attack": "+8",
+      "strength": "-2",
+      "defense": "+16",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+13",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "White_halberd": {
+    "name": "White_halberd",
+    "off": {
+      "attack": "+19",
+      "strength": "+25",
+      "defense": "+0",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "+2",
+      "defense": "+3",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+20",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_magic_staff": {
+    "name": "White_magic_staff",
+    "off": {
+      "attack": "+2",
+      "strength": "-1",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_sword": {
+    "name": "White_sword",
+    "off": {
+      "attack": "+14",
+      "strength": "+10",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_longsword": {
+    "name": "White_longsword",
+    "off": {
+      "attack": "+13",
+      "strength": "+18",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+16",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_2h_sword": {
+    "name": "White_2h_sword",
+    "off": {
+      "attack": "-4",
+      "strength": "+27",
+      "defense": "+21",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+26",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_warhammer": {
+    "name": "White_warhammer",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+22",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+19",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "White_scimitar": {
+    "name": "White_scimitar",
+    "off": {
+      "attack": "+4",
+      "strength": "+19",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "Dragon_axe": {
+    "name": "Dragon_axe",
+    "off": {
+      "attack": "-2",
+      "strength": "+38",
+      "defense": "+32",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Berserker_ring": {
+    "name": "Berserker_ring",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Guthix_mjolnir": {
+    "name": "Guthix_mjolnir",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+11",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Saradomin_mjolnir": {
+    "name": "Saradomin_mjolnir",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+11",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Zamorak_mjolnir": {
+    "name": "Zamorak_mjolnir",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+11",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_2h_sword": {
+    "name": "Dragon_2h_sword",
+    "off": {
+      "attack": "-4",
+      "strength": "+92",
+      "defense": "+80",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+93",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mud_pie": {
+    "name": "Mud_pie",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Wooden_spoon": {
+    "name": "Wooden_spoon",
+    "off": {
+      "attack": "+4",
+      "strength": "+5",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Egg_whisk": {
+    "name": "Egg_whisk",
+    "off": {
+      "attack": "+5",
+      "strength": "+3",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Frying_pan": {
+    "name": "Frying_pan",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+25",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+20",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Spork": {
+    "name": "Spork",
+    "off": {
+      "attack": "+11",
+      "strength": "+8",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Skewer": {
+    "name": "Skewer",
+    "off": {
+      "attack": "+20",
+      "strength": "+29",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+31",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rolling_pin": {
+    "name": "Rolling_pin",
+    "off": {
+      "attack": "+20",
+      "strength": "-2",
+      "defense": "+39",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+36",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+4"
+    }
+  },
+  "Spatula": {
+    "name": "Spatula",
+    "off": {
+      "attack": "-4",
+      "strength": "+27",
+      "defense": "+21",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+22",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Meat_tenderiser": {
+    "name": "Meat_tenderiser",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+53",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+48",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Kitchen_knife": {
+    "name": "Kitchen_knife",
+    "off": {
+      "attack": "+25",
+      "strength": "+12",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+24",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Cleaver": {
+    "name": "Cleaver",
+    "off": {
+      "attack": "+7",
+      "strength": "+45",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+44",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Gadderhammer": {
+    "name": "Gadderhammer",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+35",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bone_dagger": {
+    "name": "Bone_dagger",
+    "off": {
+      "attack": "+5",
+      "strength": "+3",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bone_dagger_(p)": {
+    "name": "Bone_dagger_(p)",
+    "off": {
+      "attack": "+5",
+      "strength": "+3",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bone_dagger_(p+)": {
+    "name": "Bone_dagger_(p+)",
+    "off": {
+      "attack": "+5",
+      "strength": "+3",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bone_dagger_(p++)": {
+    "name": "Bone_dagger_(p++)",
+    "off": {
+      "attack": "+5",
+      "strength": "+3",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Pharaoh's_sceptre_(3)": {
+    "name": "Pharaoh's_sceptre_(3)",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+25",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+32",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Pharaoh's_sceptre": {
+    "name": "Pharaoh's_sceptre",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+25",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+32",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Spiky_vambraces": {
+    "name": "Spiky_vambraces",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+4"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Green_spiky_vambs": {
+    "name": "Green_spiky_vambs",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-10",
+      "range": "+8"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+2",
+      "defense": "+4",
+      "magic": "+2",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Blue_spiky_vambs": {
+    "name": "Blue_spiky_vambs",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-10",
+      "range": "+9"
+    },
+    "def": {
+      "attack": "+4",
+      "strength": "+3",
+      "defense": "+5",
+      "magic": "+4",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Red_spiky_vambs": {
+    "name": "Red_spiky_vambs",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-10",
+      "range": "+10"
+    },
+    "def": {
+      "attack": "+5",
+      "strength": "+4",
+      "defense": "+6",
+      "magic": "+6",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_spiky_vambs": {
+    "name": "Black_spiky_vambs",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-10",
+      "range": "+11"
+    },
+    "def": {
+      "attack": "+6",
+      "strength": "+5",
+      "defense": "+7",
+      "magic": "+8",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Barb-tail_harpoon": {
+    "name": "Barb-tail_harpoon",
+    "off": {
+      "attack": "+9",
+      "strength": "+4",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Orange_salamander": {
+    "name": "Orange_salamander",
+    "off": {
+      "attack": "+0",
+      "strength": "+19",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+29"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+31",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Red_salamander": {
+    "name": "Red_salamander",
+    "off": {
+      "attack": "+0",
+      "strength": "+37",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+47"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+49",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Black_salamander": {
+    "name": "Black_salamander",
+    "off": {
+      "attack": "+0",
+      "strength": "+59",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+69"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+71",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Swamp_lizard": {
+    "name": "Swamp_lizard",
+    "off": {
+      "attack": "+0",
+      "strength": "+10",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+20"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+22",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Amulet_of_glory_(t)": {
+    "name": "Amulet_of_glory_(t)",
+    "off": {
+      "attack": "+10",
+      "strength": "+10",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+10"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+3",
+      "defense": "+3",
+      "magic": "+3",
+      "range": "+3"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Strength_amulet_(t)": {
+    "name": "Strength_amulet_(t)",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Amulet_of_glory_(t4)": {
+    "name": "Amulet_of_glory_(t4)",
+    "off": {
+      "attack": "+10",
+      "strength": "+10",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+10"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+3",
+      "defense": "+3",
+      "magic": "+3",
+      "range": "+3"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Guthix_crozier": {
+    "name": "Guthix_crozier",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+25",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+32",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+6"
+    }
+  },
+  "Zamorak_crozier": {
+    "name": "Zamorak_crozier",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+25",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+32",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+6"
+    }
+  },
+  "Saradomin_crozier": {
+    "name": "Saradomin_crozier",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+25",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+32",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+6"
+    }
+  },
+  "Helm_of_neitiznot": {
+    "name": "Helm_of_neitiznot",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+31",
+      "strength": "+29",
+      "defense": "+34",
+      "magic": "+3",
+      "range": "+30"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Brine_sabre": {
+    "name": "Brine_sabre",
+    "off": {
+      "attack": "+7",
+      "strength": "+47",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+46",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Ancient_mace": {
+    "name": "Ancient_mace",
+    "off": {
+      "attack": "+10",
+      "strength": "-2",
+      "defense": "+16",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Combat_bracelet": {
+    "name": "Combat_bracelet",
+    "off": {
+      "attack": "+7",
+      "strength": "+7",
+      "defense": "+7",
+      "magic": "+3",
+      "range": "+7"
+    },
+    "def": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+3",
+      "range": "+5"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Combat_bracelet(4)": {
+    "name": "Combat_bracelet(4)",
+    "off": {
+      "attack": "+7",
+      "strength": "+7",
+      "defense": "+7",
+      "magic": "+3",
+      "range": "+7"
+    },
+    "def": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+3",
+      "range": "+5"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Berserker_necklace": {
+    "name": "Berserker_necklace",
+    "off": {
+      "attack": "-10",
+      "strength": "-10",
+      "defense": "-10",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-20",
+      "strength": "-20",
+      "defense": "-20",
+      "magic": "-20",
+      "range": "-20"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Regen_bracelet": {
+    "name": "Regen_bracelet",
+    "off": {
+      "attack": "+8",
+      "strength": "+8",
+      "defense": "+8",
+      "magic": "+3",
+      "range": "+7"
+    },
+    "def": {
+      "attack": "+6",
+      "strength": "+6",
+      "defense": "+6",
+      "magic": "+3",
+      "range": "+6"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragonfire_shield": {
+    "name": "Dragonfire_shield",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-10",
+      "range": "-5"
+    },
+    "def": {
+      "attack": "+20",
+      "strength": "+25",
+      "defense": "+22",
+      "magic": "+10",
+      "range": "+22"
+    },
+    "other": {
+      "melee_strength": "+7",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_hasta": {
+    "name": "Bronze_hasta",
+    "off": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "-1",
+      "defense": "-1",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_hasta": {
+    "name": "Iron_hasta",
+    "off": {
+      "attack": "+8",
+      "strength": "+8",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-2",
+      "strength": "-2",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "-2"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_hasta": {
+    "name": "Steel_hasta",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-3",
+      "strength": "-3",
+      "defense": "-3",
+      "magic": "+0",
+      "range": "-3"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_hasta": {
+    "name": "Mithril_hasta",
+    "off": {
+      "attack": "+17",
+      "strength": "+17",
+      "defense": "+17",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-5",
+      "strength": "-5",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "-5"
+    },
+    "other": {
+      "melee_strength": "+18",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_hasta": {
+    "name": "Adamant_hasta",
+    "off": {
+      "attack": "+24",
+      "strength": "+24",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-6",
+      "strength": "-7",
+      "defense": "-5",
+      "magic": "+0",
+      "range": "-6"
+    },
+    "other": {
+      "melee_strength": "+28",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_hasta": {
+    "name": "Rune_hasta",
+    "off": {
+      "attack": "+36",
+      "strength": "+36",
+      "defense": "+36",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-10",
+      "strength": "-10",
+      "defense": "-9",
+      "magic": "+0",
+      "range": "-10"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_hasta(p)": {
+    "name": "Bronze_hasta(p)",
+    "off": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "-1",
+      "defense": "-1",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_hasta(p+)": {
+    "name": "Bronze_hasta(p+)",
+    "off": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "-1",
+      "defense": "-1",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Bronze_hasta(p++)": {
+    "name": "Bronze_hasta(p++)",
+    "off": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-1",
+      "strength": "-1",
+      "defense": "-1",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_hasta(p+)": {
+    "name": "Iron_hasta(p+)",
+    "off": {
+      "attack": "+8",
+      "strength": "+8",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-2",
+      "strength": "-2",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "-2"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_hasta(p)": {
+    "name": "Iron_hasta(p)",
+    "off": {
+      "attack": "+8",
+      "strength": "+8",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-2",
+      "strength": "-2",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "-2"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Iron_hasta(p++)": {
+    "name": "Iron_hasta(p++)",
+    "off": {
+      "attack": "+8",
+      "strength": "+8",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-2",
+      "strength": "-2",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "-2"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_hasta(p)": {
+    "name": "Mithril_hasta(p)",
+    "off": {
+      "attack": "+17",
+      "strength": "+17",
+      "defense": "+17",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-5",
+      "strength": "-5",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "-5"
+    },
+    "other": {
+      "melee_strength": "+18",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_hasta(p++)": {
+    "name": "Steel_hasta(p++)",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-3",
+      "strength": "-3",
+      "defense": "-3",
+      "magic": "+0",
+      "range": "-3"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_hasta(p)": {
+    "name": "Steel_hasta(p)",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-3",
+      "strength": "-3",
+      "defense": "-3",
+      "magic": "+0",
+      "range": "-3"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steel_hasta(p+)": {
+    "name": "Steel_hasta(p+)",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-3",
+      "strength": "-3",
+      "defense": "-3",
+      "magic": "+0",
+      "range": "-3"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_hasta(p+)": {
+    "name": "Mithril_hasta(p+)",
+    "off": {
+      "attack": "+17",
+      "strength": "+17",
+      "defense": "+17",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-5",
+      "strength": "-5",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "-5"
+    },
+    "other": {
+      "melee_strength": "+18",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_hasta(p++)": {
+    "name": "Adamant_hasta(p++)",
+    "off": {
+      "attack": "+24",
+      "strength": "+24",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-6",
+      "strength": "-7",
+      "defense": "-5",
+      "magic": "+0",
+      "range": "-6"
+    },
+    "other": {
+      "melee_strength": "+28",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mithril_hasta(p++)": {
+    "name": "Mithril_hasta(p++)",
+    "off": {
+      "attack": "+17",
+      "strength": "+17",
+      "defense": "+17",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-5",
+      "strength": "-5",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "-5"
+    },
+    "other": {
+      "melee_strength": "+18",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_hasta(p)": {
+    "name": "Adamant_hasta(p)",
+    "off": {
+      "attack": "+24",
+      "strength": "+24",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-6",
+      "strength": "-7",
+      "defense": "-5",
+      "magic": "+0",
+      "range": "-6"
+    },
+    "other": {
+      "melee_strength": "+28",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Adamant_hasta(p+)": {
+    "name": "Adamant_hasta(p+)",
+    "off": {
+      "attack": "+24",
+      "strength": "+24",
+      "defense": "+24",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-6",
+      "strength": "-7",
+      "defense": "-5",
+      "magic": "+0",
+      "range": "-6"
+    },
+    "other": {
+      "melee_strength": "+28",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_hasta(p)": {
+    "name": "Rune_hasta(p)",
+    "off": {
+      "attack": "+36",
+      "strength": "+36",
+      "defense": "+36",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-10",
+      "strength": "-10",
+      "defense": "-9",
+      "magic": "+0",
+      "range": "-10"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_hasta(p++)": {
+    "name": "Rune_hasta(p++)",
+    "off": {
+      "attack": "+36",
+      "strength": "+36",
+      "defense": "+36",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-10",
+      "strength": "-10",
+      "defense": "-9",
+      "magic": "+0",
+      "range": "-10"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Rune_hasta(p+)": {
+    "name": "Rune_hasta(p+)",
+    "off": {
+      "attack": "+36",
+      "strength": "+36",
+      "defense": "+36",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-10",
+      "strength": "-10",
+      "defense": "-9",
+      "magic": "+0",
+      "range": "-10"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Steam_battlestaff": {
+    "name": "Steam_battlestaff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+28",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mystic_steam_staff": {
+    "name": "Mystic_steam_staff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Staff_of_the_dead": {
+    "name": "Staff_of_the_dead",
+    "off": {
+      "attack": "+55",
+      "strength": "+70",
+      "defense": "+0",
+      "magic": "+17",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+3",
+      "magic": "+17",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+72",
+      "range_strength": "+0",
+      "magic": "+15",
+      "prayer": "+0"
+    }
+  },
+  "Armadyl_godsword": {
+    "name": "Armadyl_godsword",
+    "off": {
+      "attack": "+0",
+      "strength": "+132",
+      "defense": "+80",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+132",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+8"
+    }
+  },
+  "Bandos_godsword": {
+    "name": "Bandos_godsword",
+    "off": {
+      "attack": "+0",
+      "strength": "+132",
+      "defense": "+80",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+132",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+8"
+    }
+  },
+  "Saradomin_godsword": {
+    "name": "Saradomin_godsword",
+    "off": {
+      "attack": "+0",
+      "strength": "+132",
+      "defense": "+80",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+132",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+8"
+    }
+  },
+  "Zamorak_godsword": {
+    "name": "Zamorak_godsword",
+    "off": {
+      "attack": "+0",
+      "strength": "+132",
+      "defense": "+80",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+132",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+8"
+    }
+  },
+  "Zamorakian_spear": {
+    "name": "Zamorakian_spear",
+    "off": {
+      "attack": "+85",
+      "strength": "+65",
+      "defense": "+65",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+13",
+      "strength": "+13",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+13"
+    },
+    "other": {
+      "melee_strength": "+75",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+2"
+    }
+  },
+  "Bandos_chestplate": {
+    "name": "Bandos_chestplate",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-15",
+      "range": "-10"
+    },
+    "def": {
+      "attack": "+98",
+      "strength": "+93",
+      "defense": "+105",
+      "magic": "-6",
+      "range": "+133"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "Bandos_tassets": {
+    "name": "Bandos_tassets",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-21",
+      "range": "-7"
+    },
+    "def": {
+      "attack": "+71",
+      "strength": "+63",
+      "defense": "+66",
+      "magic": "-4",
+      "range": "+93"
+    },
+    "other": {
+      "melee_strength": "+2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+1"
+    }
+  },
+  "Saradomin_sword": {
+    "name": "Saradomin_sword",
+    "off": {
+      "attack": "+0",
+      "strength": "+82",
+      "defense": "+60",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+82",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+2"
+    }
+  },
+  "Dragon_boots": {
+    "name": "Dragon_boots",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-3",
+      "range": "-1"
+    },
+    "def": {
+      "attack": "+16",
+      "strength": "+17",
+      "defense": "+18",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Zamorakian_hasta": {
+    "name": "Zamorakian_hasta",
+    "off": {
+      "attack": "+85",
+      "strength": "+65",
+      "defense": "+65",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+13",
+      "strength": "+13",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+13"
+    },
+    "other": {
+      "melee_strength": "+75",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+2"
+    }
+  },
+  "Leaf-bladed_sword": {
+    "name": "Leaf-bladed_sword",
+    "off": {
+      "attack": "+67",
+      "strength": "+62",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_pickaxe": {
+    "name": "Dragon_pickaxe",
+    "off": {
+      "attack": "+38",
+      "strength": "-2",
+      "defense": "+32",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Amulet_of_glory_(t6)": {
+    "name": "Amulet_of_glory_(t6)",
+    "off": {
+      "attack": "+10",
+      "strength": "+10",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+10"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+3",
+      "defense": "+3",
+      "magic": "+3",
+      "range": "+3"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Combat_bracelet(6)": {
+    "name": "Combat_bracelet(6)",
+    "off": {
+      "attack": "+7",
+      "strength": "+7",
+      "defense": "+7",
+      "magic": "+3",
+      "range": "+7"
+    },
+    "def": {
+      "attack": "+5",
+      "strength": "+5",
+      "defense": "+5",
+      "magic": "+3",
+      "range": "+5"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Amulet_of_glory(6)": {
+    "name": "Amulet_of_glory(6)",
+    "off": {
+      "attack": "+10",
+      "strength": "+10",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+10"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+3",
+      "defense": "+3",
+      "magic": "+3",
+      "range": "+3"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Smoke_battlestaff": {
+    "name": "Smoke_battlestaff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+28",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mystic_smoke_staff": {
+    "name": "Mystic_smoke_staff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Ancient_crozier": {
+    "name": "Ancient_crozier",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+25",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+32",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+6"
+    }
+  },
+  "Armadyl_crozier": {
+    "name": "Armadyl_crozier",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+25",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+32",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+6"
+    }
+  },
+  "Bandos_crozier": {
+    "name": "Bandos_crozier",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+25",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+32",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+6"
+    }
+  },
+  "Black_pickaxe": {
+    "name": "Black_pickaxe",
+    "off": {
+      "attack": "+10",
+      "strength": "-2",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+11",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Katana": {
+    "name": "Katana",
+    "off": {
+      "attack": "+7",
+      "strength": "+45",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+7",
+      "defense": "+7",
+      "magic": "+0",
+      "range": "-3"
+    },
+    "other": {
+      "melee_strength": "+40",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_cane": {
+    "name": "Dragon_cane",
+    "off": {
+      "attack": "+42",
+      "strength": "-2",
+      "defense": "+60",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+55",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+5"
+    }
+  },
+  "Black_cane": {
+    "name": "Black_cane",
+    "off": {
+      "attack": "+8",
+      "strength": "-2",
+      "defense": "+16",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+13",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+2"
+    }
+  },
+  "Adamant_cane": {
+    "name": "Adamant_cane",
+    "off": {
+      "attack": "+13",
+      "strength": "-2",
+      "defense": "+25",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+23",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Rune_cane": {
+    "name": "Rune_cane",
+    "off": {
+      "attack": "+20",
+      "strength": "-2",
+      "defense": "+39",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+36",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+4"
+    }
+  },
+  "Gilded_boots": {
+    "name": "Gilded_boots",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-3",
+      "range": "-1"
+    },
+    "def": {
+      "attack": "+12",
+      "strength": "+13",
+      "defense": "+14",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Gilded_scimitar": {
+    "name": "Gilded_scimitar",
+    "off": {
+      "attack": "+7",
+      "strength": "+45",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+44",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "3rd_age_longsword": {
+    "name": "3rd_age_longsword",
+    "off": {
+      "attack": "+0",
+      "strength": "+72",
+      "defense": "+60",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+75",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Amulet_of_the_damned_(full)": {
+    "name": "Amulet_of_the_damned_(full)",
+    "off": {
+      "attack": "+10",
+      "strength": "+10",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+10"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+3",
+      "defense": "+3",
+      "magic": "+3",
+      "range": "+3"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Toxic_staff_(uncharged)": {
+    "name": "Toxic_staff_(uncharged)",
+    "off": {
+      "attack": "+55",
+      "strength": "+70",
+      "defense": "+0",
+      "magic": "+17",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+3",
+      "magic": "+17",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+72",
+      "range_strength": "+0",
+      "magic": "+15",
+      "prayer": "+0"
+    }
+  },
+  "Serpentine_helm_(uncharged)": {
+    "name": "Serpentine_helm_(uncharged)",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-5",
+      "range": "-5"
+    },
+    "def": {
+      "attack": "+52",
+      "strength": "+55",
+      "defense": "+58",
+      "magic": "+0",
+      "range": "+50"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Primordial_boots": {
+    "name": "Primordial_boots",
+    "off": {
+      "attack": "+2",
+      "strength": "+2",
+      "defense": "+2",
+      "magic": "-4",
+      "range": "-1"
+    },
+    "def": {
+      "attack": "+22",
+      "strength": "+22",
+      "defense": "+22",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+5",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Abyssal_bludgeon": {
+    "name": "Abyssal_bludgeon",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+102",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+85",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Abyssal_dagger": {
+    "name": "Abyssal_dagger",
+    "off": {
+      "attack": "+75",
+      "strength": "+40",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+75",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Abyssal_dagger_(p)": {
+    "name": "Abyssal_dagger_(p)",
+    "off": {
+      "attack": "+75",
+      "strength": "+40",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+75",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Abyssal_dagger_(p++)": {
+    "name": "Abyssal_dagger_(p++)",
+    "off": {
+      "attack": "+75",
+      "strength": "+40",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+75",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Abyssal_dagger_(p+)": {
+    "name": "Abyssal_dagger_(p+)",
+    "off": {
+      "attack": "+75",
+      "strength": "+40",
+      "defense": "-4",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+1",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+75",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_warhammer": {
+    "name": "Dragon_warhammer",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+95",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+85",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_claws": {
+    "name": "Dragon_claws",
+    "off": {
+      "attack": "+41",
+      "strength": "+57",
+      "defense": "-4",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+13",
+      "strength": "+26",
+      "defense": "+7",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+56",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Amulet_of_torture": {
+    "name": "Amulet_of_torture",
+    "off": {
+      "attack": "+15",
+      "strength": "+15",
+      "defense": "+15",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+2"
+    }
+  },
+  "Amulet_of_eternal_glory": {
+    "name": "Amulet_of_eternal_glory",
+    "off": {
+      "attack": "+10",
+      "strength": "+10",
+      "defense": "+10",
+      "magic": "+10",
+      "range": "+10"
+    },
+    "def": {
+      "attack": "+3",
+      "strength": "+3",
+      "defense": "+3",
+      "magic": "+3",
+      "range": "+3"
+    },
+    "other": {
+      "melee_strength": "+6",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+3"
+    }
+  },
+  "Nunchaku": {
+    "name": "Nunchaku",
+    "off": {
+      "attack": "-4",
+      "strength": "-4",
+      "defense": "+11",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+14",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "3rd_age_pickaxe": {
+    "name": "3rd_age_pickaxe",
+    "off": {
+      "attack": "+38",
+      "strength": "-2",
+      "defense": "+32",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "3rd_age_axe": {
+    "name": "3rd_age_axe",
+    "off": {
+      "attack": "-2",
+      "strength": "+38",
+      "defense": "+32",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Gilded_spear": {
+    "name": "Gilded_spear",
+    "off": {
+      "attack": "+36",
+      "strength": "+36",
+      "defense": "+36",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Gilded_2h_sword": {
+    "name": "Gilded_2h_sword",
+    "off": {
+      "attack": "-4",
+      "strength": "+69",
+      "defense": "+50",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+70",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Gilded_hasta": {
+    "name": "Gilded_hasta",
+    "off": {
+      "attack": "+36",
+      "strength": "+36",
+      "defense": "+36",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "-10",
+      "strength": "-10",
+      "defense": "-9",
+      "magic": "+0",
+      "range": "-10"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Arceuus_banner": {
+    "name": "Arceuus_banner",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Crier_bell": {
+    "name": "Crier_bell",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Hosidius_banner": {
+    "name": "Hosidius_banner",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Stale_baguette": {
+    "name": "Stale_baguette",
+    "off": {
+      "attack": "-100",
+      "strength": "-100",
+      "defense": "-50",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "-10",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Lovakengj_banner": {
+    "name": "Lovakengj_banner",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Piscarilius_banner": {
+    "name": "Piscarilius_banner",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Shayzien_banner": {
+    "name": "Shayzien_banner",
+    "off": {
+      "attack": "+12",
+      "strength": "+12",
+      "defense": "+12",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+12",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mystic_mist_staff": {
+    "name": "Mystic_mist_staff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mystic_dust_staff": {
+    "name": "Mystic_dust_staff",
+    "off": {
+      "attack": "+10",
+      "strength": "-1",
+      "defense": "+40",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+50",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Mist_battlestaff": {
+    "name": "Mist_battlestaff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+28",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dust_battlestaff": {
+    "name": "Dust_battlestaff",
+    "off": {
+      "attack": "+7",
+      "strength": "-1",
+      "defense": "+28",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+2",
+      "strength": "+3",
+      "defense": "+1",
+      "magic": "+10",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+35",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Leaf-bladed_battleaxe": {
+    "name": "Leaf-bladed_battleaxe",
+    "off": {
+      "attack": "-2",
+      "strength": "+72",
+      "defense": "+72",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+92",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Hill_giant_club": {
+    "name": "Hill_giant_club",
+    "off": {
+      "attack": "-4",
+      "strength": "+50",
+      "defense": "+65",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "-1"
+    },
+    "other": {
+      "melee_strength": "+70",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_sword": {
+    "name": "Dragon_sword",
+    "off": {
+      "attack": "+65",
+      "strength": "+55",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+2",
+      "defense": "+1",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+63",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dinh's_bulwark": {
+    "name": "Dinh's_bulwark",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+110",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+141",
+      "strength": "+145",
+      "defense": "+145",
+      "magic": "+18",
+      "range": "+148"
+    },
+    "other": {
+      "melee_strength": "+38",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Elder_maul": {
+    "name": "Elder_maul",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+135",
+      "magic": "-4",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+147",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Dragon_harpoon": {
+    "name": "Dragon_harpoon",
+    "off": {
+      "attack": "+38",
+      "strength": "+32",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+42",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Obsidian_platebody": {
+    "name": "Obsidian_platebody",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+55",
+      "strength": "+78",
+      "defense": "+56",
+      "magic": "-15",
+      "range": "+60"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Obsidian_platelegs": {
+    "name": "Obsidian_platelegs",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+46",
+      "strength": "+43",
+      "defense": "+41",
+      "magic": "-10",
+      "range": "+40"
+    },
+    "other": {
+      "melee_strength": "+1",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Obsidian_helmet": {
+    "name": "Obsidian_helmet",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+25",
+      "strength": "+23",
+      "defense": "+26",
+      "magic": "+0",
+      "range": "+24"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Merfolk_trident": {
+    "name": "Merfolk_trident",
+    "off": {
+      "attack": "+8",
+      "strength": "+8",
+      "defense": "+8",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+1",
+      "strength": "+1",
+      "defense": "+0",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+4",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Granite_boots": {
+    "name": "Granite_boots",
+    "off": {
+      "attack": "+0",
+      "strength": "+0",
+      "defense": "+0",
+      "magic": "-3",
+      "range": "-1"
+    },
+    "def": {
+      "attack": "+15",
+      "strength": "+16",
+      "defense": "+17",
+      "magic": "+0",
+      "range": "+8"
+    },
+    "other": {
+      "melee_strength": "+3",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Granite_longsword": {
+    "name": "Granite_longsword",
+    "off": {
+      "attack": "+56",
+      "strength": "+65",
+      "defense": "-2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "def": {
+      "attack": "+0",
+      "strength": "+3",
+      "defense": "+2",
+      "magic": "+0",
+      "range": "+0"
+    },
+    "other": {
+      "melee_strength": "+62",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  },
+  "Ancient_wyvern_shield": {
+    "name": "Ancient_wyvern_shield",
+    "off": {
+      "attack": "-10",
+      "strength": "-10",
+      "defense": "-10",
+      "magic": "+15",
+      "range": "-10"
+    },
+    "def": {
+      "attack": "+22",
+      "strength": "+30",
+      "defense": "+25",
+      "magic": "+15",
+      "range": "-55"
+    },
+    "other": {
+      "melee_strength": "-2",
+      "range_strength": "+0",
+      "magic": "+0",
+      "prayer": "+0"
+    }
+  }
+}
