@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class ResidenceAndContact extends Component {
 
@@ -22,3 +23,7 @@ class ResidenceAndContact extends Component {
 }
 
 export default ResidenceAndContact;
+
+ResidenceAndContact.propTypes = {
+  data: PropTypes.object.isRequired
+};

@@ -10,10 +10,10 @@
 // is either set to true or false, depending on the current state (state is set to opposite of current state)
 
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import DesiredStats from './DesiredStats';
 import EquipmentDetails from './EquipmentDetails';
 import FinalStats from './FinalStats';
-require('../../static/htmlcssimages/style.css');
 import NavBar from '../NavBar/NavBar';
 import getDesiredStatsFromState from '../../../scripts/sorterWithLessSpaghetti';
 import { getBackground, removeBackground } from '../../../scripts/backgroundColor';
@@ -31,8 +31,7 @@ function getTopItemsForSlots(sortedItems, numberToSlice) {
   let topItemsForSlots = {};
   for (let i = 0; i < slotTitles.length; i++) {
     let slotTitle = slotTitles[i];
-    let topItemsForSlot = sortedItems.filter((item) => item.type === slotTitle).slice(0, numberToSlice);
-    topItemsForSlots[slotTitle] = topItemsForSlot;
+    topItemsForSlots[slotTitle] = sortedItems.filter((item) => item.type === slotTitle).slice(0, numberToSlice);
   }
   return topItemsForSlots;
 }
@@ -77,9 +76,11 @@ class RunescapeStatTool extends Component {
           <div className="user-and-final-parent">
             <DesiredStats handleClick={(statName) => this.handleToggleClick(statName)}
                           checkedAllStatStates={statNameToggleValues} />
-            <FinalStats checkedAllStatStates={statNameToggleValues} topItemsForSlots={sliceTopItems(1)} />
+            <FinalStats checkedAllStatStates={statNameToggleValues}
+                        topItemsForSlots={sliceTopItems(1)}
+            />
           </div>
-          <EquipmentDetails sortedItems={sortedItems} filteredItemsByEquipSlot={sliceTopItems(4)} />
+          <EquipmentDetails filteredItemsByEquipSlot={sliceTopItems(4)} />
         </div>
       </div>
     );
@@ -87,3 +88,8 @@ class RunescapeStatTool extends Component {
 }
 
 export default RunescapeStatTool;
+
+RunescapeStatTool.propTypes = {
+  toggleStat: PropTypes.func.isRequired,
+  statNameToggleValues: PropTypes.object.isRequired
+};

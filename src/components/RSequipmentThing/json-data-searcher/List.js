@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import '../../../styles/about-page.css';
 
 class List extends Component{
@@ -14,3 +15,8 @@ class List extends Component{
 }
 
 export default List;
+
+List.propTypes = {
+  type: PropTypes.string,
+  children: PropTypes.any
+};

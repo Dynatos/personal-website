@@ -1,5 +1,5 @@
 import React from 'react';
-import FilterLink from '../../containers/FilterLink';
+import FilterLink from '../containers/FilterLink';
 
 const Footer = () => (
   <p className="todo-app-footer">

@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Picture from './Picture';
 import NameAndTitle from "./NameAndTitle";
 import ResidenceAndContact from "./ResidenceAndContact";
@@ -22,3 +23,7 @@ class PictureAndInfoBox extends Component {
 }
 
 export default PictureAndInfoBox;
+
+PictureAndInfoBox.propTypes = {
+  data: PropTypes.object.isRequired
+};

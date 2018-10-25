@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import EquipmentItems from "./EquipmentItems";
 
 // This function returns an array from 0 to whatever value is given as the argument
@@ -23,7 +24,7 @@ class EquipmentSlotBox extends Component {
 
 // This sets the values of the variables slotTitle and topItemsForSlot to be equal to this.props.slotTitle and
 // this.props.topItemsForSlot
-    let {slotTitle} = this.props;
+    let { slotTitle } = this.props;
 
 // Here we return an Equipment Deatils box that contains data only related to it's slotTitle ("head", "cape", etc)
 // the first set of divs contain the image and set the css on the parents. The EquipmentItems calls give us our
@@ -43,3 +44,8 @@ class EquipmentSlotBox extends Component {
 }
 
 export default EquipmentSlotBox;
+
+EquipmentSlotBox.propTypes = {
+  topItemsForSlot: PropTypes.array.isRequired,
+  slotTitle: PropTypes.string
+};

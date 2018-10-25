@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class SocialMediaLinks extends Component {
 
@@ -29,3 +30,7 @@ class SocialMediaLinks extends Component {
 }
 
 export default SocialMediaLinks;
+
+SocialMediaLinks.propTypes = {
+  data: PropTypes.object.isRequired
+};

@@ -73,7 +73,7 @@ export default class UserInputForm extends Component {
               <option value="super_strength_potion"> Super strength Potion </option>
               <option value="combat_potion">         Combat Potion         </option>
               <option value="zamorak_brew">          Zamorak Brew          </option>
-              <option value="dharoks_set">           Dharok's Set          </option>
+              <option value="dharoks_set">         {"Dharok's Set"}        </option>
               <option value="dragon_battleaxe">      Dragon Battleaxe      </option>
             </select>
             
@@ -161,12 +161,12 @@ export default class UserInputForm extends Component {
               If you already know the total strength bonus provided by your equipment, enter that amount below
             </div>
             <input type="number" placeholder="0" id="osrs-equipment-strength-bonus" />
-            <div>
-              If you don't know your strength bonus from equipment, enter the names of all items that will
-              give you strength bonus, and the above field will keep track of the total. If you add items
-              that inhabit the same equipment slot the bonus will stack. It is up to you to add items that
-              can be equipped at the same time!
-            </div>
+            <div>{
+                `If you don't know your strength bonus from equipment, enter the names of all items that will
+                give you strength bonus, and the above field will keep track of the total. If you add items
+                that inhabit the same equipment slot the bonus will stack. It is up to you to add items that
+                can be equipped at the same time!`
+              }</div>
             <EquipmentSelector />
           </fieldset>
           

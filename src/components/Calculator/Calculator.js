@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import NavBar from "../NavBar/NavBar";
 import CalculatorButtons from "./CalculatorButtons";
 
@@ -26,7 +27,7 @@ export default class Calculator extends Component {
 
   render() {
 
-    const {currentStateOfApplication} = this.props;
+    const { currentStateOfApplication } = this.props;
 
     return(
       <div>
@@ -39,3 +40,12 @@ export default class Calculator extends Component {
     );
   }
 }
+
+Calculator.propTypes = {
+  pushNumber: PropTypes.func.isRequired,
+  setOperator: PropTypes.func.isRequired,
+  calculateValue: PropTypes.func.isRequired,
+  resetCalc: PropTypes.func.isRequired,
+  addPeriod: PropTypes.func.isRequired,
+  currentStateOfApplication: PropTypes.object.isRequired
+};

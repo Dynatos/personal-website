@@ -1,22 +1,33 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-// This is the component called in FinalStats, it is called in the return statement of our map function there. This is
-// where all relevant data is received as props
+// This is called in FinalStats.js, data is mapped and received as props
 class FinalStatsIconAndStat extends Component {
 
   render() {
-    let iconName = this.props.imageNamePath || this.props.attackStyle;
+    const { imageNamePath, attackStyle, displayValue } = this.props;
+    const iconName = imageNamePath || attackStyle;
+    
     return (
       <div>
-        <div className={"all-stat-icon " + this.props.attackStyle + "-icon"}>
-          <img src={require('../../static/htmlcssimages/images/icons/' + iconName + '.png')} className="icon-image" />
+        
+        <div className={"all-stat-icon " + attackStyle + "-icon"}>
+          <img src={require('../../static/htmlcssimages/images/icons/' + iconName + '.png')} className="icon-image"/>
         </div>
+        
         <div className="final-stats-stat">
-          {this.props.displayValue}
+          {displayValue > 0 ? displayValue : '?'}
         </div>
+        
       </div>
     );
   }
 }
 
 export default FinalStatsIconAndStat;
+
+FinalStatsIconAndStat.propTypes = {
+  imageNamePath: PropTypes.string,
+  attackStyle: PropTypes.string.isRequired,
+  displayValue: PropTypes.string
+};

@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class NameAndTitle extends Component {
 
@@ -22,3 +23,7 @@ class NameAndTitle extends Component {
 }
 
 export default NameAndTitle;
+
+NameAndTitle.propTypes = {
+  data: PropTypes.object.isRequired
+};

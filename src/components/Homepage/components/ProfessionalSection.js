@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Skills from "./Skills";
 
 class ProfessionalSection extends Component {
@@ -78,3 +79,8 @@ class ProfessionalSection extends Component {
 }
 
 export default ProfessionalSection;
+
+
+ProfessionalSection.propTypes = {
+  data: PropTypes.object.isRequired
+};

@@ -62,10 +62,9 @@ export default class EquipmentSelector extends Component {
   
   handleSearch(value) {
     const item = allItemData[value] || suggestions.forEach(word => word.filter(word.includes(value)));
+    const strengthValue = parseInt(item.other.melee_strength);
     
-    if (typeof item === 'object') {
-      const strengthValue = item.other.melee_strength;
-      console.log('setting strength value: ', strengthValue);
+    if (typeof item === 'object' && !isNaN(strengthValue)) {
       setStrengthValueFromEquipment(strengthValue);
     }
   }

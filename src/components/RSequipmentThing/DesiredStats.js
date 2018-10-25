@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import IconAndCheckbox from './IconAndCheckbox';
-import statProps, {topRow, midRow, botRow} from './statProps';
+import statProps, { topRow, midRow, botRow } from './statProps';
 
 class DesiredStats extends Component {
 
@@ -24,10 +24,8 @@ class DesiredStats extends Component {
   }
 
 // The only really noteworthy/confusing part of the return statement is the map. We call a map of the the desired
-// array of elements (which is defined in statProps (.js)) and set the map's first argument as a callback to our
-// renderStat function. We refer to it as this.renderStat because renderStat is defined in the same Component as our
-// return statement. We follow with a second argument of this, which binds the "this" to this file, as map.
-// This map will return one IconAndCheckbox call per item in the mapped array
+// array of elements (which is defined in statProps.js) and the renderStat function as the callback
+// That map will return one IconAndCheckbox component per item in the mapped array
   render() {
     return (
       <div className="user-choice-parent head-text">

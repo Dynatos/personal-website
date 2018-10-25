@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class LargeTextInputForm extends Component {
   
@@ -10,7 +11,6 @@ export default class LargeTextInputForm extends Component {
       <form className="poe-form-parent">
         <textarea id="poe_item_data" className="poe-form-input" type="text" placeholder="Paste Item Data Here"
                   onBlur={function pathOfExileDPSCalculateFormBlurCallback(){
-                    console.log('props for form: ', that.props);
                     const itemData = document.querySelector('#poe_item_data').value;
                     if (itemData) {
                       that.props.calculatePOEDPS(itemData);
@@ -29,3 +29,7 @@ export default class LargeTextInputForm extends Component {
     
   }
 }
+
+LargeTextInputForm.propTypes = {
+  calculatePOEDPS: PropTypes.func.isRequired
+};

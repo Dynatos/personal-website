@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 const getAllElementalDPSInOneString = function getAllElementalDPSInOneString(arr) {
   if (!arr || arr === []) {
@@ -53,3 +54,7 @@ export default class ItemDPSDisplay extends Component {
 
   }
 }
+
+ItemDPSDisplay.propTypes = {
+  propsFromState: PropTypes.object,
+};

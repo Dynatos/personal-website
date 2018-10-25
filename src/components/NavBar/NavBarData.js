@@ -16,14 +16,14 @@ const navBarData = {
 
   // Sends you back to the homepage
   homepage: {
-    linkTo: "/",
+    linkTo: "",
     description: "Home"
   },
 
   // Sends you to the runescape gear suggester
   runescape: {
     linkTo: "runescape",
-    description: "RS Gear"
+    description: "Runescape Gear"
   },
 
   // Sends you to the todo app

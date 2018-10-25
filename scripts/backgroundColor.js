@@ -10,9 +10,15 @@
 // }
 
 export function removeBackground() {
-  document.getElementById("html").setAttribute("style", "background: none");
+  const html = document.querySelector("html");
+    if (html) {
+      html.setAttribute("style", "background: none");
+    }
 }
 
 export function getBackground() {
-  document.getElementById("html").setAttribute("style", "background: #d4c191");
+  const html = document.querySelector("html");
+  if (html) {
+    html.setAttribute("style", "background: #d4c191");
+  }
 }

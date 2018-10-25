@@ -17,11 +17,12 @@ export const resumeData = {
   },
 
   dataBox: {
-    aboutMe: `Welcome to my project showcasing website! I'm an aspiring web developer, & this is 
-    where I host some of the projects that I've created over the course of learning web development. 
-    I specialise in Javascript & React, which are what primarily make up this site's source code. It's 
-    built with Node & Docker, & served via Nginx. The source code can be found on my GitHub in the 
-    'personal-website' repository.`,
+    aboutMe: `Welcome to my personal website! Here I host some of the projects that I've worked on over the course of
+    learning web development. This site is a Node.js app utilizing many modern libraries/technologies such as
+    Babel, Webpack, React, & Redux. You can check out the source code on my GitHub under 'personal-website'. It's
+    also transpiled, bundled, and minified with Babel and Webpack (among other things). Hosting is trivialized thanks
+    to Docker & Nginx. Let's Encrypt is also utilized for a free SSL certificate, which enables us to serve over HTTPS.
+    Feel free to contact me with questions, projects, & employment opportunities!`,
     experience: [
       {
         company: "North Shore Geeks",
@@ -48,7 +49,7 @@ export const resumeData = {
       //   endDate: "test"
       // }
     ],
-    skills: ["HTML", "CSS", "JavaScript (ES6+)", "React", "Redux", "Git", "Node", "Docker"]
+    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Node.js", "Git", "Docker", "MySQL"]
   }
 };
 
