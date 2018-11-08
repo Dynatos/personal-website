@@ -1,6 +1,6 @@
 This is the source code for my personal website, a live version can be found at jasonwortley.com
 
-The Boilerplate this is built on top of it React Slingshot which can be found at github.com/coryhouse/react-slingshot
+React-Slingshot is the boilerplate that was used for this project. That source code can be found at github.com/coryhouse/react-slingshot
 
 
 ## Deployment
