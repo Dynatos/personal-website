@@ -1,0 +1,33 @@
+.poe-how-to-highest-parent {
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
+}
+
+.poe-input-output-parent {
+  max-width: 500px;
+  margin: 10px auto 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
+}
+
+.poe-form-parent {
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
+}
+
+.poe-form-input {
+  height: auto;
+  min-height: 600px;
+  min-width: 300px;
+  font-family: var(--poe-font), "PoE Fontin", sans-serif;
+}
+
+.poe-form-parent {
+  margin: 10px auto;
+}
+
+.poe-item-display-parent {
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+}

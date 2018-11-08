@@ -1,0 +1,50 @@
+.visible-todo {
+  min-width: 240px;
+  max-width: 640px;
+  min-height: 60px;
+  margin: auto;
+  border: solid 1px;
+  color: white;
+}
+
+.todo-ul-hide-bullet {
+  list-style-type: none;
+}
+
+.todo-text {
+  margin: auto;
+  padding: 18px;
+  font-size: 24px;
+}
+
+.visible-todo {
+  list-style-type: none;
+}
+
+.todo-delete {
+  width: 27px;
+  height: 27px;
+  display: block;
+  margin: auto;
+  background-color: white;
+  border: 1px solid var(--border-black);
+  float: right;
+  color: var(--text-black);
+  font-size: 17px;
+  user-select: none;
+}
+
+.hide {
+  height: 0;
+  width: 0;
+  display: none;
+}
+
+.todo-app-highest-parent {
+  margin-top: 50px;
+}
+
+.todo-app-footer {
+  min-height: 25px;
+  margin-bottom: 25px;
+}

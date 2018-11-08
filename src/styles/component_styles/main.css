@@ -1,0 +1,78 @@
+:root {
+  --poe-font: "PoE Fontin";
+  --runescape-font: "RuneScape UF";
+  --text-black: #2a2a2a;
+  --border-black: #1a1a1a;
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+  font-family: 'Libre Baskerville', serif;
+}
+@font-face {
+  font-family: 'Poppins', sans-serif;
+}
+@font-face {
+  font-family: RuneScape UF;
+  src: url(../../static/htmlcssimages/font/runescape_uf.otf);
+}
+@font-face {
+  font-family: PoE Fontin;
+  src: url(../../static/htmlcssimages/font/Fontin-SmallCaps.ttf);
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.libre {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* remove scrollbar space */
+  background-color: transparent;
+}
+
+#app {
+  height: 100%;
+  margin: 36px 1px 0; /* UPDATE NavBar.css IF YOU CHANGE THIS VALUE */
+  padding-bottom: 10px;
+  overflow: scroll;
+}
+
+.margin-zero-auto {
+  margin: 0 auto;
+}
+
+
+/* old project idea, probably not going to be used */
+/*.article-all-highest-parent {  max-width: 1200px;  margin: 0 auto;  display: flex;  flex-wrap: wrap;}.article-column-highest-parent {  width: 75%;  height: 100%;}.article-sidebar-highest-parent {  width: 25%;  height: 100%;}.article-sidebar-filter-parent {  width: auto;  margin: 0 auto;  padding: 0;}.article-sidebar-filter {  list-style: none;font-size: 18px;}*/

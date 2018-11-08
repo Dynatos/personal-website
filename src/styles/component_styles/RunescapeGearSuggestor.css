@@ -1,0 +1,413 @@
+:root {
+  --runescape-font: "RuneScape UF";
+  --text-black: #2a2a2a;
+  --border-black: #1a1a1a;
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+  font-family: 'Libre Baskerville', serif;
+}
+@font-face {
+  font-family: 'Poppins', sans-serif;
+}
+@font-face {
+  font-family: RuneScape UF;
+  src: url(../../static/htmlcssimages/font/runescape_uf.otf);
+}
+
+.highest-parent {
+  z-index: -1;
+}
+
+.resume-picture,
+.all-stat-icon,
+.equipment--slot-text,
+.equipment--image-containers {
+  user-select: none;
+}
+
+.user-choice-parent,
+.final-stats,
+.equipment--big-box {
+  font-family: "RuneScape UF", sans-serif;
+}
+
+.user-choice-parent,
+.final-stats {
+  background: #d4c191;
+}
+
+.user-choice-parent,
+.final-stats {
+  width: 320px;
+  height: auto;
+  border: 1px solid #afa282;
+}
+
+.user-choice-div-child,
+.final-stats-div-child {
+  width: 290px;
+  height: auto;
+  border: 1px solid #afa282;
+  margin: 15px auto;
+  background: #d4c191;
+}
+
+.user-choice-div-child {
+  padding: 1px 0;
+}
+
+.user-choice-category,
+.final-stats-category {
+  font-size: 22px;
+  color: #7b4f17;
+  background: #d4c191;
+}
+
+.user-choice-top-row,
+.user-choice-bottom-row,
+.final-stats-top-row,
+.final-stats-bottom-row {
+  width: 270px;
+  height: auto;
+  margin: 0 auto 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #d4c191;
+}
+
+.user-choice-top-row {
+  height: auto;
+}
+
+.user-choice-bottom-row {
+  height: 24px;
+}
+
+.user-choice-stat {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #afa282;
+  margin: 8px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #5D563D;
+}
+
+.all-stat-icon {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #d4c191;
+  height: 29px;
+}
+
+.icon-image {
+  max-width: 100%;
+  background: #d4c191;
+  align-self: center;
+}
+
+.final-stats-stat {
+  min-width: 22px;
+  height: 16px;
+  margin: 10px auto auto;
+  padding: 2px;
+  font-size: 14px;
+  background: #dbcba3;
+  border: 1px solid #afa282;
+}
+
+.equipment--big-box,
+.equipment--slot-boxes,
+.equipment--slot-names,
+.equipment--item-names,
+.equipment--image-containers,
+.equipment--slot-text,
+.equip-icon,
+.equipment--image {
+  background-image: url('../../static/htmlcssimages/images/rstexture.jpg')!important;
+}
+
+.equipment--big-box {
+  width: max-content;
+  height: auto;
+  padding-bottom: 5px;
+  /*top: 0;*/
+  margin: 20px auto 45px;
+  position: relative;
+  color: darkorange;
+}
+
+.equipment--slot-boxes {
+  width: auto;
+  max-width: 650px;
+  height: 80px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equipment--slot-names {
+  width: 90px;
+  height: 100%;
+  border: 1px solid #afa282;
+  border-left: none;
+  border-right: none;
+  margin: auto 0;
+  display: table;
+}
+
+.equipment--item-names {
+  display: table-cell;
+  width: 140px;
+  height: 80px;
+  border: 1px solid #afa282;
+  border-right: none;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.equipment--image-containers {
+  width: 139px;
+  height: 60px;
+  border-top: 1px solid #afa282;
+}
+
+.equipment--image {
+  height: 100%;
+  max-height: 61px;
+  background-image: url('../../static/htmlcssimages/images/icons/blankitemfinal.png')!important;
+  display: block;
+  margin: auto;
+}
+
+.head-text {
+  font-size: 25px;
+}
+
+.text {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.stab-icon {
+  width: 21px;
+  height: 31px;
+  position: relative;
+  left: 2px;
+}
+
+.slash-icon {
+  width: 27px;
+  height: 31px;
+  position: relative;
+  left: 3px;
+}
+
+.crush-icon {
+  width: 27px;
+  height: 31px;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+.magic-icon {
+  width: 27px;
+  height: 31px;
+  position: relative;
+  top: 3px;
+  left: 1px;
+}
+
+.range-icon {
+  width: 23px;
+  height: 31px;
+  position: relative;
+  top: 3px;
+  left: 1px;
+}
+
+.strength-icon {
+  height: 28px;
+  position: relative;
+  top: 4px;
+  left: -1px;
+}
+
+.range-strength-icon {
+  width: 26px;
+  height: 28px;
+  position: relative;
+  top: 1px;
+  left: 2px;
+}
+
+.magic-strength-icon {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  left: 2px;
+}
+
+.prayer-icon {
+  width: 23px;
+  height: 28px;
+  position: relative;
+  top: 2px;
+}
+
+/* Values in parenthesis must evaluate to true to be enabled. EG: (min-width: 320px) means screen must be 320px or more.
+Queries must be included sequentially to overwrite values placed for smaller screens. Whichever query evaluates true last
+will be the final values used. Values specified below the queries will overwrite the values specified in the queries. */
+
+/* Below 320px */
+@media only screen and (max-width: 320px) {
+  .highest-parent {
+    width: 320px;
+    margin: 10px auto;
+  }
+
+  .equipment--big-box {
+    max-width: 233px;
+  }
+
+  .final-stats {
+    margin: 15px auto
+  }
+
+  .user-choice-parent {
+    margin: 15px auto
+  }
+
+  .user-and-final-parent {
+    width: auto;
+    margin: 15px auto;
+  }
+
+  .equipment--item1,
+  .equipment--item2,
+  .equipment--item3 {
+    display: none;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .highest-parent {
+    width: 320px;
+    margin: 10px auto;
+  }
+
+  .equipment--big-box {
+    max-width: 233px;
+  }
+
+  .final-stats {
+    margin: 15px auto
+  }
+
+  .user-choice-parent {
+    margin: 15px auto
+  }
+
+  .user-and-final-parent {
+    width: auto;
+    margin: 15px auto;
+  }
+
+  .equipment--item1,
+  .equipment--item2,
+  .equipment--item3 {
+    display: none;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .equipment--big-box {
+    max-width: 373px;
+  }
+
+  .highest-parent {
+    width: 480px;
+    margin: 10px auto;
+  }
+
+  .equipment--item2,
+  .equipment--item3 {
+    display: none;
+  }
+
+  .equipment--item1 {
+    display: table-cell;
+  }
+}
+
+@media only screen and (min-width: 680px) {
+  .equipment--item2 {
+    display: table-cell;
+  }
+
+  .equipment--big-box {
+    max-width: 600px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .highest-parent {
+    width: auto;
+    margin: 10px auto;
+  }
+
+  .equipment--big-box {
+    max-width: 700px;
+  }
+
+  .user-and-final-parent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .equipment--item2,
+  .equipment--item3 {
+    display: table-cell;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .highest-parent {
+    width: 992px;
+    margin: 10px auto;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .highest-parent {
+    height: auto;
+    width: 1200px;
+    margin: 10px auto;
+  }
+
+  .user-and-final-parent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

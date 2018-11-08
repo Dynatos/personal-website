@@ -1,0 +1,224 @@
+:root {
+  --poe-font: "PoE Fontin";
+  --runescape-font: "RuneScape UF";
+  --text-black: #2a2a2a;
+  --border-black: #1a1a1a;
+  --background-black: #111111;
+  --background-555: url('../../static/htmlcssimages/images/bgcolorPound555.png');
+  --background-navbar: url('../../static/htmlcssimages/images/bgcolor.png');
+  --small-page-nav-height: 108px;
+  --medium-page-nav-height: 72px;
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+  font-family: 'Libre Baskerville', serif;
+}
+@font-face {
+  font-family: 'Poppins', sans-serif;
+}
+@font-face {
+  font-family: RuneScape UF;
+  src: url(../../static/htmlcssimages/font/runescape_uf.otf);
+}
+@font-face {
+  font-family: PoE Fontin;
+  src: url(../../static/htmlcssimages/font/Fontin-SmallCaps.ttf);
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.libre {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-parent {
+  width: 100%;
+  height: 36px;
+  background-image: var(--background-555);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  user-select: none;
+}
+
+.nav-element-holder {
+  max-width: 1200px;
+  height: 36px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: var(--background-555);
+}
+
+.navbar-element {
+  width: max-content;
+  background-color: #555; /* double properties are purposeful to accommodate browsers and prevent bugs */
+  background-image: var(--background-555);
+  height: 36px;
+  font-size: 24px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  overflow: hidden;
+}
+
+.navbar-element:hover {
+  background: var(--background-black);
+  color: white;
+  /*transition: all 0.15s ease;*/
+}
+
+.navbar-element-inner-text {
+  padding: 2px 10px 0;
+}
+
+.navbar-runescape-color:hover {
+  background: #d4c191;
+  color: white;
+  transition: none;
+}
+
+.navbar-element--link {
+  border-bottom: none;
+  text-decoration: none;
+  background-image: var(--background-555);
+}
+
+.navbar-element-active {
+  background-image: none; /* double properties are purposeful to accommodate browsers and prevent bugs */
+  background-color: white;
+  color: var(--text-black);
+}
+
+.navbar-element-runescape-active {
+  background-image: var(--background-navbar); /* double properties are purposeful to accommodate browsers and prevent bugs */
+  background-color: #d4c191;
+  color: var(--text-black);
+}
+
+/*.navbar-runescape-color {*/
+  /*background-image: var(--background-navbar);*/
+/*}*/
+
+.navbar-spacer {
+  display: none;
+  border-right: 1px solid #DDDDDD;
+  height: 100%;
+}
+
+.navbar-empty-spacer {
+  display: none;
+  height: 100%;
+}
+
+
+
+/* Values in parenthesis must evaluate to true to be applied. EG: (min-width: 320px) means screen must be 320px or more.
+Queries must be included sequentially to overwrite values placed for smaller screens. Whichever query evaluates true last
+will be the final values used. Values specified below the queries will overwrite the values specified in the queries. */
+
+/* Below 320px */
+@media only screen and (max-width: 320px) {
+  #app {
+    margin: var(--small-page-nav-height) 1px 0;
+    padding-bottom: 50px;
+  }
+
+  .navbar-parent {
+    height: var(--small-page-nav-height);
+  }
+
+  .nav-element-holder {
+    height: var(--small-page-nav-height);
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #app {
+    margin: var(--small-page-nav-height) 1px 0;
+    padding-bottom: 50px;
+  }
+
+  .navbar-parent {
+    height: var(--small-page-nav-height);
+  }
+
+  .nav-element-holder {
+    height: var(--small-page-nav-height);
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 380px) {
+  #app {
+    margin: var(--medium-page-nav-height) 1px 0;
+    padding-bottom: 50px;
+  }
+
+  .navbar-parent {
+    height: var(--medium-page-nav-height);
+  }
+
+  .nav-element-holder {
+    height: var(--medium-page-nav-height);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  #app {
+    margin: 36px 1px 0; /* UPDATE main.css IF YOU CHANGE THIS VALUE */
+    padding-bottom: 10px;
+  }
+
+  .navbar-parent {
+    height: 36px;
+  }
+
+  .nav-element-holder {
+    height: 36px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 980px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+}
