@@ -3,7 +3,7 @@
 export const navElements = [ // Order of strings determines order in navbar
   "homepage",
   "runescape",
-  "runescape_max_hit",
+  //"runescape_max_hit",
   "pathofexile",
   "calculator",
   "todo",
