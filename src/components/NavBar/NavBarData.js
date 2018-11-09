@@ -3,6 +3,7 @@
 export const navElements = [ // Order of strings determines order in navbar
   "homepage",
   "runescape",
+  "runescape_max_hit",
   "pathofexile",
   "calculator",
   "todo",
@@ -19,11 +20,17 @@ const navBarData = {
     linkTo: "",
     description: "Home"
   },
-
+  
   // Sends you to the runescape gear suggester
   runescape: {
     linkTo: "runescape",
-    description: "Runescape Gear"
+    description: "OSRS Gear"
+  },
+  
+  // Sends you to the runescape gear suggester
+  runescape_max_hit: {
+    linkTo: "runescape_max_hit",
+    description: "OSRS Max Hit"
   },
 
   // Sends you to the todo app
