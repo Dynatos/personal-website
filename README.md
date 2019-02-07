@@ -8,7 +8,7 @@ Projects include:
 Resume-style homepage made with multiple React components and a single data file. Data is inserted via props to populate the components with text and links. Data can be easily updated via the 'homepageResumeData.js' file.
 
 
-**Runescape tool**
+**Runescape gear calculator**
 
 A tool for gear recommendations for the MMORPG Runescape (Oldschool servers). Suggestions are calculated by scanning JSON data of equippable items' stats, and scoring them by adding all relevant stat values together to get a final gear score value. Once all gear scores are calculated, they are sorted and the top 1-4 items are displayed (determined by screen width). All item images were downloaded by scraping the Runescape Grand Exchange API for every item_id and grabbing the image links from the responses. The initial JSON data was found on an old forum, updated JSON data was scraped using my 'Runescape-wiki-scraper' tool https://github.com/Dynatos/Runescape-Wiki-Scraper
 
@@ -23,9 +23,9 @@ Another tool for the MMORPG Runescape (Oldschool servers). I made this tool to b
 ***Tool can be found at HTTPS://jasonwortley.com/runescape_max_hit note that the search bar function is broken as of February 2019***
 
 	
-**PoE DPS**
+**Path of Exile DPS calculator**
 
-A simple DPS calulator for the ARPG Path of Exile. I threw this together because none of the existing tools (at the time) gave a breakdown of Elemental DPS, instead giving a lump sum. Uses RegEx to pull relevant values from input data.
+A simple damage-per-second calulator for the ARPG Path of Exile. I threw this together because none of the existing tools gave a breakdown of Elemental DPS, instead giving a lump sum. Uses RegEx to pull relevant values from input data.
 
 
 **Todos App**
