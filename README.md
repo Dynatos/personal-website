@@ -10,7 +10,7 @@ Resume-style homepage made with multiple React components and a single data file
 
 **Runescape gear calculator**
 
-A tool for gear recommendations for the MMORPG Runescape (Oldschool servers). Suggestions are calculated by scanning JSON data of equippable items' stats, and scoring them by adding all relevant stat values together to get a final gear score value. Once all gear scores are calculated, they are sorted and the top 1-4 items are displayed (determined by screen width). All item images were downloaded by scraping the Runescape Grand Exchange API for every item_id and grabbing the image links from the responses. The initial JSON data was found on an old forum, updated JSON data was scraped using my 'Runescape-wiki-scraper' tool https://github.com/Dynatos/Runescape-Wiki-Scraper
+A tool for gear recommendations for the MMORPG Runescape (Oldschool servers). Suggestions are calculated using JSON data that includes stats for all equippable items and scoring them by adding all relevant stat values together to get a final gear score for each item. Once all gear scores are calculated, they are sorted and the top 1-4 (determined by screen width) items are displayed. All item images were downloaded by scraping the Runescape Grand Exchange API for every item_id and grabbing the image links from the responses. The initial JSON data was found on an old forum, updated JSON data was scraped using my 'Runescape-wiki-scraper' tool https://github.com/Dynatos/Runescape-Wiki-Scraper
 
 API: http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json?item=INSERT_ITEM_ID_HERE
 
@@ -18,7 +18,9 @@ API: http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json?
 ***Hidden tool***
 **Runescape Max Hit Calculator**
 
-Another tool for the MMORPG Runescape (Oldschool servers). I made this tool to better understand how the internal mechanisms of the game work and to help myself optimize my progression in-game. A strict pipeline is required to get an accurate output, and certain modifiers are multiplicative making them more impactful on the final output. A full breakdown of the formula can be found at https://oldschoolrunescape.fandom.com/wiki/Maximum_melee_hit
+Another tool for the MMORPG Runescape (Oldschool servers). I made this tool to better understand how the internal mechanisms of the game work, and to practice creating a readable data pipeline with encapsulated functions that have self-explanatory names. Having a strict pipeline is required to get an accurate output, and certain modifiers are multiplicative making them more impactful on the final output, and thus, more useful in-game.
+A full breakdown of the formula can be found at https://oldschoolrunescape.fandom.com/wiki/Maximum_melee_hit
+My implementation of the logic can be found under /scripts/maxHitCapsule.js 
 
 ***Tool can be found at HTTPS://jasonwortley.com/runescape_max_hit note that the search bar function is broken as of February 2019***
 
