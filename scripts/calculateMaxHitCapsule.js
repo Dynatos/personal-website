@@ -1,20 +1,21 @@
 export default function calculateMaxHit(e) {
   if (e) {e.preventDefault();} //stop form submission from refreshing page
   
-  const strLvl      = parseInt(document.querySelector('#osrs-strength').value) || 1;
-  const prayer      =          document.querySelector('#osrs-prayer').value;
-  const strBoost    =          document.querySelector('#osrs-boost').value;
-  const stance      =          document.querySelector('#osrs-stance').value;
-  const voidBonus   =          document.querySelector('#osrs-voidKnight').value;
-  const other       =          document.querySelector('#osrs-other').value;
-  const strFromGear = parseInt(document.querySelector('#osrs-equipment-strength-bonus').value) || 0;
-  const combatType  =          document.querySelector('#osrs-other-combat-type').value;
+  // the following variables get our user's input
+  // TODO update to use React and refs over document.querySelector
+  const strLvl       = parseInt(document.querySelector('#osrs-strength').value) || 1;
+  const prayer       =          document.querySelector('#osrs-prayer').value;
+  const strBoost     =          document.querySelector('#osrs-boost').value;
+  const stance       =          document.querySelector('#osrs-stance').value;
+  const voidBonus    =          document.querySelector('#osrs-voidKnight').value;
+  const other        =          document.querySelector('#osrs-other').value;
+  const strFromGear  = parseInt(document.querySelector('#osrs-equipment-strength-bonus').value) || 0;
+  const combatType   =          document.querySelector('#osrs-other-combat-type').value;
   
-  const outPutParent = document.querySelector('#osrs-max-hit-output');
-  const img = document.querySelector('.osrs-damage-splat');
+  const outPutParent =          document.querySelector('#osrs-max-hit-output');
+  const img          =          document.querySelector('.osrs-damage-splat');
   
   // Order of operations is critical here, these steps are in a particular order to match the game's logic exactly
-  
   const strLvlInStats = applyStrengthBuff(strLvl, strBoost);
   const strAfterPrayer = applyPrayer(strLvlInStats, prayer);
   const strAfterStance = strAfterPrayer + getStanceBonus(stance);
@@ -56,8 +57,8 @@ export default function calculateMaxHit(e) {
 export function checkDharoks(e) {
   if (e) {e.preventDefault();}
   
-  const inputValue = document.querySelector('#osrs-boost').value;
-  const missingHealth = document.querySelector('#osrs-missing-health');
+  const inputValue =         document.querySelector('#osrs-boost').value;
+  const missingHealth =      document.querySelector('#osrs-missing-health');
   const missingHealthLabel = document.querySelector('#osrs-missing-health-label');
   
   if (inputValue === "dharoks_set") {
@@ -196,7 +197,7 @@ function applyPrayer(strLvl, prayer) {
       return Math.floor(strLvl * 1.15);
     },
     chivalry: function() {
-      return Math.floor(strLvl * 1.85);
+      return Math.floor(strLvl * 1.18);
     },
     piety: function() {
       return Math.floor(strLvl * 1.23);
