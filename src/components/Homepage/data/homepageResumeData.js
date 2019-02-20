@@ -11,7 +11,7 @@ export const resumeData = {
     ],
     externalURLImages: [
       "https://login.create.net/images/icons/user/facebook_30x30.png",
-      "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png",
+      "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       "https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-256.png"
     ]
   },
