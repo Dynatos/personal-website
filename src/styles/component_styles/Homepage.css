@@ -51,13 +51,17 @@
 
 .resume-social-media-parent {
   margin-top: 10px;
+  height: 30px;
 }
 
-.resume-social-media-buttons {
-  max-height: 30px;
-  max-width: 30px;
-  height: auto;
-  width: auto;
+.resume-social-media-button-anchor {
+  height: 100%;
+  width: 100%;
+}
+
+.resume-social-media-button-image {
+  height: 30px;
+  width: 30px;
   margin: 2px 2px 0;
 }
 
@@ -113,6 +117,7 @@
   text-align: justify;
   line-height: 1.75;
   padding: 12px 0 24px;
+  font-size: 1.15rem;
 }
 
 .resume-jobs-parent {

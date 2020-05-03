@@ -1,7 +1,7 @@
 export const resumeData = {
   pictureAndInfoBox: {
     name: "Jason Wortley",
-    title: "Web Developer",
+    title: "Full Stack Web Development Engineer",
     currentResidence: "Seattle, Washington",
     contactInfo: "jason@jasonwortley.com",
     externalURLs: [
@@ -17,12 +17,12 @@ export const resumeData = {
   },
 
   dataBox: {
-    aboutMe: `Welcome to my personal website! Here I host some of the projects that I've worked on over the course of
-    learning web development. This site is a Node.js app utilizing many modern libraries/technologies such as
-    Babel, Webpack, React, & Redux. You can check out the source code on my GitHub under 'personal-website'. It's
-    also transpiled, bundled, and minified with Babel and Webpack (among other things). Hosting is trivialized thanks
-    to Docker & Nginx. Let's Encrypt is also utilized for a free SSL certificate, which enables us to serve over HTTPS.
-    Feel free to contact me with questions, projects, & employment opportunities!`,
+    aboutMe: `Welcome to my personal website! Here I host some of the client-side apps that I built as a Junior React developer.
+    This site was born out of desire to learn about deployment, hosting, SSL/TLS, etc. In the process I learned
+    about Single Page Apps and some of the client-side idiosyncrasies therein. Utilizes modern tech such as
+    Node, React, Redux, Webpack, & Docker. Source code available on my GitHub. Hosting
+    is trivialized thanks to Docker. Previously utilized LetsEncrypt for a free SSL certificate, since migrated to CloudFlare.
+    Service on port 80 (HTTP) is redirected to 443 (HTTPS) thanks to NGINX. Please feel free to contact me!`,
     experience: [
       {
         company: "North Shore Geeks",
@@ -40,6 +40,18 @@ export const resumeData = {
         company: "Kauai Nut Roasters",
         position: "Website Manager",
         startDate: "November 2016",
+        endDate: "December 2018"
+      },
+      {
+        company: "Freelance Development",
+        position: "Full Stack Web Development Engineer",
+        startDate: "March 2017",
+        endDate: "Present Day"
+      },
+      {
+        company: "Pulse PRM",
+        position: "Full Stack Web Development Engineer",
+        startDate: "January 2020",
         endDate: "Present Day"
       },
       // {
@@ -49,7 +61,7 @@ export const resumeData = {
       //   endDate: "test"
       // }
     ],
-    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Node.js", "Git", "Docker", "MySQL"]
+    skills: ["Typescript", "Javascript", "React", "Redux", "Node.js", "Docker", "MySQL", "HTML", "CSS", "Git"]
   }
 };
 

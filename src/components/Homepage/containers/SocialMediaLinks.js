@@ -8,8 +8,8 @@ class SocialMediaLinks extends Component {
   makeMedia(link, image) {
     return link.map((link, index) => {
       return (
-        <a key={index} href={link} className="resume-social-media-buttons">
-          <img src={image[index]} className="resume-social-media-buttons" />
+        <a key={index} href={link} className="resume-social-media-button-anchor">
+          <img src={image[index]} className="resume-social-media-button-image" />
         </a>
       );
     });
